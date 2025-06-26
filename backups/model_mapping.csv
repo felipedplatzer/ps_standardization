@@ -1,0 +1,2475 @@
+,Unnamed: 0,model_name_source,model_name_target,match_type,mel_id,make_target,modality_target,confirmed,confidence
+0,0,2130 PATIENT ALARM TRANSMITTER UNIT,,no_match,,AliMed,,False,
+1,1,2131 PATIENT ALARM TRANSMITTER UNIT,,no_match,,AliMed,,False,
+2,2,QUALCARE,,no_match,,AliMed,,False,
+0,0,HEMOPOINT H2,HemoPoint H2,exact,759839.0,Alere,General Laboratory,True,
+1,1,Afinion,Afinion AS100,llm,769481.0,Alere,General Laboratory,False,0.8
+2,2,HenoPoint H2,HemoPoint H2,llm,759839.0,Alere,General Laboratory,False,0.9
+3,3,Cholestech,,no_match,,Alere,,False,0.0
+4,4,Cholestech LDX,,no_match,,Alere,,False,0.0
+5,5,CHOLESTECH LDX,,no_match,,Alere,,False,0.0
+6,6,TRIAGE METER PRO,,no_match,,Alere,,False,0.0
+7,7,Alere i,,no_match,,Alere,,False,0.0
+0,0,31603,31603,exact,797166.0,Burton,Surgery,True,
+1,1,31501,31501,exact,752887.0,Burton,Surgery,True,
+2,2,31602,31602,exact,752888.0,Burton,Surgery,True,
+3,3,COOLSPOT II,Coolspot II,exact,792858.0,Burton,Patient Care and Exam,True,
+4,4,OUTPATIENT II,Outpatient II,exact,799801.0,Burton,Patient Care and Exam,True,
+5,5,CAVITRON,Cavitron,exact,768489.0,Burton,Surgery,True,
+6,6,UV503,UV503,exact,789379.0,Burton,General Biomedical,True,
+7,7,UV502,UV502,exact,788681.0,Burton,General Biomedical,True,
+8,8,CoolSpot II,Coolspot II,exact,792858.0,Burton,Patient Care and Exam,True,
+9,9,316020,316020,exact,792881.0,Burton,General Biomedical,True,
+10,10,Gleamer,Gleamer,exact,790863.0,Burton,Patient Care and Exam,True,
+11,11,316030,316030,exact,762356.0,Burton,Surgery,True,
+12,12,11201,Burton 11201,llm,793082.0,Burton,General Biomedical,False,1.0
+13,13,"UV503 LIGHT, EXAM",UV503,llm,789379.0,Burton,General Biomedical,False,0.9
+14,14,"UV502 LIGHT, EXAM",UV502,llm,788681.0,Burton,General Biomedical,False,0.9
+15,15,COOL SPOT,Cool Spot II,llm,792857.0,Burton,Patient Care and Exam,False,0.8
+16,16,Outpatient IIFastRac,Outpatient II,llm,799801.0,Burton,Patient Care and Exam,False,0.7
+17,17,Cool Spot,Cool Spot II,llm,792857.0,Burton,Patient Care and Exam,False,0.8
+18,18,OPII,Outpatient II,llm,799801.0,Burton,Patient Care and Exam,False,0.7
+19,19,burton,Burton Equipment,llm,791094.0,Burton,Optometry,False,0.6
+20,20,burton medical,Burton Equipment,llm,791094.0,Burton,Optometry,False,0.6
+21,21,Burton Medical,Burton Equipment,llm,791094.0,Burton,Optometry,False,0.6
+22,22,11301,,no_match,,Burton,,False,0.0
+23,23,100110,,no_match,,Burton,,False,0.0
+24,24,152112,,no_match,,Burton,,False,0.0
+25,25,960112,,no_match,,Burton,,False,0.0
+26,26,GL30FL EXAM LIGHT,,no_match,,Burton,,False,0.0
+27,27,WOODS,,no_match,,Burton,,False,0.0
+28,28,REFLECTOR,,no_match,,Burton,,False,0.0
+29,29,UV LAMP,,no_match,,Burton,,False,0.0
+30,30,Outpaitent Plus,,no_match,,Burton,,False,0.0
+31,31,A50FL,,no_match,,Burton,,False,0.0
+32,32,_,,no_match,,Burton,,False,0.0
+33,33,SuperNova,,no_match,,Burton,,False,0.0
+34,34,SUPERNOVA,,no_match,,Burton,,False,0.0
+35,35,13400,,no_match,,Burton,,False,0.0
+36,36,BRIGHT SPOT,,no_match,,Burton,,False,0.0
+37,37,11204,,no_match,,Burton,,False,0.0
+38,38,Exam Light 4500,,no_match,,Burton,,False,0.0
+39,39,Burton 11202,,no_match,,Burton,,False,0.0
+40,40,16101,,no_match,,Burton,,False,0.0
+41,41,AIM-50,,no_match,,Burton,,False,0.0
+42,42,WakeMed Unknown Model,,no_match,,Burton,,False,0.0
+43,43,UV604,,no_match,,Burton,,False,0.0
+0,0,EDP 20/A,edp20a,skip_special_chars,,Biotronik,,False,
+1,1,Programmer EPR 1000,,no_match,,Biotronik,,False,0.0
+2,2,RENAMIC,,no_match,,Biotronik,,False,0.0
+3,3,Renamic,,no_match,,Biotronik,,False,0.0
+4,4,EPR 1000+,,no_match,,Biotronik,,False,0.0
+5,5,ICS 3000,,no_match,,Biotronik,,False,0.0
+6,6,Renamic Neo,,no_match,,Biotronik,,False,0.0
+0,0,BIO-TEK Absorbance Microplate Reader ELx800,ELx800,llm,8127.0,Bio-Tek,Molecular,False,0.9
+1,1,MICROPLATE,Microplate Washer,llm,732847.0,Bio-Tek,Sterilization,False,0.5
+2,2,Infusion Pump Analyzer IDA-1,,no_match,,Bio-Tek,,False,0.0
+3,3,ELP-40,,no_match,,Bio-Tek,,False,0.0
+4,4,DPM III,,no_match,,Bio-Tek,,False,0.0
+5,5,VT-2,,no_match,,Bio-Tek,,False,0.0
+6,6,VT-2A,,no_match,,Bio-Tek,,False,0.0
+7,7,BIO-TEK Defibrillator Analyzer QED-6,,no_match,,Bio-Tek,,False,0.0
+8,8,Bio-Tek Digital Ultrasound Wattmeter UW-II,,no_match,,Bio-Tek,,False,0.0
+9,9,RF 301 B,,no_match,,Bio-Tek,,False,0.0
+10,10,DPM-3,,no_match,,Bio-Tek,,False,0.0
+11,11,DPM-2,,no_match,,Bio-Tek,,False,0.0
+12,12,DPM-I,,no_match,,Bio-Tek,,False,0.0
+13,13,PMA-1,,no_match,,Bio-Tek,,False,0.0
+14,14,UW II,,no_match,,Bio-Tek,,False,0.0
+15,15,IDA-1,,no_match,,Bio-Tek,,False,0.0
+16,16,UNIVERSAL PRESSURE,,no_match,,Bio-Tek,,False,0.0
+17,17,RF302,,no_match,,Bio-Tek,,False,0.0
+0,0,VSS720,,no_match,,Boehringer Laboratories,,False,0.0
+1,1,3800 Series Suction Regulator 3804,,no_match,,Boehringer Laboratories,,False,0.0
+2,2,3700 Series Suction Regulator 3706,,no_match,,Boehringer Laboratories,,False,0.0
+3,3,3700 Series Suction Regulator 3710,,no_match,,Boehringer Laboratories,,False,0.0
+4,4,3700 Series Suction Regulator 3704,,no_match,,Boehringer Laboratories,,False,0.0
+5,5,3700 Series Suction Regulator 3714,,no_match,,Boehringer Laboratories,,False,0.0
+6,6,3700 Series Suction Regulator 3700,,no_match,,Boehringer Laboratories,,False,0.0
+7,7,3800 Series Suction Regulator 3800,,no_match,,Boehringer Laboratories,,False,0.0
+8,8,3800 Series Suction Regulator 3844,,no_match,,Boehringer Laboratories,,False,0.0
+9,9,3931 VAVD VACUUM ASSISTED VENOUS DRAINAGE CONTROLLER,,no_match,,Boehringer Laboratories,,False,0.0
+10,10,"3814 Regulators, Suction",,no_match,,Boehringer Laboratories,,False,0.0
+0,0,SphygmoCor Electronics Module EM3,,no_match,,AtCor Medical,,False,0.0
+0,0,Aution Max AX-4280,AX-4280,llm,762194.0,ARKRAY,General Laboratory,False,0.9
+1,1,AUTION MAX,AX-4280,llm,762194.0,ARKRAY,General Laboratory,False,0.7
+2,2,Aution Max,AX-4280,llm,762194.0,ARKRAY,General Laboratory,False,0.7
+3,3,AUTION ELEVEN,,no_match,,ARKRAY,,False,0.0
+4,4,AX-4030,,no_match,,ARKRAY,,False,0.0
+5,5,Aution Eleven,,no_match,,ARKRAY,,False,0.0
+0,0,VIROVAC,ViroVac,exact,760603.0,Buffalo Filter,Safety & Security,True,
+1,1,Viro Vac,virovac,skip_special_chars,,Buffalo Filter,,False,
+2,2,PSWTURBO Whisper,PlumeSafe Whisper TURBO,llm,13621.0,Buffalo Filter,Safety & Security,False,0.9
+3,3,Porta PlumeSafe PPS604,Porta Plumesafe 604,llm,791408.0,Buffalo Filter,,False,0.95
+4,4,Whisper Turbo,PlumeSafe Whisper TURBO,llm,13621.0,Buffalo Filter,Safety & Security,False,0.85
+5,5,PSWTURBO AS,PlumeSafe TURBO Auto-Sense,llm,13619.0,Buffalo Filter,Safety & Security,False,0.8
+6,6,PLUMESAFE TURBO AUTO,PlumeSafe TURBO Auto-Sense,llm,13619.0,Buffalo Filter,Safety & Security,False,0.9
+7,7,VisiClear,,no_match,,Buffalo Filter,,False,0.0
+8,8,StrykeVac,,no_match,,Buffalo Filter,,False,0.0
+0,0,Actalyke Blood Coagulation Analyzer A1P,,no_match,,Array,,False,0.0
+1,1,FIBRILLATOR,,no_match,,Array,,False,0.0
+0,0,AirBorne Transport Incubator 20L,,no_match,,Airborne Life Support Systems,,False,0.0
+1,1,20H,,no_match,,Airborne Life Support Systems,,False,0.0
+2,2,Airborne,,no_match,,Airborne Life Support Systems,,False,0.0
+0,0,ProSound Alpha 10,prosoundalpha10,skip_special_chars,,Aloka,,False,
+1,1,ProSound Alpha 5,ProSound Alpha 5,exact,744991.0,Aloka,Ultrasound,True,
+2,2,PROSOUND F75,ProSound F75,exact,760223.0,Aloka,Ultrasound,True,
+3,3,PROSOUND ALPHA 5,ProSound Alpha 5,exact,744991.0,Aloka,Ultrasound,True,
+4,4,PROSOUND ALPHA 7,ProSound Alpha 7,exact,746915.0,Aloka,Ultrasound,True,
+5,5,Prosound F75,ProSound F75,exact,760223.0,Aloka,Ultrasound,True,
+6,6,ProSound Alpha 6,ProSound Alpha 6,exact,755462.0,Aloka,Ultrasound,True,
+7,7,ProSound Ultrasound System SSD-5000,ProSound SSD-5000,llm,4692.0,Aloka,Ultrasound,False,0.95
+8,8,SSD 5500,ProSound SSD-5500,llm,4689.0,Aloka,Ultrasound,False,0.9
+9,9,SSD-1700,SSD-1700 DynaView,llm,4680.0,Aloka,Ultrasound,False,0.85
+10,10,SSD-ALPHA10,ProSound Alpha 10,llm,,Aloka,,False,0.9
+11,11,Alpha 7,ProSound Alpha 7,llm,746915.0,Aloka,Ultrasound,False,0.9
+12,12,ARIETTA 70,,no_match,,Aloka,,False,0.0
+13,13,UST-5536-R,,no_match,,Aloka,,False,0.0
+14,14,UCT140-AL5,,no_match,,Aloka,,False,0.0
+15,15,UST-9104-5,,no_match,,Aloka,,False,0.0
+16,16,UC160F-UL8,,no_match,,Aloka,,False,0.0
+17,17,UST-5268P-5,,no_match,,Aloka,,False,0.0
+18,18,Arietta 850,,no_match,,Aloka,,False,0.0
+19,19,UST-9112-5,,no_match,,Aloka,,False,0.0
+20,20,UST-979-3.5,,no_match,,Aloka,,False,0.0
+0,0,FILMARRAY,FilmArray,exact,757628.0,BioFire,Molecular,True,
+1,1,FILM ARRAY TORCH,filmarraytorch,skip_special_chars,,BioFire,,False,
+2,2,Film Array Torch,filmarraytorch,skip_special_chars,,BioFire,,False,
+3,3,FilmArray Torch,FilmArray Torch,exact,794733.0,BioFire,Molecular,True,
+4,4,FilmArray,FilmArray,exact,757628.0,BioFire,Molecular,True,
+5,5,BioFire FilmArray 2.0 System,FilmArray 2.0,llm,794911.0,BioFire,Molecular,False,0.95
+6,6,BioFire FilmArray 2.0,FilmArray 2.0,llm,794911.0,BioFire,Molecular,False,0.98
+7,7,HTFA-SUB-0103,,no_match,,BioFire,,False,0.0
+0,0,AD-1000,AD-1000,exact,12420.0,Armstrong Medical,Patient Monitoring Systems,True,
+1,1,AD-1000PORTABLE PULSE OXIMETER,AD-1000,llm,12420.0,Armstrong Medical,Patient Monitoring Systems,False,0.9
+2,2,Medical Cart,Cart,llm,764952.0,Armstrong Medical,General Biomedical,False,0.8
+3,3,S-Scort 4,S-SCORT 40014,llm,767939.0,Armstrong Medical,Respiratory,False,0.7
+4,4,40014,S-SCORT 40014,llm,767939.0,Armstrong Medical,Respiratory,False,0.9
+5,5,S-SCOR Duet Suction 2014,,no_match,,Armstrong Medical,,False,0.0
+6,6,9442,,no_match,,Armstrong Medical,,False,0.0
+7,7,APB 6,,no_match,,Armstrong Medical,,False,0.0
+8,8,2200,,no_match,,Armstrong Medical,,False,0.0
+9,9,Patient Simulator,,no_match,,Armstrong Medical,,False,0.0
+10,10,2500,,no_match,,Armstrong Medical,,False,0.0
+11,11,VACUUM PUMP,,no_match,,Armstrong Medical,,False,0.0
+12,12,Suction Irrigators,,no_match,,Armstrong Medical,,False,0.0
+13,13,SSCOR,,no_match,,Armstrong Medical,,False,0.0
+14,14,AA 700,,no_match,,Armstrong Medical,,False,0.0
+15,15,AA-750,,no_match,,Armstrong Medical,,False,0.0
+16,16,2314,,no_match,,Armstrong Medical,,False,0.0
+0,0,PROFLEX,ProFlex Base,llm,799822.0,Applied Biosystems,Molecular,False,0.9
+1,1,GeneAmp PCR System 9700,,no_match,,Applied Biosystems,,False,0.0
+2,2,7500 FAST SYSTEM,,no_match,,Applied Biosystems,,False,0.0
+3,3,VERITI,,no_match,,Applied Biosystems,,False,0.0
+4,4,4690 Precision Temp,,no_match,,Applied Biosystems,,False,0.0
+5,5,QuantStudio 6 Flex,,no_match,,Applied Biosystems,,False,0.0
+6,6,96 Well Thermo Cycle,,no_match,,Applied Biosystems,,False,0.0
+7,7,QuantStudio 6 Pro,,no_match,,Applied Biosystems,,False,0.0
+8,8,N8050200,,no_match,,Applied Biosystems,,False,0.0
+0,0,ATRIA 3000,Atria 3000,exact,3408.0,Burdick,Patient Monitoring Systems,True,
+1,1,ECLIPSE 850,Eclipse 850,exact,738217.0,Burdick,Patient Monitoring Systems,True,
+2,2,VISION 5L,Vision 5L,exact,12160.0,Burdick,General Biomedical,True,
+3,3,CardioVive AT,CardioVive AT,exact,10049.0,Burdick,Defibrillators,True,
+4,4,Atria 3100,Atria 3100,exact,11765.0,Burdick,Patient Monitoring Systems,True,
+5,5,CARDIO VIVE AT,cardioviveat,skip_special_chars,,Burdick,,False,
+6,6,Atria 3000,Atria 3000,exact,3408.0,Burdick,Patient Monitoring Systems,True,
+7,7,Atria 6100,Atria 6100,exact,11766.0,Burdick,Patient Monitoring Systems,True,
+8,8,Quest,Quest,exact,12280.0,Burdick,Patient Monitoring Systems,True,
+9,9,8300,8300,exact,753649.0,Burdick,General Biomedical,True,
+10,10,E350I,E350I,exact,3410.0,Burdick,Patient Monitoring Systems,True,
+11,11,Eclipse LE II,Eclipse LE II,exact,3411.0,Burdick,Patient Monitoring Systems,True,
+12,12,Burdick Medic Defibrillator 6,Medic 6,llm,10051.0,Burdick,Defibrillators,False,0.9
+13,13,ATRIA 8300,8300,llm,753649.0,Burdick,General Biomedical,False,0.7
+14,14,8500,E8500,llm,759309.0,Burdick,Patient Monitoring Systems,False,0.8
+15,15,Visoin 5L,Vision 5L,llm,12160.0,Burdick,General Biomedical,False,0.9
+16,16,800,Eclipse 800,llm,3407.0,Burdick,Patient Monitoring Systems,False,0.8
+17,17,ECLIPSE SE,,no_match,,Burdick,,False,0.0
+18,18,Burdick Spirometer Presto Flash,,no_match,,Burdick,,False,0.0
+19,19,100,,no_match,,Burdick,,False,0.0
+20,20,_,,no_match,,Burdick,,False,0.0
+21,21,E310 EKG,,no_match,,Burdick,,False,0.0
+22,22,TM65,,no_match,,Burdick,,False,0.0
+23,23,Heart Stride,,no_match,,Burdick,,False,0.0
+24,24,MEDIC 5,,no_match,,Burdick,,False,0.0
+25,25,92400,,no_match,,Burdick,,False,0.0
+26,26,ELI 280,,no_match,,Burdick,,False,0.0
+27,27,Medic-5,,no_match,,Burdick,,False,0.0
+0,0,EZ Pump,EZ Pump,exact,796613.0,Byron Medical,Infusion Pumps,True,
+1,1,Lysonix 3000,Lysonix 3000,exact,801244.0,Byron Medical,Surgery,True,
+2,2,Byron Lysonix 3000,Lysonix 3000,llm,801244.0,Byron Medical,Surgery,False,0.9
+3,3,PSI-TEC III,Smart Lipo PT-ASP III,llm,768164.0,Byron Medical,Respiratory,False,0.7
+4,4,PSI-Tech III,Smart Lipo PT-ASP III,llm,768164.0,Byron Medical,Respiratory,False,0.7
+5,5,PSI Tech III,Smart Lipo PT-ASP III,llm,768164.0,Byron Medical,Respiratory,False,0.7
+6,6,Easy Pump,EZ Pump,llm,796613.0,Byron Medical,Infusion Pumps,False,0.95
+7,7,Byron PSI-TEC III Aspirator,,no_match,,Byron Medical,,False,0.0
+8,8,PT-PLT-II-110,,no_match,,Byron Medical,,False,0.0
+9,9,BB3000,,no_match,,Byron Medical,,False,0.0
+10,10,Randolph Econ IIII,,no_match,,Byron Medical,,False,0.0
+11,11,EGP-100,,no_match,,Byron Medical,,False,0.0
+12,12,PSI TEC II,,no_match,,Byron Medical,,False,0.0
+0,0,Uterine Aspirator Lipo Suction Pump SV-10,Synevac 10,llm,8846.0,Berkeley Medevices,Respiratory,False,0.85
+0,0,AUDX PRO,AuDX Pro,exact,765575.0,Bio-Logic Systems,,True,
+1,1,NAVIGATOR PRO,Navigator Pro,exact,12040.0,Bio-Logic Systems,General Biomedical,True,
+2,2,CEEGRAPH VISION,Ceegraph Vision,exact,11975.0,Bio-Logic Systems,Patient Monitoring Systems,True,
+3,3,1168,,no_match,,Bio-Logic Systems,,False,0.0
+4,4,Abaer,,no_match,,Bio-Logic Systems,,False,0.0
+5,5,TRAVELER EXPRESS,,no_match,,Bio-Logic Systems,,False,0.0
+6,6,C1,,no_match,,Bio-Logic Systems,,False,0.0
+7,7,C4,,no_match,,Bio-Logic Systems,,False,0.0
+8,8,CEE Graph IV,,no_match,,Bio-Logic Systems,,False,0.0
+9,9,R1,,no_match,,Bio-Logic Systems,,False,0.0
+10,10,C3,,no_match,,Bio-Logic Systems,,False,0.0
+0,0,37EL Luminometer,,no_match,,3M,,False,0.0
+0,0,HemoFlow Portable Scale and Mixer 400 Basic,,no_match,,Applied Test Systems,,False,0.0
+1,1,Hemoflow Blood Draw Monitor 300,,no_match,,Applied Test Systems,,False,0.0
+0,0,WD250,WD250,exact,14793.0,BeliMed,Sterilization,True,
+1,1,CS721,cs721,skip_special_chars,,BeliMed,,False,
+2,2,WD290,WD290,exact,14794.0,BeliMed,Sterilization,True,
+3,3,UW565,UW565,exact,789544.0,BeliMed,Sterilization,True,
+4,4,WD 250,wd250,skip_special_chars,,BeliMed,,False,
+5,5,MST-V,MST-V,exact,739193.0,BeliMed,Sterilization,True,
+6,6,MST-V 6012 VS1,MST-V 609,llm,761271.0,BeliMed,Sterilization,False,0.7
+7,7,MST-V 559 VS1,MST-V559V51,llm,793699.0,BeliMed,Sterilization,False,0.9
+8,8,CS750,CS 750L,llm,763896.0,BeliMed,Sterilization,False,0.8
+9,9,MST-H 9-6-9,MST-H,llm,746605.0,BeliMed,Sterilization,False,0.6
+10,10,750M,WD 750,llm,761272.0,BeliMed,Sterilization,False,0.6
+11,11,CA-9-6-18HS1,HS1,llm,13861.0,BeliMed,Sterilization,False,0.5
+12,12,290NXG,WD290,llm,14794.0,BeliMed,Sterilization,False,0.7
+13,13,CS-750,CS 750L,llm,763896.0,BeliMed,Sterilization,False,0.9
+14,14,UW565Plus,UW565,llm,789544.0,BeliMed,Sterilization,False,0.8
+15,15,Dental Nitrous Oxide N2O Flowmeter 5000,,no_match,,BeliMed,,False,0.0
+16,16,_,,no_match,,BeliMed,,False,0.0
+17,17,Power Gate Return,,no_match,,BeliMed,,False,0.0
+18,18,SHUTTLE,,no_match,,BeliMed,,False,0.0
+19,19,WakeMed Unknown Model,,no_match,,BeliMed,,False,0.0
+20,20,Dosetech Belimed,,no_match,,BeliMed,,False,0.0
+21,21,Thermasure,,no_match,,BeliMed,,False,0.0
+0,0,TV-100,TV-100,exact,793671.0,Bio-Med Devices,Respiratory,True,
+1,1,IC-2A,IC-2A,exact,14624.0,Bio-Med Devices,Respiratory,True,
+2,2,MVP-10,MVP-10,exact,14625.0,Bio-Med Devices,Respiratory,True,
+3,3,2003GE AIR/OXYGEN BLENDER,2003 Low Flow,llm,736401.0,Bio-Med Devices,General Biomedical,False,0.7
+4,4,CROSSVENT 2,CV-2,llm,14620.0,Bio-Med Devices,Respiratory,False,0.9
+5,5,Crossvent 3,CV-3,llm,14622.0,Bio-Med Devices,Respiratory,False,0.9
+6,6,Low Flow GE,2003 Low Flow,llm,736401.0,Bio-Med Devices,General Biomedical,False,0.6
+7,7,Low Flow,2003 Low Flow,llm,736401.0,Bio-Med Devices,General Biomedical,False,0.8
+8,8,CROSSVENT 3,CV-3,llm,14622.0,Bio-Med Devices,Respiratory,False,0.9
+9,9,Crossvent 2i+,CV-2i,llm,14621.0,Bio-Med Devices,Respiratory,False,0.85
+10,10,CROSSVENT 4,CV-4,llm,14623.0,Bio-Med Devices,Respiratory,False,0.9
+11,11,PS-2220 ECG SIMULATOR,,no_match,,Bio-Med Devices,,False,0.0
+12,12,SA-2010 SAFETY ANALYZER ECG SIMULATION,,no_match,,Bio-Med Devices,,False,0.0
+13,13,2004,,no_match,,Bio-Med Devices,,False,0.0
+14,14,3800,,no_match,,Bio-Med Devices,,False,0.0
+15,15,NEO-2 BLEND,,no_match,,Bio-Med Devices,,False,0.0
+16,16,2004F7015,,no_match,,Bio-Med Devices,,False,0.0
+17,17,2001,,no_match,,Bio-Med Devices,,False,0.0
+18,18,MaxAir CAPR,,no_match,,Bio-Med Devices,,False,0.0
+19,19,MAXAIR,,no_match,,Bio-Med Devices,,False,0.0
+20,20,_,,no_match,,Bio-Med Devices,,False,0.0
+21,21,High/Low Flow,,no_match,,Bio-Med Devices,,False,0.0
+22,22,MRI,,no_match,,Bio-Med Devices,,False,0.0
+23,23,Hi Flow,,no_match,,Bio-Med Devices,,False,0.0
+24,24,Max Air,,no_match,,Bio-Med Devices,,False,0.0
+25,25,Biotronik,,no_match,,Bio-Med Devices,,False,0.0
+26,26,MaxAir,,no_match,,Bio-Med Devices,,False,0.0
+27,27,2200I,,no_match,,Bio-Med Devices,,False,0.0
+28,28,2001R,,no_match,,Bio-Med Devices,,False,0.0
+29,29,SPECIAL,,no_match,,Bio-Med Devices,,False,0.0
+30,30,M-1,,no_match,,Bio-Med Devices,,False,0.0
+31,31,2001M,,no_match,,Bio-Med Devices,,False,0.0
+0,0,MGIT 960,MGIT 960,exact,654.0,Becton Dickinson,General Laboratory,True,
+1,1,BACTEC 9240,Bactec 9240,exact,8065.0,Becton Dickinson,General Laboratory,True,
+2,2,FACSCALIBUR,FACSCalibur,exact,2696.0,Becton Dickinson,Hematology,True,
+3,3,Bactec FX40,Bactec FX40,exact,763230.0,Becton Dickinson,General Laboratory,True,
+4,4,BACTEC 9050,Bactec 9050,exact,8063.0,Becton Dickinson,General Laboratory,True,
+5,5,BACTEC FX,Bactec FX,exact,764346.0,Becton Dickinson,General Laboratory,True,
+6,6,VERITOR PLUS,Veritor Plus,exact,795060.0,Becton Dickinson,General Laboratory,True,
+7,7,420630,420630,exact,766651.0,Becton Dickinson,General Laboratory,True,
+8,8,Bactec MGIT 960,Bactec MGIT 960,exact,8066.0,Becton Dickinson,General Laboratory,True,
+9,9,Veritor Plus,Veritor Plus,exact,795060.0,Becton Dickinson,General Laboratory,True,
+10,10,Bactec fx,Bactec FX,exact,764346.0,Becton Dickinson,General Laboratory,True,
+11,11,BACTEC FX TOP,Bactec FX Top,exact,749722.0,Becton Dickinson,General Laboratory,True,
+12,12,BACTEC FX BOTTOM,Bactec FX Bottom,exact,796508.0,Becton Dickinson,General Laboratory,True,
+13,13,FACS Canto II,facscantoii,skip_special_chars,,Becton Dickinson,,False,
+14,14,MHCT II,MHCT II,exact,9588.0,Becton Dickinson,General Laboratory,True,
+15,15,COMPACT II,Compact II,exact,1020.0,Becton Dickinson,General Laboratory,True,
+16,16,DYNAC II,Dynac II,exact,756414.0,Becton Dickinson,General Laboratory,True,
+17,17,SERO-FUGE II,SERO-FUGE II,exact,741779.0,Becton Dickinson,General Laboratory,True,
+18,18,DYNAC,Dynac,exact,1021.0,Becton Dickinson,General Laboratory,True,
+19,19,Sero-Fuge 2002,SERO-FUGE 2002,exact,1022.0,Becton Dickinson,General Laboratory,True,
+20,20,5384,5384,exact,752346.0,Becton Dickinson,Diagnostic Imaging,True,
+21,21,MGIT960,mgit960,skip_special_chars,,Becton Dickinson,,False,
+22,22,MicroProbe Processor 250100,MicroProbe,llm,738397.0,Becton Dickinson,General Laboratory,False,0.7
+23,23,SEROFUGE,SERO-FUGE II,llm,741779.0,Becton Dickinson,General Laboratory,False,0.8
+24,24,Sero-Fuge,SERO-FUGE II,llm,741779.0,Becton Dickinson,General Laboratory,False,0.9
+25,25,BD Alaris PCU,Alaris PC,llm,800008.0,Becton Dickinson,Infusion Pumps,False,0.9
+26,26,Bactec,Bactec 9000,llm,653.0,Becton Dickinson,General Laboratory,False,0.6
+27,27,BD VERITOR PLUS,Veritor Plus,llm,795060.0,Becton Dickinson,General Laboratory,False,0.95
+28,28,BACTEC B9000MB,Bactec 9000,llm,653.0,Becton Dickinson,General Laboratory,False,0.8
+29,29,BD MAX System,BD Max,llm,766888.0,Becton Dickinson,General Laboratory,False,0.9
+30,30,211877,,no_match,,Becton Dickinson,,False,0.0
+31,31,C1301-CEP,,no_match,,Becton Dickinson,,False,0.0
+32,32,4450026,,no_match,,Becton Dickinson,,False,0.0
+33,33,108004-001,,no_match,,Becton Dickinson,,False,0.0
+34,34,60633,,no_match,,Becton Dickinson,,False,0.0
+35,35,MARSTERS,,no_match,,Becton Dickinson,,False,0.0
+36,36,Artic Sun,,no_match,,Becton Dickinson,,False,0.0
+37,37,_,,no_match,,Becton Dickinson,,False,0.0
+38,38,MACRO-VUE,,no_match,,Becton Dickinson,,False,0.0
+39,39,Macro-Vue Card Test,,no_match,,Becton Dickinson,,False,0.0
+40,40,LVP,,no_match,,Becton Dickinson,,False,0.0
+41,41,CENTRIFUGE,,no_match,,Becton Dickinson,,False,0.0
+42,42,Pyxis Tm IV Prep,,no_match,,Becton Dickinson,,False,0.0
+43,43,INFUSION PUMP,,no_match,,Becton Dickinson,,False,0.0
+44,44,CT-2900,,no_match,,Becton Dickinson,,False,0.0
+45,45,C1415,,no_match,,Becton Dickinson,,False,0.0
+46,46,8103,,no_match,,Becton Dickinson,,False,0.0
+47,47,60416,,no_match,,Becton Dickinson,,False,0.0
+48,48,60415 (E. YOUNG),,no_match,,Becton Dickinson,,False,0.0
+49,49,ALPHASCAN 411,,no_match,,Becton Dickinson,,False,0.0
+50,50,108,,no_match,,Becton Dickinson,,False,0.0
+51,51,60419,,no_match,,Becton Dickinson,,False,0.0
+52,52,360,,no_match,,Becton Dickinson,,False,0.0
+53,53,103,,no_match,,Becton Dickinson,,False,0.0
+54,54,541,,no_match,,Becton Dickinson,,False,0.0
+55,55,Clip Vac,,no_match,,Becton Dickinson,,False,0.0
+56,56,5380,,no_match,,Becton Dickinson,,False,0.0
+57,57,ESU-1,,no_match,,Becton Dickinson,,False,0.0
+58,58,Unknown,,no_match,,Becton Dickinson,,False,0.0
+59,59,60415,,no_match,,Becton Dickinson,,False,0.0
+60,60,420101,,no_match,,Becton Dickinson,,False,0.0
+61,61,A-2340,,no_match,,Becton Dickinson,,False,0.0
+62,62,177,,no_match,,Becton Dickinson,,False,0.0
+63,63,5386,,no_match,,Becton Dickinson,,False,0.0
+64,64,Unknown      ?1,,no_match,,Becton Dickinson,,False,0.0
+65,65,KM400A,,no_match,,Becton Dickinson,,False,0.0
+66,66,151,,no_match,,Becton Dickinson,,False,0.0
+67,67,MASTERS,,no_match,,Becton Dickinson,,False,0.0
+68,68,1171,,no_match,,Becton Dickinson,,False,0.0
+69,69,FIBROMETER,,no_match,,Becton Dickinson,,False,0.0
+0,0,EasyStand Glider 6000,,no_match,,Altimate Medical,,False,0.0
+1,1,P2000 Classic,,no_match,,Altimate Medical,,False,0.0
+0,0,Primus RS PR30,,no_match,,Baltimore Therapeutic,,False,0.0
+0,0,FCB 95,FCB 95,exact,3008.0,ACMI,Endoscopy,True,
+1,1,ALU-1B,ALU-1B,exact,11007.0,ACMI,Endoscopy,True,
+2,2,TURBOFLOW,TurboFlow 8000,llm,10862.0,ACMI,Surgery,False,0.8
+3,3,BERKLEY VC-2,,no_match,,ACMI,,False,0.0
+4,4,DOLPHIN II,,no_match,,ACMI,,False,0.0
+5,5,M3-0A,,no_match,,ACMI,,False,0.0
+6,6,GU-4150,,no_match,,ACMI,,False,0.0
+7,7,6968,,no_match,,ACMI,,False,0.0
+8,8,FCB 100,,no_match,,ACMI,,False,0.0
+9,9,T-91S,,no_match,,ACMI,,False,0.0
+10,10,B9750-1,,no_match,,ACMI,,False,0.0
+11,11,Unknown,,no_match,,ACMI,,False,0.0
+0,0,COBLATOR II,Coblator II,exact,752111.0,Arthrocare,Surgery,True,
+1,1,Coblator II,Coblator II,exact,752111.0,Arthrocare,Surgery,True,
+2,2,Atlas,Atlas,exact,759192.0,Arthrocare,Surgery,True,
+3,3,RF12000,RF12000,exact,799484.0,Arthrocare,Surgery,True,
+4,4,Arthrocare Sistema Atlas,Atlas,llm,759192.0,Arthrocare,Surgery,False,0.9
+5,5,ArthroCare ENT Coblator II Surgery Syste 8000E,Coblator II,llm,752111.0,Arthrocare,Surgery,False,0.85
+6,6,ATLAS 10435-01,Atlas,llm,759192.0,Arthrocare,Surgery,False,0.8
+7,7,Quantum 2 ,,no_match,,Arthrocare,,False,0.0
+8,8,QUANTUM 2,,no_match,,Arthrocare,,False,0.0
+9,9,WEREWOLF ENT,,no_match,,Arthrocare,,False,0.0
+10,10,Quantum 2,,no_match,,Arthrocare,,False,0.0
+11,11, k.0//4+,,no_match,,Arthrocare,,False,0.0
+12,12,Quantum,,no_match,,Arthrocare,,False,0.0
+13,13,_,,no_match,,Arthrocare,,False,0.0
+14,14,SYSTEM 2000,,no_match,,Arthrocare,,False,0.0
+15,15,Quantum 1,,no_match,,Arthrocare,,False,0.0
+16,16,Werewolf,,no_match,,Arthrocare,,False,0.0
+17,17,72290055,,no_match,,Arthrocare,,False,0.0
+18,18,H3000-00,,no_match,,Arthrocare,,False,0.0
+19,19,A1390,,no_match,,Arthrocare,,False,0.0
+20,20,H0970-02,,no_match,,Arthrocare,,False,0.0
+21,21,RF11000,,no_match,,Arthrocare,,False,0.0
+0,0,MT139A TACHOMETER,,no_match,,Blue Sun Scientific,,False,0.0
+0,0,FLEX FOCUS 500,Flex Focus 500,exact,758357.0,BK Medical,Ultrasound,True,
+1,1,E14CL4b,E14CL4b,exact,803237.0,BK Medical,Ultrasound Transducers,True,
+2,2,Flex Focus 500,Flex Focus 500,exact,758357.0,BK Medical,Ultrasound,True,
+3,3,BK Specto,bkspecto,skip_special_chars,,BK Medical,,False,
+4,4,8848,8848,exact,786743.0,BK Medical,Ultrasound Transducers,True,
+5,5,8826,8826,exact,768881.0,BK Medical,Ultrasound Transducers,True,
+6,6,FLEX FOCUS 400,Flex Focus 400,exact,751696.0,BK Medical,Ultrasound,True,
+7,7,Flex Focus 400,Flex Focus 400,exact,751696.0,BK Medical,Ultrasound,True,
+8,8,BKSPECTO,bkSpecto,exact,792229.0,BK Medical,Ultrasound,True,
+9,9,E14CL4B,E14CL4b,exact,803237.0,BK Medical,Ultrasound Transducers,True,
+10,10,Leopard,Leopard 2001,llm,4700.0,BK Medical,Ultrasound,False,0.8
+11,11,bk5000-01,BK5000,llm,767388.0,BK Medical,Ultrasound,False,0.9
+12,12,Specto,bkSpecto,llm,792229.0,BK Medical,Ultrasound,False,0.7
+13,13,8558/S/T,8558,llm,17966.0,BK Medical,Ultrasound Transducers,False,0.85
+14,14,2101 Falcon,Falcon 2101,llm,4704.0,BK Medical,Ultrasound,False,0.9
+15,15,Bench Switching DC Power Supply 1666,,no_match,,BK Medical,,False,0.0
+16,16,Single Output DC Power Supply 1740,,no_match,,BK Medical,,False,0.0
+17,17,BKACTIV REAL TIME,,no_match,,BK Medical,,False,0.0
+18,18,bkActiv,,no_match,,BK Medical,,False,0.0
+19,19,E14C4t,,no_match,,BK Medical,,False,0.0
+20,20,9051,,no_match,,BK Medical,,False,0.0
+21,21,9085,,no_match,,BK Medical,,False,0.0
+22,22,I14C5T,,no_match,,BK Medical,,False,0.0
+23,23,20R3,,no_match,,BK Medical,,False,0.0
+24,24,Flex Focus 801,,no_match,,BK Medical,,False,0.0
+25,25,E14c4t,,no_match,,BK Medical,,False,0.0
+26,26,Pro Focus,,no_match,,BK Medical,,False,0.0
+27,27,Falcon XL,,no_match,,BK Medical,,False,0.0
+28,28,8658,,no_match,,BK Medical,,False,0.0
+29,29,12-May,,no_match,,BK Medical,,False,0.0
+30,30,12-Apr,,no_match,,BK Medical,,False,0.0
+0,0,Halo Flex,Halo Flex,exact,750404.0,Barrx Medical,General Biomedical,True,
+1,1,Halo 90,Halo Flex,llm,750404.0,Barrx Medical,General Biomedical,False,0.7
+2,2,Halo 360,Halo Flex,llm,750404.0,Barrx Medical,General Biomedical,False,0.7
+3,3,1100C-115B,,no_match,,Barrx Medical,,False,0.0
+4,4,_,,no_match,,Barrx Medical,,False,0.0
+5,5,90-9000,,no_match,,Barrx Medical,,False,0.0
+0,0,3800A,3800A,exact,736399.0,Bird,General Biomedical,True,
+1,1,Mark 7,Mark 7,exact,792251.0,Bird,Respiratory,True,
+2,2,Carefusion Bird Air-Oxygen Blender 03800A,3800A,llm,736399.0,Bird,General Biomedical,False,0.9
+3,3,3800,3800A,llm,736399.0,Bird,General Biomedical,False,0.8
+4,4,03920A,3920A,llm,792527.0,Bird,General Biomedical,False,0.95
+5,5,3800R,3800A,llm,736399.0,Bird,General Biomedical,False,0.7
+6,6,03800T,3800A,llm,736399.0,Bird,General Biomedical,False,0.85
+7,7,15322,,no_match,,Bird,,False,0.0
+8,8,03803T SENTRY 2 BLENDERS,,no_match,,Bird,,False,0.0
+9,9,2001,,no_match,,Bird,,False,0.0
+10,10,3300,,no_match,,Bird,,False,0.0
+11,11,5100,,no_match,,Bird,,False,0.0
+12,12,_,,no_match,,Bird,,False,0.0
+13,13,BIRD 3M,,no_match,,Bird,,False,0.0
+14,14,ULTRABLENDER,,no_match,,Bird,,False,0.0
+0,0,316L,,no_match,,Baumer,,False,0.0
+1,1,MEX8 H2C,,no_match,,Baumer,,False,0.0
+0,0,9002,,no_match,,ADC,,False,1.0
+0,0,CoaguChek XS Plus,,no_match,,Boehringer Mannheim,,False,0.0
+1,1,Care4,,no_match,,Boehringer Mannheim,,False,0.0
+2,2,Intermit/Continous,,no_match,,Boehringer Mannheim,,False,0.0
+3,3,Regulate/Line,,no_match,,Boehringer Mannheim,,False,0.0
+4,4,Care 4,,no_match,,Boehringer Mannheim,,False,0.0
+5,5,Intermittent,,no_match,,Boehringer Mannheim,,False,0.0
+6,6,Continuous,,no_match,,Boehringer Mannheim,,False,0.0
+7,7,3844,,no_match,,Boehringer Mannheim,,False,0.0
+8,8,766,,no_match,,Boehringer Mannheim,,False,0.0
+9,9,796,,no_match,,Boehringer Mannheim,,False,0.0
+10,10,111,,no_match,,Boehringer Mannheim,,False,0.0
+11,11,792,,no_match,,Boehringer Mannheim,,False,0.0
+12,12,3804,,no_match,,Boehringer Mannheim,,False,0.0
+13,13,ADVANTAGE,,no_match,,Boehringer Mannheim,,False,0.0
+14,14,ACCUDATA,,no_match,,Boehringer Mannheim,,False,0.0
+15,15,3814,,no_match,,Boehringer Mannheim,,False,0.0
+16,16,Unknown,,no_match,,Boehringer Mannheim,,False,0.0
+17,17,768 ADVANTAGE,,no_match,,Boehringer Mannheim,,False,0.0
+18,18,3270,,no_match,,Boehringer Mannheim,,False,0.0
+19,19,ACCU-CHEK III,,no_match,,Boehringer Mannheim,,False,0.0
+20,20,REFLOTRON I,,no_match,,Boehringer Mannheim,,False,0.0
+21,21,3840,,no_match,,Boehringer Mannheim,,False,0.0
+22,22,788,,no_match,,Boehringer Mannheim,,False,0.0
+23,23,780 TRACER II,,no_match,,Boehringer Mannheim,,False,0.0
+24,24,788          ?1,,no_match,,Boehringer Mannheim,,False,0.0
+25,25,3800,,no_match,,Boehringer Mannheim,,False,0.0
+26,26,ACCU-CHECK IIM,,no_match,,Boehringer Mannheim,,False,0.0
+27,27,791,,no_match,,Boehringer Mannheim,,False,0.0
+28,28,3700,,no_match,,Boehringer Mannheim,,False,0.0
+29,29,792 A/C III,,no_match,,Boehringer Mannheim,,False,0.0
+0,0,Professional Hi-Low Treatment Table 4070,,no_match,,Bailey Manufacturing,,False,0.8
+0,0,GREEEN LIGHT XPS LASER SYSTEM,,no_match,,American Medical Sales (AMS),,False,0.0
+1,1,201D,,no_match,,American Medical Sales (AMS),,False,0.0
+2,2,701D,,no_match,,American Medical Sales (AMS),,False,0.0
+3,3,Greenlight HPS,,no_match,,American Medical Sales (AMS),,False,0.0
+4,4,Greenlight XPS,,no_match,,American Medical Sales (AMS),,False,0.0
+0,0,86000 Accumetrics VerifyNow,VerifyNow,llm,,Accumetrics,,False,0.9
+0,0,TLi IQ System,TLi lQ,llm,584.0,Adeza,General Laboratory,False,0.9
+0,0,STATFAX 2200,statfax2200,skip_special_chars,,Awareness Technology,,False,
+1,1,STAT FAX 303 Plus,Stat Fax 303,llm,8017.0,Awareness Technology,Molecular,False,0.9
+2,2,2200,Stat Fax 2200,llm,737100.0,Awareness Technology,General Laboratory,False,0.95
+3,3,STAT FAX,,no_match,,Awareness Technology,,False,0.5
+0,0,101NR,,no_match,,"BioMedical Solutions, Inc. (BSI)",,False,0.0
+1,1,OF-100 OSSFORCE,,no_match,,"BioMedical Solutions, Inc. (BSI)",,False,0.0
+0,0,7000,7000,exact,763280.0,Brewer Company,"Beds, Medical Furniture and Patient Transport",True,
+1,1,ASSIST 7000 POWER PROCEDURE TABLE,7000,llm,763280.0,Brewer Company,"Beds, Medical Furniture and Patient Transport",False,0.8
+2,2,5701 Flex Access,Access 5000,llm,757058.0,Brewer Company,"Beds, Medical Furniture and Patient Transport",False,0.6
+3,3,6001 HI LOW EXAM TABLE,,no_match,,Brewer Company,,False,0.0
+4,4,6801 HI LOW EXAM TABLE,,no_match,,Brewer Company,,False,0.0
+5,5,17100 BREWER LIGHT,,no_match,,Brewer Company,,False,0.0
+6,6,700 HI LOW EXAM TABLE,,no_match,,Brewer Company,,False,0.0
+7,7,5001 HI LOW EXAM TABLE,,no_match,,Brewer Company,,False,0.0
+8,8,6000 HI LOW EXAM TABLE,,no_match,,Brewer Company,,False,0.0
+9,9,5000-21,,no_match,,Brewer Company,,False,0.0
+10,10,6500 ACCESS,,no_match,,Brewer Company,,False,0.0
+0,0,EMPOWER CTA+,empowercta,skip_special_chars,,Bracco,,False,
+1,1,EMPOWER CTA,empowercta,skip_special_chars,,Bracco,,False,
+2,2,510 CARDIO GEN 82,CardioGen-82,llm,739056.0,Bracco,Contrast Media Injectors and Accessories,False,0.9
+3,3,EMPOWER MR,,no_match,,Bracco,,False,0.5
+4,4,133000,,no_match,,Bracco,,False,0.1
+0,0,DG25 THERMOMETER TEMP CHECK,,no_match,,"Ashcroft, Inc",,False,
+1,1,Timeter,,no_match,,"Ashcroft, Inc",,False,
+0,0,Pipette Calibration System PCS2,PCS-2,llm,752245.0,Artel,General Laboratory,False,0.9
+1,1,PCS-100-70G         ,,no_match,,Artel,,False,0.7
+2,2,PCS-100-07A,,no_match,,Artel,,False,0.7
+3,3,PCS-100-07G,,no_match,,Artel,,False,0.7
+0,0,Maestro 3000,Maestro 3000,exact,752294.0,Boston Scientific,Surgery,True,
+1,1,Rotapro,RotaPRO,exact,790836.0,Boston Scientific,Surgery,True,
+2,2,GREENLIGHT XPS,Greenlight XPS,exact,755812.0,Boston Scientific,Laser,True,
+3,3,ILAB,iLab,exact,739973.0,Boston Scientific,Ultrasound,True,
+4,4,MAESTRO 3000,Maestro 3000,exact,752294.0,Boston Scientific,Surgery,True,
+5,5,SPYGLASS,SpyGlass,exact,750725.0,Boston Scientific,Endoscopy,True,
+6,6,JETSTREAM,JetStream,exact,801829.0,Boston Scientific,Surgery,True,
+7,7,GENESYS HTA,Genesys HTA,exact,757009.0,Boston Scientific,Surgery,True,
+8,8,ROTAPRO,RotaPRO,exact,790836.0,Boston Scientific,Surgery,True,
+9,9,AVVIGO,Avvigo,exact,799189.0,Boston Scientific,Surgery,True,
+10,10,Genesys HTA,Genesys HTA,exact,757009.0,Boston Scientific,Surgery,True,
+11,11,Jetstream,JetStream,exact,801829.0,Boston Scientific,Surgery,True,
+12,12,Lithovue,LithoVue,exact,798687.0,Boston Scientific,Endoscopy,True,
+13,13,Symphion,Symphion,exact,798312.0,Boston Scientific,,True,
+14,14,Spy Glass,spyglass,skip_special_chars,,Boston Scientific,,False,
+15,15,AngioJet Ultra 5000A,AngioJet Ultra 5000A,exact,798257.0,Boston Scientific,,True,
+16,16,Maestro 4000,Maestro 4000,exact,766994.0,Boston Scientific,Surgery,True,
+17,17,ANGIOJET ULTRA 5000A,AngioJet Ultra 5000A,exact,798257.0,Boston Scientific,,True,
+18,18,RF 3000,rf3000,skip_special_chars,,Boston Scientific,,False,
+19,19,Aura KTP,Aura KTP,exact,795674.0,Boston Scientific,Laser,True,
+20,20,G4,G4,exact,761485.0,Boston Scientific,General Biomedical,True,
+21,21,iLab,iLab,exact,739973.0,Boston Scientific,Ultrasound,True,
+22,22,LithoVue,LithoVue,exact,798687.0,Boston Scientific,Endoscopy,True,
+23,23,RF3000,RF3000,exact,792528.0,Boston Scientific,Surgery,True,
+24,24,Swiss LithoClast Trilogy,Swiss Lithoclast Trilogy,exact,797511.0,Boston Scientific,General Biomedical,True,
+25,25,"MAESTRO-4000 Radiofrequency Therapy Sys, Tissue Ablatn, cardiac",Maestro 4000,llm,766994.0,Boston Scientific,Surgery,False,0.95
+26,26,FG-0612 Symphion,Symphion,llm,798312.0,Boston Scientific,,False,0.9
+27,27,Genesys HTA System,Genesys HTA,llm,757009.0,Boston Scientific,Surgery,False,0.95
+28,28,SpyGlass Direct Visualization System Irr M00546140,SpyGlass,llm,750725.0,Boston Scientific,Endoscopy,False,0.9
+29,29,5000A,AngioJet Ultra 5000A,llm,798257.0,Boston Scientific,,False,0.9
+30,30,JetStream PVCN100,JetStream,llm,801829.0,Boston Scientific,Surgery,False,0.9
+31,31,AVVIGO guid system ii MOBILE GUIDANCE SYSTEM,Avvigo,llm,799189.0,Boston Scientific,Surgery,False,0.9
+32,32,TRIOLOGY SWISS LITHO CLAST,Swiss Lithoclast Trilogy,llm,797511.0,Boston Scientific,General Biomedical,False,0.9
+33,33,SPYGLASS CAMERA M00546100,SpyGlass,llm,750725.0,Boston Scientific,Endoscopy,False,0.9
+34,34,ALAIR,Alair ATS200,llm,757043.0,Boston Scientific,Hardware,False,0.8
+35,35,ROTABLATOR,Rotablator RC5000,llm,752126.0,Boston Scientific,Endoscopy,False,0.8
+36,36,SPYGLASS DS,SpyGlass,llm,750725.0,Boston Scientific,Endoscopy,False,0.9
+37,37,Swiss LithoClast,Swiss Lithoclast Trilogy,llm,797511.0,Boston Scientific,General Biomedical,False,0.8
+38,38,RC 5000,Rotablator RC5000,llm,752126.0,Boston Scientific,Endoscopy,False,0.9
+39,39,Spy Glass DS,SpyGlass,llm,750725.0,Boston Scientific,Endoscopy,False,0.9
+40,40,iLab 120,iLab,llm,739973.0,Boston Scientific,Ultrasound,False,0.9
+41,41,SPYGLASS DISCOVER DI,SpyGlass,llm,750725.0,Boston Scientific,Endoscopy,False,0.9
+42,42,ALAIR RF CONTROLLER,Alair ATS200,llm,757043.0,Boston Scientific,Hardware,False,0.8
+43,43,SYMPHION CONTROLLER,Symphion,llm,798312.0,Boston Scientific,,False,0.9
+44,44,LITHOCLAST,Swiss Lithoclast Trilogy,llm,797511.0,Boston Scientific,General Biomedical,False,0.8
+45,45,SPYGLASS CART,SpyGlass,llm,750725.0,Boston Scientific,Endoscopy,False,0.9
+46,46,Swiss Lithoclast,Swiss Lithoclast Trilogy,llm,797511.0,Boston Scientific,General Biomedical,False,0.8
+47,47,IVUS ILab 1201NS,iLab,llm,739973.0,Boston Scientific,Ultrasound,False,0.7
+48,48,Maestro 4000 Pod,Maestro 4000,llm,766994.0,Boston Scientific,Surgery,False,0.9
+49,49,Mastro 4000 Pod,Maestro 4000,llm,766994.0,Boston Scientific,Surgery,False,0.8
+50,50,Maestro 3000 Pod,Maestro 3000,llm,752294.0,Boston Scientific,Surgery,False,0.9
+51,51,AVVIGO+ Multi-Modality Guidance System,Avvigo,llm,799189.0,Boston Scientific,Surgery,False,0.7
+52,52,AVVIGO+ MOBILE SYSTEM,Avvigo,llm,799189.0,Boston Scientific,Surgery,False,0.7
+53,53,IVUS ACQUISTION PROC,iLab,llm,739973.0,Boston Scientific,Ultrasound,False,0.6
+54,54,Spyglass Discover,SpyGlass,llm,750725.0,Boston Scientific,Endoscopy,False,0.8
+55,55,Lithoclast-Ultra,Swiss Lithoclast Trilogy,llm,797511.0,Boston Scientific,General Biomedical,False,0.6
+56,56,Polaris MMGS Intergrated,Polaris,llm,795759.0,Boston Scientific,General Laboratory,False,0.7
+57,57,LITHOCLAST ULTRA,Swiss Lithoclast Trilogy,llm,797511.0,Boston Scientific,General Biomedical,False,0.6
+58,58,ILAB CART,iLab,llm,739973.0,Boston Scientific,Ultrasound,False,0.8
+59,59,LithoClast Trilogy,Swiss Lithoclast Trilogy,llm,797511.0,Boston Scientific,General Biomedical,False,0.9
+60,60,Angiojet,AngioJet Ultra 5000A,llm,798257.0,Boston Scientific,,False,0.8
+61,61,GALAXY 2,Galaxy 2 IVUS,llm,4706.0,Boston Scientific,Ultrasound,False,0.9
+62,62,REZUM System Generator,Rezum,llm,791071.0,Boston Scientific,,False,0.8
+63,63,Polaris MMIS IVUS Cart,Polaris,llm,795759.0,Boston Scientific,General Laboratory,False,0.7
+64,64,3550,,no_match,,Boston Scientific,,False,0.0
+65,65,LIFEBOOKE362,,no_match,,Boston Scientific,,False,0.0
+66,66,Guidant ZOOM LATITUDE Programmer 3120,,no_match,,Boston Scientific,,False,0.0
+67,67,MD5,,no_match,,Boston Scientific,,False,0.0
+68,68,Maestro,,no_match,,Boston Scientific,,False,0.0
+69,69,ICEFX CRYOABLATION SYSTEM,,no_match,,Boston Scientific,,False,0.0
+70,70,6299 latitude consult system,,no_match,,Boston Scientific,,False,0.0
+71,71,ENDOSTAT III,,no_match,,Boston Scientific,,False,0.0
+72,72,AUTOLITH TOUCH,,no_match,,Boston Scientific,,False,0.0
+73,73,LATITUDE CONSULT,,no_match,,Boston Scientific,,False,0.0
+74,74,EKOS,,no_match,,Boston Scientific,,False,0.0
+75,75,ZOOM LATITUDE,,no_match,,Boston Scientific,,False,0.0
+76,76,LATITUDE,,no_match,,Boston Scientific,,False,0.0
+77,77,H7495551000,,no_match,,Boston Scientific,,False,0.0
+78,78,Zoom Latitude,,no_match,,Boston Scientific,,False,0.0
+79,79,Latitude,,no_match,,Boston Scientific,,False,0.0
+80,80,LATTITUDE,,no_match,,Boston Scientific,,False,0.0
+81,81,Ltitude Consult,,no_match,,Boston Scientific,,False,0.0
+82,82,LATITUDE PROGRAMMING,,no_match,,Boston Scientific,,False,0.0
+83,83,LATITUDE 3300,,no_match,,Boston Scientific,,False,0.0
+84,84,AutoLith,,no_match,,Boston Scientific,,False,0.0
+85,85,NS1000,,no_match,,Boston Scientific,,False,0.0
+86,86,EndoStat III,,no_match,,Boston Scientific,,False,0.0
+87,87,H749009881C0,,no_match,,Boston Scientific,,False,0.0
+88,88,_,,no_match,,Boston Scientific,,False,0.0
+89,89,ZOOM LATTITUDE,,no_match,,Boston Scientific,,False,0.0
+90,90,FFR Link,,no_match,,Boston Scientific,,False,0.0
+91,91,MetriQ,,no_match,,Boston Scientific,,False,0.0
+92,92,LATITUDE ,,no_match,,Boston Scientific,,False,0.0
+93,93,ENDOSTAT II,,no_match,,Boston Scientific,,False,0.0
+94,94,Ablation Pod 100,,no_match,,Boston Scientific,,False,0.0
+95,95,Exalt,,no_match,,Boston Scientific,,False,0.0
+96,96,EKOS 4.0,,no_match,,Boston Scientific,,False,0.0
+97,97,Latitude Consult,,no_match,,Boston Scientific,,False,0.0
+98,98,GUIDANT,,no_match,,Boston Scientific,,False,0.0
+99,99,Vessix Generator,,no_match,,Boston Scientific,,False,0.0
+100,100,ZOOM LATITUDE Programming System,,no_match,,Boston Scientific,,False,0.0
+101,101,Farastar,,no_match,,Boston Scientific,,False,0.0
+102,102,H749,,no_match,,Boston Scientific,,False,0.0
+103,103,OEM-A7022,,no_match,,Boston Scientific,,False,0.0
+104,104,EPS320,,no_match,,Boston Scientific,,False,0.0
+105,105,56000,,no_match,,Boston Scientific,,False,0.0
+106,106,M006840304R0,,no_match,,Boston Scientific,,False,0.0
+107,107,LS 9900,,no_match,,Boston Scientific,,False,0.0
+108,108,Guidant   3120,,no_match,,Boston Scientific,,False,0.0
+109,109,StoneSmart Console,,no_match,,Boston Scientific,,False,0.0
+110,110,SHUTTLE,,no_match,,Boston Scientific,,False,0.0
+111,111,3200,,no_match,,Boston Scientific,,False,0.0
+112,112,LS 8900-00,,no_match,,Boston Scientific,,False,0.0
+113,113,I5020,,no_match,,Boston Scientific,,False,0.0
+114,114,120 CHANNEL CLEAR SIGN II,,no_match,,Boston Scientific,,False,0.0
+115,115,OEM-A7022 with IVUS,,no_match,,Boston Scientific,,False,0.0
+116,116,840-100,,no_match,,Boston Scientific,,False,0.0
+117,117,LithoClast Select,,no_match,,Boston Scientific,,False,0.0
+118,118,ICEFX,,no_match,,Boston Scientific,,False,0.0
+119,119,LATITUDE Programming System,,no_match,,Boston Scientific,,False,0.0
+120,120,92331868-01E,,no_match,,Boston Scientific,,False,0.0
+121,121,21880,,no_match,,Boston Scientific,,False,0.0
+122,122,Autolith Touch EHL,,no_match,,Boston Scientific,,False,0.0
+123,123,AutoLith Touch,,no_match,,Boston Scientific,,False,0.0
+124,124,M00546650,,no_match,,Boston Scientific,,False,0.0
+125,125,M00542430,,no_match,,Boston Scientific,,False,0.0
+126,126,58001,,no_match,,Boston Scientific,,False,0.0
+127,127,92331868-01-B,,no_match,,Boston Scientific,,False,0.0
+128,128,56000R,,no_match,,Boston Scientific,,False,0.0
+0,0,C02 INCUBATOR C150 UL,C 150,llm,769528.0,Binder,General Laboratory,False,0.9
+1,1,C02 INCUBATOR C170,,no_match,,Binder,,False,0.0
+0,0,MD0812,,no_match,,Braun,,False,0.9
+0,0,XH-2002,,no_match,,C & A Scientific,,False,0.0
+1,1,XH-2003,,no_match,,C & A Scientific,,False,0.0
+0,0,B200,B200,exact,786962.0,Branson Ultrasonic Corporation,Sterilization,True,
+1,1,B2200R-1,2200,llm,748967.0,Branson Ultrasonic Corporation,Sterilization,False,0.7
+2,2,5210,,no_match,,Branson Ultrasonic Corporation,,False,0.0
+3,3,1210,,no_match,,Branson Ultrasonic Corporation,,False,0.0
+0,0,BR900-1100,,no_match,,BR Surgical,,False,0.8
+1,1,BR900-2453,,no_match,,BR Surgical,,False,0.8
+2,2,HL 150,,no_match,,BR Surgical,,False,0.8
+0,0,Elan-EC,elanec,skip_special_chars,,Aesculap,,False,
+1,1,GA800 ELAN 4  ELECTRICAL DRILL SYSTEM,,no_match,,Aesculap,,False,0.0
+2,2,GA141,,no_match,,Aesculap,,False,0.0
+3,3,GK52,,no_match,,Aesculap,,False,0.0
+4,4,FK899R,,no_match,,Aesculap,,False,0.0
+0,0,SRA-C3,SRA-C3,exact,796841.0,Amico,General Biomedical,True,
+1,1,MIRA 50 LED,,no_match,,Amico,,False,0.0
+2,2,PEDS,,no_match,,Amico,,False,0.0
+3,3,NEO,,no_match,,Amico,,False,0.0
+4,4,CONT/INT,,no_match,,Amico,,False,0.0
+5,5,_,,no_match,,Amico,,False,0.0
+6,6,DS DIAGNOSTIC STA,,no_match,,Amico,,False,0.0
+7,7,Scout,,no_match,,Amico,,False,0.0
+8,8,SR-CI,,no_match,,Amico,,False,0.0
+9,9,SR-CH,,no_match,,Amico,,False,0.0
+10,10,Scout-Anlg-Neo,,no_match,,Amico,,False,0.0
+0,0,JXB-178 THERMOMETERS,JXB-178,llm,793499.0,Berrcom,Patient Care and Exam,False,0.95
+0,0,Trudi Navigation System Elite Plus,TruDI Elite Plus,llm,796819.0,Acclarent,Surgery,False,0.9
+1,1,BIEN AIR OSSEODUO CONSOLE,,no_match,,Acclarent,,False,0.0
+0,0,FG226,FG226,exact,800900.0,Aerin Medical,Surgery,True,
+1,1,FG226 Aerin Console,FG226,llm,800900.0,Aerin Medical,Surgery,False,0.9
+0,0,AR-9800,AR-9800,exact,796848.0,Arthrex,Surgery,True,
+1,1,SYNERGY,Synergy,exact,760123.0,Arthrex,Surgery,True,
+2,2,SYNERGY UHD4,Synergy UHD4,exact,768837.0,Arthrex,Surgery,True,
+3,3,AR6400,ar6400,skip_special_chars,,Arthrex,,False,
+4,4,Synergy HD3,synergyhd3,skip_special_chars,,Arthrex,,False,
+5,5,APS II,APS II,exact,760124.0,Arthrex,Surgery,True,
+6,6,Synergy UHD4,Synergy UHD4,exact,768837.0,Arthrex,Surgery,True,
+7,7,AR-3250-3209,AR-3250-3209,exact,799211.0,Arthrex,Patient Monitoring Systems,True,
+8,8,AR-6485,AR-6485,exact,802511.0,Arthrex,,True,
+9,9,AR-33504030,ar33504030,skip_special_chars,,Arthrex,,False,
+10,10,AR-8300,AR-8300,exact,759298.0,Arthrex,Surgery,True,
+11,11,AR-6480,AR-6480,exact,764950.0,Arthrex,Infusion Pumps,True,
+12,12,AR-8305,AR-8305,exact,791407.0,Arthrex,Patient Care and Exam,True,
+13,13,AR-3200-0020,AR-3200-0020,exact,797417.0,Arthrex,Surgery,True,
+14,14,AR-8330H,AR-8330H,exact,786298.0,Arthrex,Patient Care and Exam,True,
+15,15,Continuous Wave II Arthroscopy Pump AR-6400,Continuous Wave II,llm,793290.0,Arthrex,General Biomedical,False,0.9
+16,16,Synergy UHD4  MONITOR - MDSC8232,Synergy UHD4,llm,768837.0,Arthrex,Surgery,False,0.8
+17,17,APS II Control Console AR-8300,APS II,llm,760124.0,Arthrex,Surgery,False,0.9
+18,18,Continuous Wave III Arthroscopy Pump AR-6475,AR-6475,llm,760714.0,Arthrex,Infusion Pumps,False,0.9
+19,19,Synergy HD3 Console AR-3200-0001T,SynergyHD3,llm,756940.0,Arthrex,Endoscopy,False,0.8
+20,20,Synergy Resection Shaver AR-8305,AR-8305,llm,791407.0,Arthrex,Patient Care and Exam,False,0.9
+21,21,DualWave Arthroscopy Pump AR-6480,DualWave AR-6480,llm,759300.0,Arthrex,General Laboratory,False,0.95
+22,22,SynergyUHD4 Ultra,Synergy UHD4,llm,768837.0,Arthrex,Surgery,False,0.9
+23,23,SynergyUHD4™ 4K Camera Head,Synergy UHD4,llm,768837.0,Arthrex,Surgery,False,0.9
+24,24,DualWave AR-6485,DualWave AR-6480,llm,759300.0,Arthrex,General Laboratory,False,0.8
+25,25,4K SYNERGY UHD4 ULTR,Synergy UHD4,llm,768837.0,Arthrex,Surgery,False,0.9
+26,26,MDSC-8232,MDSC-2232,llm,801094.0,Arthrex,Patient Monitoring Systems,False,0.7
+27,27,Synergy HD4  Console - AR-3200-00021,,no_match,,Arthrex,,False,0.0
+28,28,AR-3200-0027 light source,,no_match,,Arthrex,,False,0.0
+29,29,"SYNERGY VISION 32"" LED SURGICAL MONITOR",,no_match,,Arthrex,,False,0.0
+30,30,SYNERGY VISION TABLET,,no_match,,Arthrex,,False,0.0
+31,31,DUALWAVE,,no_match,,Arthrex,,False,0.0
+32,32,SYNERGY RF,,no_match,,Arthrex,,False,0.0
+33,33,AR-3200,,no_match,,Arthrex,,False,0.0
+34,34,Arthrex,,no_match,,Arthrex,,False,0.0
+35,35,DualWave,,no_match,,Arthrex,,False,0.0
+36,36,Synergy RF,,no_match,,Arthrex,,False,0.0
+37,37,Synergy APS III,,no_match,,Arthrex,,False,0.0
+38,38,OPES,,no_match,,Arthrex,,False,0.0
+39,39,CONTINUOUS WAVE III,,no_match,,Arthrex,,False,0.0
+40,40,CONTINUOUS WAVE 4 (A,,no_match,,Arthrex,,False,0.0
+41,41,Video Cart AR-6000B,,no_match,,Arthrex,,False,0.0
+42,42,Synergy Console,,no_match,,Arthrex,,False,0.0
+43,43,Angel System,,no_match,,Arthrex,,False,0.0
+44,44,SCB Image 1 Hub,,no_match,,Arthrex,,False,0.0
+45,45,AR-3200T,,no_match,,Arthrex,,False,0.0
+46,46,FS-L3201D,,no_match,,Arthrex,,False,0.0
+47,47,FS-L2601D,,no_match,,Arthrex,,False,0.0
+48,48,WIS4000,,no_match,,Arthrex,,False,0.0
+49,49,AR-3210,,no_match,,Arthrex,,False,0.0
+50,50,AR-8325H,,no_match,,Arthrex,,False,0.0
+51,51,MDSL-8232,,no_match,,Arthrex,,False,0.0
+52,52,AR-33714000,,no_match,,Arthrex,,False,0.0
+53,53,AR-3200-0001T,,no_match,,Arthrex,,False,0.0
+0,0,Osseoduo Control Unit,,no_match,,Bien-Air,,False,0.0
+1,1,OSSEODUO,,no_match,,Bien-Air,,False,0.0
+0,0,CyberKnife System - CyberKnife,CyberKnife,llm,12930.0,Accuray,Surgery,False,0.95
+0,0,Azure 300,300Q,llm,801748.0,Azure Biosystems,Molecular,False,0.8
+0,0,JB02017 Finger Sensor,,no_match,,Bunn,,False,0.0
+0,0,SC-3008,3008,llm,9882.0,Bio Compression,Surgery,False,0.9
+1,1,SC-3004,3004,llm,9881.0,Bio Compression,Surgery,False,0.9
+2,2,SC-2004,2004,llm,9880.0,Bio Compression,Surgery,False,0.9
+3,3,SC-3008-DL,3008,llm,9882.0,Bio Compression,Surgery,False,0.8
+0,0,480,Model 480,llm,750330.0,Anodyne Therapy,Surgery,False,1.0
+0,0,Venaflow Elite,VenaFlow Elite,exact,760122.0,Aircast,Surgery,True,
+1,1,120503,,no_match,,Aircast,,False,0.0
+2,2,Auto Chill 20C,,no_match,,Aircast,,False,0.0
+3,3,20D,,no_match,,Aircast,,False,0.0
+0,0,_,,no_match,,Anesthesia Associates,,False,0.0
+0,0,VECTORVISIONCOMPACT,vectorvisioncompact,skip_special_chars,,BrainLAB,,False,
+1,1,KOLIBRI ENT,Kolibri,llm,742267.0,BrainLAB,Surgery,False,0.85
+2,2,KOLIBRI CAMERA,Kolibri,llm,742267.0,BrainLAB,Surgery,False,0.85
+3,3,KOLIBRI 2.0,Kolibri,llm,742267.0,BrainLAB,Surgery,False,0.9
+0,0,VERIFIT,VERIFIT,exact,767678.0,Audioscan,General Laboratory,True,
+1,1,VF 2,VERIFIT2,llm,792631.0,Audioscan,General Laboratory,False,0.85
+2,2,VF 1,VERIFIT,llm,767678.0,Audioscan,General Laboratory,False,0.85
+0,0,VACUTRON,Vacutron,exact,751416.0,Allied Healthcare,Respiratory,True,
+1,1,EPV200,epv200,skip_special_chars,,Allied Healthcare,,False,
+2,2,Vacutron,Vacutron,exact,751416.0,Allied Healthcare,Respiratory,True,
+3,3,Autovent 3000,AutoVent 3000,exact,798299.0,Allied Healthcare,Respiratory,True,
+4,4,3001,3001,exact,759302.0,Allied Healthcare,Respiratory,True,
+5,5,300,300,exact,743582.0,Allied Healthcare,Respiratory,True,
+6,6,3040,3040,exact,17762.0,Allied Healthcare,Respiratory,True,
+7,7,S5000,Schuco S5000,llm,752571.0,Allied Healthcare,Respiratory,False,1.0
+8,8,GOMCO,,no_match,,Allied Healthcare,,False,0.0
+9,9,Gomco,,no_match,,Allied Healthcare,,False,0.0
+10,10,Optivac,,no_match,,Allied Healthcare,,False,0.0
+11,11,_,,no_match,,Allied Healthcare,,False,0.0
+12,12,RT-200,,no_match,,Allied Healthcare,,False,0.0
+13,13,LIFE SUPPORT PRO,,no_match,,Allied Healthcare,,False,0.0
+14,14,Schuco,,no_match,,Allied Healthcare,,False,0.0
+15,15,22-15-1206,,no_match,,Allied Healthcare,,False,0.0
+16,16,Cont/Interm,,no_match,,Allied Healthcare,,False,0.0
+17,17,High Vacuum,,no_match,,Allied Healthcare,,False,0.0
+18,18,Surgical,,no_match,,Allied Healthcare,,False,0.0
+19,19,Pediatric,,no_match,,Allied Healthcare,,False,0.0
+20,20,Cont/Intermit,,no_match,,Allied Healthcare,,False,0.0
+21,21,928,,no_match,,Allied Healthcare,,False,0.0
+22,22,799,,no_match,,Allied Healthcare,,False,0.0
+23,23,910,,no_match,,Allied Healthcare,,False,0.0
+24,24,765A,,no_match,,Allied Healthcare,,False,0.0
+25,25,789,,no_match,,Allied Healthcare,,False,0.0
+26,26,797,,no_match,,Allied Healthcare,,False,0.0
+27,27,766,,no_match,,Allied Healthcare,,False,0.0
+28,28,130,,no_match,,Allied Healthcare,,False,0.0
+29,29,785,,no_match,,Allied Healthcare,,False,0.0
+30,30,792,,no_match,,Allied Healthcare,,False,0.0
+31,31,CS145,,no_match,,Allied Healthcare,,False,0.0
+32,32,901,,no_match,,Allied Healthcare,,False,0.0
+33,33,929,,no_match,,Allied Healthcare,,False,0.0
+34,34,280,,no_match,,Allied Healthcare,,False,0.0
+35,35,S130P,,no_match,,Allied Healthcare,,False,0.0
+36,36,935,,no_match,,Allied Healthcare,,False,0.0
+37,37,785A,,no_match,,Allied Healthcare,,False,0.0
+38,38,711,,no_match,,Allied Healthcare,,False,0.0
+39,39,729,,no_match,,Allied Healthcare,,False,0.0
+40,40,138,,no_match,,Allied Healthcare,,False,0.0
+41,41,6745,,no_match,,Allied Healthcare,,False,0.0
+42,42,BGT,,no_match,,Allied Healthcare,,False,0.0
+0,0,MD300C2,,no_match,,Beijing Choice,,False,0.8
+1,1,MD300C15,,no_match,,Beijing Choice,,False,0.8
+2,2,_,,no_match,,Beijing Choice,,False,0.5
+3,3,ChoiceMed,,no_match,,Beijing Choice,,False,0.7
+0,0,PAP-8E,PAP-8E,exact,8083.0,Bio/Data,General Laboratory,True,
+0,0,WS20,WS20,exact,2611.0,BTE Technologies,Patient Care and Exam,True,
+1,1,PRIMUS RS,primusrs,skip_special_chars,,BTE Technologies,,False,
+2,2,PR20 (PRIMUS),PrimusRS,llm,746163.0,BTE Technologies,Patient Care and Exam,False,0.8
+3,3,PR10 (PRIMUS),PrimusRS,llm,746163.0,BTE Technologies,Patient Care and Exam,False,0.8
+4,4,SIM II,Simulator II,llm,2610.0,BTE Technologies,Patient Care and Exam,False,0.95
+0,0,SW-17TA,SW-17TA,exact,764610.0,Blue M Electric,General Laboratory,True,
+1,1,100A,100A,exact,752869.0,Blue M Electric,General Laboratory,True,
+2,2,SW-17TA      ?1,SW-17TA,llm,764610.0,Blue M Electric,General Laboratory,False,0.9
+3,3,Blue M,,no_match,,Blue M Electric,,False,0.0
+4,4,200AZA-7696,,no_match,,Blue M Electric,,False,0.0
+0,0,HYBRITECH,,no_match,,Bellco,,False,0.0
+0,0,VERSAPAK VP730,,no_match,,Black & Decker,,False,0.0
+1,1,VP730,,no_match,,Black & Decker,,False,0.0
+2,2,Vitruvian Infiltration Pump,,no_match,,Black & Decker,,False,0.0
+3,3,Vitruvian Ultimate Aspirator,,no_match,,Black & Decker,,False,0.0
+0,0,Harmony XL,Harmony XL,exact,767755.0,Alma Laser,Laser,True,
+1,1,Accent XLI,,no_match,,Alma Laser,,False,0.9
+0,0,TLS-518,,no_match,,Apex Dynamics,,False,0.0
+1,1,WakeMed Unknown Model,,no_match,,Apex Dynamics,,False,0.0
+0,0,PEE WEE IV,,no_match,,ACCULAB,,False,0.0
+1,1,-,,no_match,,ACCULAB,,False,0.0
+0,0,VERIFY NOW SYSTEM,,no_match,,Accu-Time Systems,,False,0.0
+1,1,Inform II,,no_match,,Accu-Time Systems,,False,0.0
+2,2,Accu-Chek,,no_match,,Accu-Time Systems,,False,0.0
+3,3,3000 series,,no_match,,Accu-Time Systems,,False,0.0
+0,0,BioStim NMS2,BioStim NMS2,exact,798300.0,Biomedical Life Systems,General Biomedical,True,
+1,1,BioStim,,no_match,,Biomedical Life Systems,,False,0.5
+0,0,Moblvac-III,moblvaciii,skip_special_chars,,Aeros,,False,
+1,1,Moblvac-II,Moblvac III,llm,752220.0,Aeros,Infusion Pumps,False,0.9
+2,2,INSTAVAC II,,no_match,,Aeros,,False,0.0
+3,3,2500,,no_match,,Aeros,,False,0.0
+0,0,Yellofins,,no_match,,Allen Medical Systems,,False,0.0
+1,1,PinkFin,,no_match,,Allen Medical Systems,,False,0.0
+0,0,400,400,exact,770050.0,Amsco,Sterilization,True,
+1,1,3013,AMSCO 3013,llm,794808.0,Amsco,Sterilization,False,0.9
+2,2,E3013-1,AMSCO 3013,llm,794808.0,Amsco,Sterilization,False,0.8
+3,3,3023,AMSCO 3023,llm,794809.0,Amsco,Sterilization,False,0.9
+4,4,3080RL,Quantum 3080,llm,760579.0,Amsco,"Beds, Medical Furniture and Patient Transport",False,0.85
+5,5,Examiner 10,,no_match,,Amsco,,False,0.0
+6,6,CENTURY,,no_match,,Amsco,,False,0.0
+7,7,V-116,,no_match,,Amsco,,False,0.0
+8,8,G-116,,no_match,,Amsco,,False,0.0
+9,9,BL58728-200,,no_match,,Amsco,,False,0.0
+10,10,E3011-1,,no_match,,Amsco,,False,0.0
+0,0,MINIOX 3,,no_match,,Athena Champion,,False,0.9
+0,0,Maxi Sky 1000,Maxi Sky 1000,exact,792953.0,ArjoHuntleigh,"Beds, Medical Furniture and Patient Transport",True,
+1,1,Maxi Sky 2,Maxi Sky 1000,llm,792953.0,ArjoHuntleigh,"Beds, Medical Furniture and Patient Transport",False,0.7
+2,2,Maxi Sky 600,Maxi Sky 1000,llm,792953.0,ArjoHuntleigh,"Beds, Medical Furniture and Patient Transport",False,0.7
+3,3,MAXI SKY 600,Maxi Sky 1000,llm,792953.0,ArjoHuntleigh,"Beds, Medical Furniture and Patient Transport",False,0.7
+4,4,DOPPLEX MD200 BI-DIR,MD2,llm,798194.0,ArjoHuntleigh,General Biomedical,False,0.6
+5,5,700-00511,516003,llm,796176.0,ArjoHuntleigh,Infusion Pumps,False,0.5
+6,6,TENOR KHA1000-US,Maxi Sky 1000,llm,792953.0,ArjoHuntleigh,"Beds, Medical Furniture and Patient Transport",False,0.6
+7,7,DOPPLEX II,MD2,llm,798194.0,ArjoHuntleigh,General Biomedical,False,0.5
+8,8,Maxi Sky,Maxi Sky 1000,llm,792953.0,ArjoHuntleigh,"Beds, Medical Furniture and Patient Transport",False,0.8
+9,9,Maxi Sky 2 Plus,Maxi Sky 1000,llm,792953.0,ArjoHuntleigh,"Beds, Medical Furniture and Patient Transport",False,0.7
+10,10,SD2-P,MD2,llm,798194.0,ArjoHuntleigh,General Biomedical,False,0.6
+11,11,Dopplex FD3,MD2,llm,798194.0,ArjoHuntleigh,General Biomedical,False,0.5
+12,12,WALKER              ,,no_match,,ArjoHuntleigh,,False,0.0
+13,13,MAXI MOVE,,no_match,,ArjoHuntleigh,,False,0.0
+14,14,CHORUS              ,,no_match,,ArjoHuntleigh,,False,0.0
+15,15,DOPPLEX,,no_match,,ArjoHuntleigh,,False,0.0
+16,16,210041-01,,no_match,,ArjoHuntleigh,,False,0.0
+17,17,MAXI LITE           ,,no_match,,ArjoHuntleigh,,False,0.0
+18,18,ENCORE WITH SCALE   ,,no_match,,ArjoHuntleigh,,False,0.0
+19,19,SARA STEADY,,no_match,,ArjoHuntleigh,,False,0.0
+20,20,Sara ,,no_match,,ArjoHuntleigh,,False,0.0
+21,21,Sara,,no_match,,ArjoHuntleigh,,False,0.0
+22,22,MAXI AIR,,no_match,,ArjoHuntleigh,,False,0.0
+23,23,STEDY,,no_match,,ArjoHuntleigh,,False,0.0
+24,24,FD-1+,,no_match,,ArjoHuntleigh,,False,0.0
+25,25,Audio Dopplex,,no_match,,ArjoHuntleigh,,False,0.0
+26,26,Fetal Dopplex II,,no_match,,ArjoHuntleigh,,False,0.0
+27,27,Flowtron Universal,,no_match,,ArjoHuntleigh,,False,0.0
+28,28,PST-405,,no_match,,ArjoHuntleigh,,False,0.0
+29,29,Flowtron ACS900,,no_match,,ArjoHuntleigh,,False,0.0
+30,30,Sara 3000,,no_match,,ArjoHuntleigh,,False,0.0
+31,31,Maxi 500,,no_match,,ArjoHuntleigh,,False,0.0
+32,32,Sara Stedy,,no_match,,ArjoHuntleigh,,False,0.0
+33,33,Fetal Dopplex,,no_match,,ArjoHuntleigh,,False,0.0
+34,34,Mini Dopplex,,no_match,,ArjoHuntleigh,,False,0.0
+35,35,PS800,,no_match,,ArjoHuntleigh,,False,0.0
+36,36,078500-01,,no_match,,ArjoHuntleigh,,False,0.0
+37,37,Multi Dopplex II,,no_match,,ArjoHuntleigh,,False,0.0
+38,38,Opera,,no_match,,ArjoHuntleigh,,False,0.0
+39,39,Super Doplex II,,no_match,,ArjoHuntleigh,,False,0.0
+40,40,MaxiMove,,no_match,,ArjoHuntleigh,,False,0.0
+41,41,MaxiMove 2,,no_match,,ArjoHuntleigh,,False,0.0
+42,42,Sara Plus,,no_match,,ArjoHuntleigh,,False,0.0
+43,43,ref 1075,,no_match,,ArjoHuntleigh,,False,0.0
+44,44,DVT,,no_match,,ArjoHuntleigh,,False,0.0
+45,45,EXCEL,,no_match,,ArjoHuntleigh,,False,0.0
+46,46,AC550/DVT,,no_match,,ArjoHuntleigh,,False,0.0
+47,47,Flowtron Excel AC550,,no_match,,ArjoHuntleigh,,False,0.0
+48,48,FLOWTRON AC/200,,no_match,,ArjoHuntleigh,,False,0.0
+49,49,550,,no_match,,ArjoHuntleigh,,False,0.0
+50,50,Sara Flex,,no_match,,ArjoHuntleigh,,False,0.0
+51,51,ATP-9UL,,no_match,,ArjoHuntleigh,,False,0.0
+52,52,Flowtron Excel,,no_match,,ArjoHuntleigh,,False,0.0
+53,53,Tenor,,no_match,,ArjoHuntleigh,,False,0.0
+54,54,Multi Dopplex,,no_match,,ArjoHuntleigh,,False,0.0
+55,55,FLOWTRON EXCEL,,no_match,,ArjoHuntleigh,,False,0.0
+56,56,Maxi Air,,no_match,,ArjoHuntleigh,,False,0.0
+57,57,Encore,,no_match,,ArjoHuntleigh,,False,0.0
+58,58,Maxi-Air,,no_match,,ArjoHuntleigh,,False,0.0
+59,59,Walker,,no_match,,ArjoHuntleigh,,False,0.0
+60,60,Flowtron DVT,,no_match,,ArjoHuntleigh,,False,0.0
+61,61,MAXI MOVE KMCLXN,,no_match,,ArjoHuntleigh,,False,0.0
+62,62,AUTO LOGIC,,no_match,,ArjoHuntleigh,,False,0.0
+63,63,Maxi Lite,,no_match,,ArjoHuntleigh,,False,0.0
+64,64,SARA STEDY,,no_match,,ArjoHuntleigh,,False,0.0
+65,65,SONICAID ONE,,no_match,,ArjoHuntleigh,,False,0.0
+66,66,Stedy,,no_match,,ArjoHuntleigh,,False,0.0
+67,67,Vital Go,,no_match,,ArjoHuntleigh,,False,0.0
+68,68,SR2 Sonicaid,,no_match,,ArjoHuntleigh,,False,0.0
+69,69,Exam Chair,,no_match,,ArjoHuntleigh,,False,0.0
+70,70,Sara Combilizer,,no_match,,ArjoHuntleigh,,False,0.0
+71,71,DMX,,no_match,,ArjoHuntleigh,,False,0.0
+72,72,WakeMed Unknown Model,,no_match,,ArjoHuntleigh,,False,0.0
+73,73,001B,,no_match,,ArjoHuntleigh,,False,0.0
+74,74,NTB2000,,no_match,,ArjoHuntleigh,,False,0.0
+75,75,D920,,no_match,,ArjoHuntleigh,,False,0.0
+0,0,NONE                ,,no_match,,Air Shields,,False,0.9
+1,1,PM78-1,,no_match,,Air Shields,,False,0.9
+2,2,C100 SIMULATOR,,no_match,,Air Shields,,False,0.9
+3,3,Dia Pump,,no_match,,Air Shields,,False,0.9
+4,4,Resuscitaire,,no_match,,Air Shields,,False,0.9
+5,5,_,,no_match,,Air Shields,,False,0.9
+6,6,Fluoro-Lite,,no_match,,Air Shields,,False,0.9
+7,7,JM102,,no_match,,Air Shields,,False,0.9
+8,8,TI500 PROBE SIMULATO,,no_match,,Air Shields,,False,0.9
+9,9,3800,,no_match,,Air Shields,,False,0.9
+10,10,"Incubators, Infant",,no_match,,Air Shields,,False,0.9
+11,11,STRETCHER,,no_match,,Air Shields,,False,0.9
+12,12,N15,,no_match,,Air Shields,,False,0.9
+13,13,MAXTOR OPTICAL,,no_match,,Air Shields,,False,0.9
+0,0,HTP-1500,HTP-1500,exact,765456.0,Adroit,General Biomedical,True,
+1,1,Heat Therapy Pump,HTP-1500,llm,765456.0,Adroit,General Biomedical,False,0.8
+2,2,TFR-1,,no_match,,Adroit,,False,0.0
+3,3,Test Equipment,,no_match,,Adroit,,False,0.0
+0,0,AVOXIMETER,,no_match,,AVOX Systems,,False,0.5
+0,0,MS140-300,MS140-300,exact,769217.0,Brecknell,Patient Care and Exam,True,
+1,1,HS300,,no_match,,Brecknell,,False,0.0
+0,0,Microfuse,MicroFuse,exact,5465.0,Baxa,Infusion Pumps,True,
+1,1,MICRO FUSE,microfuse,skip_special_chars,,Baxa,,False,
+2,2,REPEATER PUMP,,no_match,,Baxa,,False,0.0
+3,3,COLLEAGUE,,no_match,,Baxa,,False,0.0
+4,4,95,,no_match,,Baxa,,False,0.0
+5,5,2400-M,,no_match,,Baxa,,False,0.0
+6,6,99R,,no_match,,Baxa,,False,0.0
+7,7,2400-MR,,no_match,,Baxa,,False,0.0
+0,0,FILM PROCESSOR,,no_match,,AFP Imaging ,,False,1.0
+0,0,MOBILE              ,,no_match,,Adec,,False,0.0
+1,1,MOBILE,,no_match,,Adec,,False,0.0
+0,0,Peri Pro III,periproiii,skip_special_chars,,Air Techniques,,False,
+1,1,VACSTAR 80,VacStar 80,exact,790016.0,Air Techniques,General Biomedical,True,
+2,2,PERI-PRO III,Peri-Pro III,exact,737437.0,Air Techniques,Processor/Imager,True,
+3,3,ScanX,ScanX Duo,llm,763628.0,Air Techniques,Molecular,False,0.8
+4,4,A/T 2000,AT2000 Plus,llm,2639.0,Air Techniques,Processor/Imager,False,0.9
+0,0,ENDOGATOR,EndoGator,exact,752307.0,Byrne Medical,Infusion Pumps,True,
+0,0,D-325,d325,skip_special_chars,,Bennett X-Ray,,False,
+1,1,HFQ-3000P,HFQ-3000P,exact,750955.0,Bennett X-Ray,Diagnostic Imaging,True,
+2,2,HFQ-6000P,HFQ-6000P,exact,738218.0,Bennett X-Ray,Diagnostic Imaging,True,
+3,3,_,,no_match,,Bennett X-Ray,,False,0.0
+4,4,V-79M17,,no_match,,Bennett X-Ray,,False,0.0
+5,5,V79M36,,no_match,,Bennett X-Ray,,False,0.0
+0,0,AFINION,,no_match,,Axis Communications,,False,1.0
+0,0,L550-01,,no_match,,Americomp,,False,0.0
+1,1,L17701,,no_match,,Americomp,,False,0.0
+2,2,L500-13,,no_match,,Americomp,,False,0.0
+3,3,L550-29,,no_match,,Americomp,,False,0.0
+4,4,9992305300-U,,no_match,,Americomp,,False,0.0
+0,0,SCAN X (D5000-F),Scan-X Trek,llm,791082.0,AllPro Imaging,Processor/Imager,False,0.7
+1,1,SCAN X 14 PORTABLE (,Scan-X Trek,llm,791082.0,AllPro Imaging,Processor/Imager,False,0.6
+0,0,WATERLASE MD TURBO,,no_match,,Biolase Technology,,False,0.8
+0,0,HEMA-TEK 2000,Hema-Tek 2000,exact,4248.0,Bayer,Histology,True,
+1,1,RAPID POINT 400,rapidpoint400,skip_special_chars,,Bayer,,False,
+2,2,HEMATEK,Hema-Tek 2000,llm,4248.0,Bayer,Histology,False,0.8
+3,3,MRXperion,DCS-MRXP,llm,787716.0,Bayer,General Laboratory,False,0.7
+4,4,MEDRAD MRXPERION MR,DCS-MRXP,llm,787716.0,Bayer,General Laboratory,False,0.7
+5,5,Contour,Ascensia Contour,llm,10426.0,Bayer,Chemistry,False,0.9
+6,6,Visble Genetics Opengene Long Read Tower,,no_match,,Bayer,,False,0.0
+7,7,CLINITEK 200+,,no_match,,Bayer,,False,0.0
+8,8,_,,no_match,,Bayer,,False,0.0
+9,9,Stellant Flex,,no_match,,Bayer,,False,0.0
+10,10,Jetstream,,no_match,,Bayer,,False,0.0
+11,11,Stellant Certegra WS,,no_match,,Bayer,,False,0.0
+12,12,Stellant D,,no_match,,Bayer,,False,0.0
+13,13,Medrad Mark 7,,no_match,,Bayer,,False,0.0
+14,14,CLINITEK 500,,no_match,,Bayer,,False,0.0
+15,15,Advia 120,,no_match,,Bayer,,False,0.0
+16,16,Advia 2120,,no_match,,Bayer,,False,0.0
+17,17,Stellant,,no_match,,Bayer,,False,0.0
+18,18,Arterion,,no_match,,Bayer,,False,0.0
+19,19,ADVIA CENTAUR XP,,no_match,,Bayer,,False,0.0
+20,20,STELLANT CT INJECTOR,,no_match,,Bayer,,False,0.0
+21,21,CLINITEK STATUS +,,no_match,,Bayer,,False,0.0
+22,22,6470,,no_match,,Bayer,,False,0.0
+23,23,URINE ANALYZER,,no_match,,Bayer,,False,0.0
+24,24,Stellant Flex RM,,no_match,,Bayer,,False,0.0
+25,25,Clinitek Status,,no_match,,Bayer,,False,0.0
+26,26,M634,,no_match,,Bayer,,False,0.0
+27,27,NONE,,no_match,,Bayer,,False,0.0
+28,28,CENTAUR,,no_match,,Bayer,,False,0.0
+29,29,DCA 2000+,,no_match,,Bayer,,False,0.0
+30,30,Clinitek Advantus,,no_match,,Bayer,,False,0.0
+31,31,5417,,no_match,,Bayer,,False,0.0
+32,32,CLINITEK 50,,no_match,,Bayer,,False,0.0
+0,0,58223,,no_match,,American Scientific,,False,0.0
+1,1,BACTI-CINERATOR     ,,no_match,,American Scientific,,False,0.0
+2,2,VORTEX,,no_match,,American Scientific,,False,0.0
+0,0,MICROFLEX LT/SH,microflex LT,llm,11310.0,Bruker Daltonics,Mass Spectrometers and Chromatographs,False,0.9
+1,1,MicroFlex LT/SH,microflex LT,llm,11310.0,Bruker Daltonics,Mass Spectrometers and Chromatographs,False,0.9
+2,2,MALDI,,no_match,,Bruker Daltonics,,False,0.0
+0,0,L550-27,,no_match,,Amrad,,False,0.0
+0,0,3012 SERIES,3012,llm,796303.0,Accu-Scope,General Laboratory,False,0.9
+1,1,Accu-Scope 3004,3004,llm,11443.0,Accu-Scope,General Laboratory,False,0.85
+0,0,3210,,no_match,,American Bantex Derbie,,False,0.0
+0,0,HOTDOG,,no_match,,Augustine Medical,,False,0.0
+1,1,Bair Hugger,,no_match,,Augustine Medical,,False,0.0
+2,2,200,,no_match,,Augustine Medical,,False,0.0
+3,3,Ranger Blood Warmer,,no_match,,Augustine Medical,,False,0.0
+0,0,Aspen VAC,,no_match,,Aspen Labs,,False,0.0
+1,1,TOURNIQUET SYSTEM,,no_match,,Aspen Labs,,False,0.0
+2,2,Electrosurgical Unit,,no_match,,Aspen Labs,,False,0.0
+0,0,G3,,no_match,,Arrow International,,False,0.0
+0,0,PICCOLO XPRESS,Piccolo Xpress,exact,749684.0,Abaxis,General Laboratory,True,
+1,1,Piccolo Xpress,Piccolo Xpress,exact,749684.0,Abaxis,General Laboratory,True,
+0,0,SA-2000,SA-2000,exact,792432.0,BC Biomedical,General Laboratory,True,
+1,1,DPM-2001,dpm2001,skip_special_chars,,BC Biomedical,,False,
+2,2,OGX-1900-A,,no_match,,BC Biomedical,,False,0.0
+0,0,3000i,,no_match,,Alpha Technics,,False,0.9
+0,0,BY80,,no_match,,Beurer,,False,1.0
+0,0,VR-PIUV-OMDN,,no_match,,Amvex Corporation,,False,
+1,1,_,,no_match,,Amvex Corporation,,False,
+2,2,C3A,,no_match,,Amvex Corporation,,False,
+3,3,VR-C3,,no_match,,Amvex Corporation,,False,
+4,4,VR-CI Series,,no_match,,Amvex Corporation,,False,
+5,5,CHA,,no_match,,Amvex Corporation,,False,
+6,6,X1,,no_match,,Amvex Corporation,,False,
+0,0,ABT-HC-MFP-20,ABT-HC-MFP-20,exact,797729.0,American Biotech Supply,Refrigeration,True,
+1,1,Med Freezer,Freezer,llm,759766.0,American Biotech Supply,Refrigeration,False,0.7
+2,2,Medfridge,Refrigerator,llm,768958.0,American Biotech Supply,Refrigeration,False,0.6
+3,3,Med Fridge,,no_match,,American Biotech Supply,,False,0.0
+4,4,_,,no_match,,American Biotech Supply,,False,0.0
+5,5,LR454A,,no_match,,American Biotech Supply,,False,0.0
+6,6,104,,no_match,,American Biotech Supply,,False,0.0
+0,0,PADnet+,padnet,skip_special_chars,,Biomedix,,False,
+1,1,Bact/Alert Virtuo,,no_match,,Biomedix,,False,0.0
+0,0,RM1702PS-1,RM1700W,llm,789863.0,Avanti,Refrigeration,False,0.8
+1,1,R5007,,no_match,,Avanti,,False,0.0
+0,0,OTO-Chek,OTO-Chek,exact,760840.0,AMBCO,Miscellaneous,True,
+1,1,1000,1000 + Otoscreen,llm,8988.0,AMBCO,Patient Care and Exam,False,0.9
+0,0,Luxor,LuxOR,exact,765466.0,Alcon,General Laboratory,True,
+1,1,Centurion,Centurion,exact,758511.0,Alcon,Optometry,True,
+2,2,Constellation LXT,CONSTELLATION Vision System,llm,746286.0,Alcon,Optometry,False,0.8
+3,3,Constellation,CONSTELLATION Vision System,llm,746286.0,Alcon,Optometry,False,0.9
+4,4,Accurus,Accurus High Brightness Illuminator (AHBI),llm,742747.0,Alcon,Endoscopy,False,0.7
+5,5,Infiniti Vision,,no_match,,Alcon,,False,0.0
+6,6,Infiniti,,no_match,,Alcon,,False,0.0
+7,7,INFINITI VISION SYST,,no_match,,Alcon,,False,0.0
+8,8,Legacy,,no_match,,Alcon,,False,0.0
+0,0,El Dorado,,no_match,,"ABCO Laboratories, INC",,False,0.0
+1,1,eL dORADO,,no_match,,"ABCO Laboratories, INC",,False,0.0
+2,2,PHOTO,,no_match,,"ABCO Laboratories, INC",,False,0.0
+0,0,AII-2000 A,,no_match,,Analytical Solutions & Providers (ASAP),,False,0.8
+0,0,132000,132000,exact,758569.0,Boekel Scientific,General Laboratory,True,
+1,1,107905,107905,exact,796831.0,Boekel Scientific,Office & Hospitality Supplies,True,
+2,2,131400,131400,exact,758568.0,Boekel Scientific,General Laboratory,True,
+3,3,107800,107800,exact,758490.0,Boekel Scientific,Office & Hospitality Supplies,True,
+4,4,113002,113002,exact,754787.0,Boekel Scientific,General Laboratory,True,
+5,5,Pipet Dryer 1372,1372,llm,748953.0,Boekel Scientific,,False,0.9
+6,6,BTAL,Bath Laboratory,llm,758489.0,Boekel Scientific,General Laboratory,False,0.7
+7,7,Laboratory Incubator 131500,Incubator,llm,737390.0,Boekel Scientific,General Laboratory,False,0.8
+8,8,"Lighted Tissue Flotation Bath, 145702 (115V/230V)",145702,llm,758488.0,Boekel Scientific,General Laboratory,False,0.95
+9,9,WATER BATH,Bath Laboratory,llm,758489.0,Boekel Scientific,General Laboratory,False,0.6
+10,10,Flotation Bath III,Bath Laboratory,llm,758489.0,Boekel Scientific,General Laboratory,False,0.7
+11,11,NS,,no_match,,Boekel Scientific,,False,0.0
+12,12,260680,,no_match,,Boekel Scientific,,False,0.0
+13,13,Pipet Washer/Dryer 137100,,no_match,,Boekel Scientific,,False,0.0
+14,14,M7654-8,,no_match,,Boekel Scientific,,False,0.0
+15,15,145802,,no_match,,Boekel Scientific,,False,0.0
+16,16,HOT TUB,,no_match,,Boekel Scientific,,False,0.0
+17,17,S/P TISSUE PROCESSOR,,no_match,,Boekel Scientific,,False,0.0
+18,18,FLASK DANCER,,no_match,,Boekel Scientific,,False,0.0
+19,19,138000,,no_match,,Boekel Scientific,,False,0.0
+20,20,Cat M7654-1A,,no_match,,Boekel Scientific,,False,0.0
+21,21,M7654-1A,,no_match,,Boekel Scientific,,False,0.0
+22,22,133001,,no_match,,Boekel Scientific,,False,0.0
+23,23,112001BIO,,no_match,,Boekel Scientific,,False,0.0
+24,24,_,,no_match,,Boekel Scientific,,False,0.0
+25,25,201100,,no_match,,Boekel Scientific,,False,0.0
+26,26,XH-1003,,no_match,,Boekel Scientific,,False,0.0
+27,27,301550,,no_match,,Boekel Scientific,,False,0.0
+28,28,301200 agitator,,no_match,,Boekel Scientific,,False,0.0
+29,29,ORBITRON ROTATOR I,,no_match,,Boekel Scientific,,False,0.0
+30,30,CCC2.5d,,no_match,,Boekel Scientific,,False,0.0
+31,31,115002,,no_match,,Boekel Scientific,,False,0.0
+32,32,Unknown      ?1,,no_match,,Boekel Scientific,,False,0.0
+33,33,Unknown,,no_match,,Boekel Scientific,,False,0.0
+34,34,NONE,,no_match,,Boekel Scientific,,False,0.0
+35,35,145700,,no_match,,Boekel Scientific,,False,0.0
+36,36,260450,,no_match,,Boekel Scientific,,False,0.0
+37,37,280150,,no_match,,Boekel Scientific,,False,0.0
+38,38,VB-350,,no_match,,Boekel Scientific,,False,0.0
+39,39,282000,,no_match,,Boekel Scientific,,False,0.0
+0,0,Frisk-Tech,,no_match,,Bicron,,False,0.0
+0,0,VC-II,,no_match,,Berkeley Nucleonics Corporation,,False,0.0
+1,1,VC-10,,no_match,,Berkeley Nucleonics Corporation,,False,0.0
+0,0,AX10,,no_match,,Angenieux,,False,0.0
+1,1,AX-10,,no_match,,Angenieux,,False,0.0
+0,0,QS12,QS12,exact,768782.0,Avantik Biogroup,Histology,True,
+0,0,BCI,,no_match,,BCI International,,False,0.0
+1,1,_,,no_match,,BCI International,,False,0.0
+0,0,Chromalume Turbo,ChromaLUME,llm,796606.0,BFW,Endoscopy,False,0.8
+1,1,Hatteras,,no_match,,BFW,,False,0.0
+2,2,MAXILLUME,,no_match,,BFW,,False,0.0
+0,0,CARDIO 60,Cardio EPIC,llm,794154.0,ADAC,Nuclear Medicine,False,0.7
+1,1,Asepsis 21,,no_match,,ADAC,,False,0.0
+2,2,FORTE,,no_match,,ADAC,,False,0.0
+3,3,PEGASYS,,no_match,,ADAC,,False,0.0
+4,4,Skylight,,no_match,,ADAC,,False,0.0
+5,5,Vertex Epic Plus,,no_match,,ADAC,,False,0.0
+6,6,FORTE JETSTREAM,,no_match,,ADAC,,False,0.0
+7,7,SKYLIGHT,,no_match,,ADAC,,False,0.0
+0,0,3805,,no_match,,Associated X-Ray Corp,,False,0.0
+0,0,QuickRinse,QuickRinse,exact,768783.0,Advanced Optisurgical,Sterilization,True,
+0,0,CARTO XP,CARTO XP,exact,738462.0,Biosense Webster,Surgery,True,
+1,1,STOCKERT 70,Stockert 70,exact,756889.0,Biosense Webster,General Biomedical,True,
+2,2,CARTO 3,CARTO 3,exact,751611.0,Biosense Webster,Surgery,True,
+3,3,SMARTABLATE,SmartAblate,exact,764618.0,Biosense Webster,Surgery,True,
+4,4,Stockert 70,Stockert 70,exact,756889.0,Biosense Webster,General Biomedical,True,
+5,5,Carto 3,CARTO 3,exact,751611.0,Biosense Webster,Surgery,True,
+6,6,SmartAblate,SmartAblate,exact,764618.0,Biosense Webster,Surgery,True,
+7,7,nGen,nGEN,exact,801674.0,Biosense Webster,Electrical,True,
+8,8,Smart Ablate M490003,SmartAblate,llm,764618.0,Biosense Webster,Surgery,False,0.9
+9,9,Smart Ablate System,SmartAblate,llm,764618.0,Biosense Webster,Surgery,False,0.95
+10,10,SmartAblate Pump,SmartAblate,llm,764618.0,Biosense Webster,Surgery,False,0.85
+11,11,nGen Pump,nGEN,llm,801674.0,Biosense Webster,Electrical,False,0.9
+12,12,Smart Ablate Remote,SmartAblate,llm,764618.0,Biosense Webster,Surgery,False,0.85
+13,13,Carto 3 System,CARTO 3,llm,751611.0,Biosense Webster,Surgery,False,0.95
+14,14,SmartAblate System,SmartAblate,llm,764618.0,Biosense Webster,Surgery,False,0.95
+15,15,COOLFLOW,,no_match,,Biosense Webster,,False,0.0
+16,16,Cool Flow,,no_match,,Biosense Webster,,False,0.0
+17,17,CARTO Prime,,no_match,,Biosense Webster,,False,0.0
+18,18,TruDi,,no_match,,Biosense Webster,,False,0.0
+19,19,M685306,,no_match,,Biosense Webster,,False,0.0
+20,20,M490004,,no_match,,Biosense Webster,,False,0.0
+21,21,M596820,,no_match,,Biosense Webster,,False,0.0
+22,22,SPU,,no_match,,Biosense Webster,,False,0.0
+23,23,_,,no_match,,Biosense Webster,,False,0.0
+24,24,NMarq,,no_match,,Biosense Webster,,False,0.0
+25,25,KT-5400-222FG,,no_match,,Biosense Webster,,False,0.0
+26,26,TruPulse,,no_match,,Biosense Webster,,False,0.0
+27,27,COOL FLOW,,no_match,,Biosense Webster,,False,0.0
+28,28,CFP002,,no_match,,Biosense Webster,,False,0.0
+29,29,nMARQ,,no_match,,Biosense Webster,,False,0.0
+0,0,faxitron,,no_match,,Bioptics,,False,0.0
+0,0,750,,no_match,,Belkin,,False,0.0
+1,1,F6C1500,,no_match,,Belkin,,False,0.0
+2,2,550,,no_match,,Belkin,,False,0.0
+0,0,3.1kVA,,no_match,,Best Power,,False,0.9
+1,1,05251425RU,,no_match,,Best Power,,False,0.9
+2,2,LI360VA,,no_match,,Best Power,,False,0.9
+3,3,LR44950,,no_match,,Best Power,,False,0.9
+4,4,Unknown,,no_match,,Best Power,,False,1.0
+5,5,MCR2000,,no_match,,Best Power,,False,0.9
+0,0,AL2216W,2216W,llm,744274.0,Acer,Hardware,False,0.9
+1,1,AL2616W,,no_match,,Acer,,False,0.0
+2,2,V7 Series,,no_match,,Acer,,False,0.0
+3,3,-,,no_match,,Acer,,False,0.0
+4,4,V203H,,no_match,,Acer,,False,0.0
+5,5,AL715,,no_match,,Acer,,False,0.0
+6,6,AL712,,no_match,,Acer,,False,0.0
+7,7,AL2416Wsd,,no_match,,Acer,,False,0.0
+8,8,7133S,,no_match,,Acer,,False,0.0
+9,9,AL1916,,no_match,,Acer,,False,0.0
+0,0,CERALAS D180,,no_match,,Biolitec,,False,0.9
+0,0,EMAX,EMax 2 Plus,llm,801725.0,Anspach,Surgery,False,0.7
+1,1,SC3002,,no_match,,Anspach,,False,0.0
+2,2,_,,no_match,,Anspach,,False,0.0
+3,3,SYNTHES GmbH,,no_match,,Anspach,,False,0.0
+4,4,XMax,,no_match,,Anspach,,False,0.0
+5,5,SC2000,,no_match,,Anspach,,False,0.0
+6,6,SC1000-1,,no_match,,Anspach,,False,0.0
+0,0,airsep corp,,no_match,,AirSep,,False,0.0
+0,0,Maxi lite,,no_match,,BHM Medical,,False,0.8
+0,0,Cardiocare 2000,CardioCare 2000,exact,758390.0,Bionet,Patient Monitoring Systems,True,
+0,0,Black Diamond,,no_match,,Bosch,,False,0.0
+0,0,ATW-R73,,no_match,,"Audio-Technica U.S., Inc.",,False,0.0
+0,0,P5-36-HEAD-A,PurAir-P5-36-XT,llm,799891.0,Air Science,General Laboratory,False,0.85
+1,1,purair flow -Head A,,no_match,,Air Science,,False,0.6
+2,2,Purair LF Series,,no_match,,Air Science,,False,0.5
+0,0,PERFORMA,Performa,exact,4677.0,Acoustic Imaging,Ultrasound,True,
+0,0,Desert Chamber,,no_match,,Biocare Medical,,False,0.9
+0,0,Sumitomo,,no_match,,Airsys,,False,1.0
+0,0,TACERA,,no_match,,AUSTCO,,False,0.0
+0,0,Triple Output,,no_match,,BK Precision,,False,0.0
+1,1,3026,,no_match,,BK Precision,,False,0.0
+0,0,DM9C,,no_match,,Amprobe,,False,0.0
+1,1,DM73C,,no_match,,Amprobe,,False,0.0
+2,2,ACD-10,,no_match,,Amprobe,,False,0.0
+3,3,34XR-A,,no_match,,Amprobe,,False,0.0
+0,0,Magellan,Magellan,exact,755588.0,Arteriocyte,General Laboratory,True,
+0,0,LS75,Bear Cub 750,llm,5019.0,Bear,Respiratory,False,0.7
+1,1,LS-75,Bear Cub 750,llm,5019.0,Bear,Respiratory,False,0.7
+2,2,Bear Hugger,,no_match,,Bear,,False,0.0
+3,3,LS104-150,,no_match,,Bear,,False,0.0
+4,4,LS145,,no_match,,Bear,,False,0.0
+5,5,BP200,,no_match,,Bear,,False,0.0
+6,6,598700015,,no_match,,Bear,,False,0.0
+7,7,NVM-1900,,no_match,,Bear,,False,0.0
+8,8,L5104-150,,no_match,,Bear,,False,0.0
+9,9,LS460,,no_match,,Bear,,False,0.0
+10,10,LS 112-2,,no_match,,Bear,,False,0.0
+0,0,LT3000,,no_match,,Bender,,False,1.0
+0,0,ULBH6-15,,no_match,,Brooks Rand Instruments,,False,0.0
+1,1,7-10298,,no_match,,Brooks Rand Instruments,,False,0.0
+0,0,Gene Mate,,no_match,,Bioexpress,,False,0.5
+0,0,MB-10SLPM-D-30PSIA,,no_match,,"Alicat Scientific, Inc",,False,0.8
+0,0,M7654-1             ,M7654,llm,757416.0,Allegiance,General Laboratory,False,0.9
+1,1,145801              ,,no_match,,Allegiance,,False,0.0
+2,2,_,,no_match,,Allegiance,,False,0.0
+3,3,PULSEWAVE,,no_match,,Allegiance,,False,0.0
+4,4,40,,no_match,,Allegiance,,False,0.0
+5,5,30,,no_match,,Allegiance,,False,0.0
+6,6,STAT-60,,no_match,,Allegiance,,False,0.0
+0,0,ZeroG,ZeroG,exact,758258.0,Aretech,Patient Care and Exam,True,
+0,0,814,,no_match,,AEMC Inctruments (Chauvin Arnoux),,False,0.0
+0,0,MI0102005,,no_match,,Aurora Imaging Corporation,,False,0.0
+0,0,18-535-000,,no_match,,Briggs & Stratton,,False,0.9
+0,0,CASCADE,Cascade,exact,798388.0,Cadwell,General Biomedical,True,
+1,1,CASCADE PROP,Cascade Pro,llm,801085.0,Cadwell,General Biomedical,False,0.9
+2,2,190265-200,,no_match,,Cadwell,,False,0.0
+3,3,190261-200,,no_match,,Cadwell,,False,0.0
+4,4,190264-200,,no_match,,Cadwell,,False,0.0
+5,5,190262-200,,no_match,,Cadwell,,False,0.0
+6,6,190258-200,,no_match,,Cadwell,,False,0.0
+0,0,3200,,no_match,,Brinkmann,,False,0.0
+1,1,5415C,,no_match,,Brinkmann,,False,0.0
+2,2,5424,,no_match,,Brinkmann,,False,0.0
+0,0,Skyvision,,no_match,,Atlas Surgical,,False,0.0
+0,0,PL70644,,no_match,,ACME Scale Co. ,,False,0.0
+0,0,NA118,,no_match,,AMS,,False,0.0
+1,1,IM77,,no_match,,AMS,,False,0.0
+2,2,HYDRAULIC CAPILL,,no_match,,AMS,,False,0.0
+0,0,BFD 500,,no_match,,Alpha Technologies,,False,1.0
+0,0,340,,no_match,,Baldor,,False,0.8
+0,0,6386SX/ELW6S,,no_match,,AT&T,,False,
+1,1,Unknown,,no_match,,AT&T,,False,
+0,0,URC-PN,,no_match,,ATAGO,,False,0.8
+0,0,70660A1,,no_match,,Biochem Immunosystems,,False,
+1,1,70991A1,,no_match,,Biochem Immunosystems,,False,
+2,2,1040A,,no_match,,Biochem Immunosystems,,False,
+3,3,70450A1,,no_match,,Biochem Immunosystems,,False,
+4,4,71000A1,,no_match,,Biochem Immunosystems,,False,
+0,0,AC-CMS50DL,AC-CMS50D1,llm,792643.0,AccuMed,Patient Monitoring Systems,False,0.8
+1,1,950,,no_match,,AccuMed,,False,0.0
+0,0,SERIES 2000,,no_match,,"Bioject, Inc.",,False,0.8
+0,0,R-STIM II,R-STIM II,exact,14070.0,American Imex,General Biomedical,True,
+1,1,AI-86,,no_match,,American Imex,,False,0.9
+0,0,CLIMBER 4,,no_match,,BodyGuard,,False,0.0
+0,0,AccuPen,accupen,skip_special_chars,,Accutome,,False,
+0,0,6890N,6890N,exact,2784.0,Agilent Technologies,Mass Spectrometers and Chromatographs,True,
+1,1,79853C,79853C,exact,1128.0,Agilent Technologies,Mass Spectrometers and Chromatographs,True,
+2,2,G1316A,G1316A,exact,1140.0,Agilent Technologies,Mass Spectrometers and Chromatographs,True,
+3,3,G1322A,G1322A,exact,1142.0,Agilent Technologies,Mass Spectrometers and Chromatographs,True,
+4,4,G1311A,G1311A,exact,1134.0,Agilent Technologies,Mass Spectrometers and Chromatographs,True,
+5,5,G1314A,G1314A,exact,1137.0,Agilent Technologies,Mass Spectrometers and Chromatographs,True,
+6,6,79855A,79855A,exact,1130.0,Agilent Technologies,General Laboratory,True,
+7,7,6890,6890,exact,17834.0,Agilent Technologies,Mass Spectrometers and Chromatographs,True,
+8,8,1049A,1049A,exact,1160.0,Agilent Technologies,Mass Spectrometers and Chromatographs,True,
+9,9,G1313A,G1313A,exact,1136.0,Agilent Technologies,General Laboratory,True,
+10,10,1050,1050,exact,17860.0,Agilent Technologies,Mass Spectrometers and Chromatographs,True,
+11,11,M1026-60144,,no_match,,Agilent Technologies,,False,0.0
+12,12,M1041A,,no_match,,Agilent Technologies,,False,0.0
+13,13,M1006B,,no_match,,Agilent Technologies,,False,0.0
+14,14,M1205A,,no_match,,Agilent Technologies,,False,0.0
+15,15,M1020A,,no_match,,Agilent Technologies,,False,0.0
+16,16,M1002B,,no_match,,Agilent Technologies,,False,0.0
+17,17,M1350B,,no_match,,Agilent Technologies,,False,0.0
+18,18,M1008B,,no_match,,Agilent Technologies,,False,0.0
+19,19,M1116B,,no_match,,Agilent Technologies,,False,0.0
+20,20,79856A,,no_match,,Agilent Technologies,,False,0.0
+21,21,M404-M405,,no_match,,Agilent Technologies,,False,0.0
+22,22,Laserjet 2200D,,no_match,,Agilent Technologies,,False,0.0
+23,23,798536,,no_match,,Agilent Technologies,,False,0.0
+24,24,M2406A,,no_match,,Agilent Technologies,,False,0.0
+25,25,4100,,no_match,,Agilent Technologies,,False,0.0
+26,26,4000N,,no_match,,Agilent Technologies,,False,0.0
+27,27,M2300A,,no_match,,Agilent Technologies,,False,0.0
+28,28,4200n,,no_match,,Agilent Technologies,,False,0.0
+29,29,C4530B,,no_match,,Agilent Technologies,,False,0.0
+30,30,AR31030,,no_match,,Agilent Technologies,,False,0.0
+31,31,4050,,no_match,,Agilent Technologies,,False,0.0
+32,32,35900E,,no_match,,Agilent Technologies,,False,0.0
+33,33,1,,no_match,,Agilent Technologies,,False,0.0
+34,34,2300,,no_match,,Agilent Technologies,,False,0.0
+35,35,1100,,no_match,,Agilent Technologies,,False,0.0
+36,36,78581A,,no_match,,Agilent Technologies,,False,0.0
+37,37,LASERJET 6P,,no_match,,Agilent Technologies,,False,0.0
+38,38,895CXI,,no_match,,Agilent Technologies,,False,0.0
+39,39,M2604A,,no_match,,Agilent Technologies,,False,0.0
+40,40,M2601A,,no_match,,Agilent Technologies,,False,0.0
+41,41,C6428A,,no_match,,Agilent Technologies,,False,0.0
+42,42,D3977A,,no_match,,Agilent Technologies,,False,0.0
+43,43,M1383A,,no_match,,Agilent Technologies,,False,0.0
+44,44,M1400B,,no_match,,Agilent Technologies,,False,0.0
+45,45,Unknown,,no_match,,Agilent Technologies,,False,0.0
+46,46,C6455A,,no_match,,Agilent Technologies,,False,0.0
+0,0,4254-S,,no_match,,Ainsworth & Sons,,False,0.0
+0,0,8400,,no_match,,B/R Instrument Corporation,,False,0.0
+1,1,BR-COF-89,,no_match,,B/R Instrument Corporation,,False,0.0
+0,0,TA3800,,no_match,,Alexander Technologies,,False,0.9
+0,0,ZPP,,no_match,,Aviv Biomedical,,False,0.0
+0,0,EM-1,,no_match,,Brown,,False,0.0
+0,0,650,,no_match,,Cambridge Instruments,,False,0.0
+0,0,DM5000A,,no_match,,Altair,,False,0.9
+0,0,355A,355A,exact,2617.0,Byers Industries,Processor/Imager,True,
+0,0,iP4200,,no_match,,Cannon Instrument Company,,False,0.9
+0,0,Automated Impella Controller w/smartassist,Automated Impella Controller (AIC),llm,752853.0,ABIOMED,Surgery,False,0.9
+1,1,0042-0040 Automated Impella Controller,Automated Impella Controller (AIC),llm,752853.0,ABIOMED,Surgery,False,0.85
+2,2,Impella Control,Automated Impella Controller (AIC),llm,752853.0,ABIOMED,Surgery,False,0.6
+3,3,Impella Controll,Automated Impella Controller (AIC),llm,752853.0,ABIOMED,Surgery,False,0.6
+4,4,Impella Controller,Automated Impella Controller (AIC),llm,752853.0,ABIOMED,Surgery,False,0.7
+5,5,AIC Impella,Automated Impella Controller (AIC),llm,752853.0,ABIOMED,Surgery,False,0.9
+6,6,IPX1,,no_match,,ABIOMED,,False,0.0
+7,7,Impella Mobile,,no_match,,ABIOMED,,False,0.0
+8,8,Vista Pump,,no_match,,ABIOMED,,False,0.0
+9,9,IMPELLA,,no_match,,ABIOMED,,False,0.0
+10,10,BVS5000I,,no_match,,ABIOMED,,False,0.0
+0,0,White Star Signature,whitestarsignature,skip_special_chars,,Abbott Medical Optics (AMO),,False,
+1,1,3531,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+2,2,i2000SR,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+3,3,TDX FLX,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+4,4,AB1A3201,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+5,5,I1000SR,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+6,6,PRIMARY CONSOLE 2ND GENERATION CentriMag - 201-90411,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+7,7,CardioMEMS HF System CM3000,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+8,8,NT20001X RADIOFREQUENCY GENERATOR,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+9,9,AFINION 2,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+10,10,ARCHITECT i,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+11,11,Ensite X EP SYSTEM,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+12,12,H700488 Ampere Generator,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+13,13,Alinity ci series,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+14,14,IONICRF GENERATOR,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+15,15,IMX,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+16,16,CELL-DYN SAPPHIRE,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+17,17,COMMANDER,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+18,18,QUANTUM II,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+19,19,AXSYM,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+20,20,CLINIFUGE,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+21,21,CELL-DYN 3000,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+22,22,ARCHITECT,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+23,23,CELL-DYN RUBY,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+24,24,CELL-DYN EMERALD,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+25,25,CENTRIMAG,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+26,26,EQ002002A,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+27,27,ID NOW,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+28,28,CELL-DYN EMERALD 22,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+29,29,Merlin 2,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+30,30,SensiTherm Multi Monitor,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+31,31,Alinity i,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+32,32,Alinity c,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+33,33,MERLIN PROGRAMMER,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+34,34,i-STAT 1,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+35,35,Ensite X,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+36,36,iSTAT 1,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+37,37,I-STAT,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+38,38,300W,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+39,39,Afinion2,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+40,40,Heartmate Touch,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+41,41,_,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+42,42,Flexiflo Quantum,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+43,43,PATROL,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+44,44,Tec 7 Sevo,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+45,45,1116986,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+46,46,ARCHITECT i1000SR,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+47,47,Afinion 2,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+48,48,LIFECARE,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+49,49,950,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+50,50,FUTURA 950,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+51,51,Flexiflo Companion,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+52,52,FLEXIFLO,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+53,53,Alinity CI Series,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+54,54,ISTAT,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+55,55,i-STAT,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+56,56,Cardiomems,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+57,57,MERLIN2,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+58,58,ViewMATE,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+59,59,Quantum,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+60,60,Downloader Network,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+61,61,SevoTec 5,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+62,62,Precision PCX,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+63,63,Merlin 2 PCS,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+64,64,TLi IQ System,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+65,65,FEEDING PUMP,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+66,66,"Infusion Pumps, Syri",,no_match,,Abbott Medical Optics (AMO),,False,0.0
+67,67,Architect Plus,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+68,68,Architect iARM,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+69,69,Architect,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+70,70,Mag Monitor,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+71,71,Primary Consule,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+72,72,Primari Console,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+73,73,CM3100,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+74,74,Optis,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+75,75,Precision Xceed Pro,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+76,76,Freestyle Lite,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+77,77,Precision Xtra,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+78,78,300,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+79,79,100175579,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+80,80,DN-300,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+81,81,MT14325A,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+82,82,DRC-300,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+83,83,6X486D6616H,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+84,84,PR-300,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+85,85,PSXP302254DOX,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+86,86,Heartmate II,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+87,87,S75EDZ8FNC,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+88,88,DRN-300,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+89,89,NYSTAR PLUS,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+90,90,FreeStyle Precision pro,,no_match,,Abbott Medical Optics (AMO),,False,0.0
+0,0,Medicacento IPX HD,,no_match,,Black Box,,False,
+1,1,Black Box GbE,,no_match,,Black Box,,False,
+0,0,AUTO MIXER,,no_match,,Allied Telesyn,,False,0.0
+0,0,iPad,iPad,exact,749261.0,Apple,Hardware,True,
+0,0,ATOMLAB 930,Atomlab 930,exact,5461.0,Biodex,Nuclear Medicine,True,
+1,1,ATOMLAB 960,Atomlab 960,exact,792072.0,Biodex,Nuclear Medicine,True,
+2,2,PULMONEX II,Pulmonex II,exact,14869.0,Biodex,,True,
+3,3,ATOM LAB 960,atomlab960,skip_special_chars,,Biodex,,False,
+4,4,Biostep,BioStep,exact,752127.0,Biodex,Patient Care and Exam,True,
+5,5,Ultra Pro,Ultra Pro,exact,752122.0,Biodex,"Beds, Medical Furniture and Patient Transport",True,
+6,6,ULTRA PRO,Ultra Pro,exact,752122.0,Biodex,"Beds, Medical Furniture and Patient Transport",True,
+7,7,Pulmonex II,Pulmonex II,exact,14869.0,Biodex,,True,
+8,8,Atomlab 200,Atomlab 200,exact,14440.0,Biodex,Nuclear Medicine,True,
+9,9,Atomlab 100,Atomlab 100,exact,14438.0,Biodex,Nuclear Medicine,True,
+10,10,Atomlab 930,Atomlab 930,exact,5461.0,Biodex,Nuclear Medicine,True,
+11,11,Atomlab 500,Atomlab 500,exact,768495.0,Biodex,Nuclear Medicine,True,
+12,12,945130,945130,skip_special_chars,,Biodex,,False,
+13,13,Atomlab 950,Atomlab 950,exact,14442.0,Biodex,Nuclear Medicine,True,
+14,14,Echo Pro,Echo Pro,exact,4423.0,Biodex,"Beds, Medical Furniture and Patient Transport",True,
+15,15,BIOSTEP,BioStep,exact,752127.0,Biodex,Patient Care and Exam,True,
+16,16,biostep,BioStep,exact,752127.0,Biodex,Patient Care and Exam,True,
+17,17,Atomlab 960,Atomlab 960,exact,792072.0,Biodex,Nuclear Medicine,True,
+18,18,ATOMLAB 950,Atomlab 950,exact,14442.0,Biodex,Nuclear Medicine,True,
+19,19,ATOMLAB 100,Atomlab 100,exact,14438.0,Biodex,Nuclear Medicine,True,
+20,20,Ultra Pro Ultrasound Table - 058-726,Ultra Pro,llm,752122.0,Biodex,"Beds, Medical Furniture and Patient Transport",False,0.7
+21,21,Ultra Pro Ultrasound Table 058-720,058-720,llm,792824.0,Biodex,"Beds, Medical Furniture and Patient Transport",False,0.9
+22,22,Atomlab Dose Calibrator 500 (086-330),Atomlab 500,llm,768495.0,Biodex,Nuclear Medicine,False,0.8
+23,23,Pulmonex II Xenon System 132-503,Pulmonex II,llm,14869.0,Biodex,,False,0.85
+24,24,058-710,Sound Pro 058-710,llm,750857.0,Biodex,"Beds, Medical Furniture and Patient Transport",False,0.95
+25,25,Atomlab Dose Calibrator 100 (086-250),Atomlab 100,llm,14438.0,Biodex,Nuclear Medicine,False,0.8
+26,26,Basic Ultrasound Table 056-605,056-605,llm,788074.0,Biodex,"Beds, Medical Furniture and Patient Transport",False,0.9
+27,27,SYSTEM 3 QUICK SET,System 3,llm,747945.0,Biodex,Patient Care and Exam,False,0.85
+28,28,500,Atomlab 500,llm,768495.0,Biodex,Nuclear Medicine,False,0.7
+29,29,ECHO Table,Echo Pro,llm,4423.0,Biodex,"Beds, Medical Furniture and Patient Transport",False,0.7
+30,30,ATOMLAB 500 PLUS,Atomlab 500,llm,768495.0,Biodex,Nuclear Medicine,False,0.8
+31,31,223 BIODEX  223,,no_match,,Biodex,,False,0.5
+32,32,820-100,,no_match,,Biodex,,False,0.5
+33,33,132-503,,no_match,,Biodex,,False,0.5
+34,34,Gait Trainer 3 Treadmill - 950-402,,no_match,,Biodex,,False,0.5
+35,35,Unweighing System 950-485,,no_match,,Biodex,,False,0.5
+36,36,ECONO,,no_match,,Biodex,,False,0.5
+37,37,950-148,,no_match,,Biodex,,False,0.5
+38,38,892905,,no_match,,Biodex,,False,0.5
+39,39,900350,,no_match,,Biodex,,False,0.5
+40,40,870-115,,no_match,,Biodex,,False,0.5
+41,41,945-105,,no_match,,Biodex,,False,0.5
+42,42,UPPER BODY CYCLE,,no_match,,Biodex,,False,0.5
+43,43,_,,no_match,,Biodex,,False,0.5
+44,44,056-6720407,,no_match,,Biodex,,False,0.5
+45,45,Econo,,no_match,,Biodex,,False,0.5
+46,46,Vasc Pro,,no_match,,Biodex,,False,0.5
+47,47,Model 2 Survey Meter,,no_match,,Biodex,,False,0.5
+48,48,Balance Device,,no_match,,Biodex,,False,0.5
+49,49,950-146,,no_match,,Biodex,,False,0.5
+50,50,Upper Body Cycle,,no_match,,Biodex,,False,0.5
+51,51,900-800,,no_match,,Biodex,,False,0.5
+52,52,System 2,,no_match,,Biodex,,False,0.5
+53,53,136-752,,no_match,,Biodex,,False,0.5
+54,54,Cable Column Weight System,,no_match,,Biodex,,False,0.5
+55,55,945275,,no_match,,Biodex,,False,0.5
+56,56,950-460,,no_match,,Biodex,,False,0.5
+57,57,086-250,,no_match,,Biodex,,False,0.5
+58,58,244-207,,no_match,,Biodex,,False,0.5
+59,59,820-110,,no_match,,Biodex,,False,0.5
+0,0,MAXI MOVE,Maxi Move,exact,798982.0,Arjo,"Beds, Medical Furniture and Patient Transport",True,
+1,1,SARA PLUS,saraplus,skip_special_chars,,Arjo,,False,
+2,2,Sonocaid SRX,,no_match,,Arjo,,False,0.0
+0,0,DryStar 4500M,Drystar 4500M,exact,2808.0,AGFA,Processor/Imager,True,
+1,1,Drystar 3000,Drystar 3000,exact,2807.0,AGFA,Processor/Imager,True,
+2,2,Drystar Axys,Drystar AXYS,exact,745446.0,AGFA,Processor/Imager,True,
+3,3,ADC SOLO,ADC Solo,exact,741899.0,AGFA,Processor/Imager,True,
+4,4,CR35-X,cr35x,skip_special_chars,,AGFA,,False,
+5,5,Paxport,LINX Paxport,llm,2521.0,AGFA,Hardware,False,0.9
+6,6,5175/100 Type,,no_match,,AGFA,,False,0.0
+7,7,60-16-0113,,no_match,,AGFA,,False,0.0
+0,0,STERRAD 100S,STERRAD 100S,exact,4380.0,Advanced Sterilization Products,Sterilization,True,
+1,1,Sterrad 100NX,STERRAD 100NX,exact,756647.0,Advanced Sterilization Products,Sterilization,True,
+2,2,Sterrad NX,STERRAD NX,exact,735596.0,Advanced Sterilization Products,Sterilization,True,
+3,3,Evotech,EvoTech,exact,14789.0,Advanced Sterilization Products,Sterilization,True,
+4,4,STERRAD 100NX,STERRAD 100NX,exact,756647.0,Advanced Sterilization Products,Sterilization,True,
+5,5,EVOTECH,EvoTech,exact,14789.0,Advanced Sterilization Products,Sterilization,True,
+6,6,Sterrad 100S,STERRAD 100S,exact,4380.0,Advanced Sterilization Products,Sterilization,True,
+7,7,21005,STERRAD 21005,llm,760722.0,Advanced Sterilization Products,Sterilization,False,0.95
+8,8,Velocity Reader,STERRAD Velocity,llm,799168.0,Advanced Sterilization Products,Sterilization,False,0.8
+9,9,NX,STERRAD NX,llm,735596.0,Advanced Sterilization Products,Sterilization,False,0.7
+10,10,EVOTECH ECR,EvoTech,llm,14789.0,Advanced Sterilization Products,Sterilization,False,0.6
+11,11,100NX AllClear,STERRAD 100NX,llm,756647.0,Advanced Sterilization Products,Sterilization,False,0.85
+12,12,Evotec System,EvoTech,llm,14789.0,Advanced Sterilization Products,Sterilization,False,0.9
+13,13,Sterrad ALLClear,STERRAD 100NX,llm,756647.0,Advanced Sterilization Products,Sterilization,False,0.7
+14,14,Velocity,STERRAD Velocity,llm,799168.0,Advanced Sterilization Products,Sterilization,False,0.9
+15,15,NX All Clear,STERRAD NX,llm,735596.0,Advanced Sterilization Products,Sterilization,False,0.75
+16,16,Sterrad 10033 (NX),Sterrad NX 10033,llm,798556.0,Advanced Sterilization Products,Sterilization,False,0.95
+17,17,200,STERRAD 200,llm,4381.0,Advanced Sterilization Products,Sterilization,False,0.95
+18,18,Sterrad,,no_match,,Advanced Sterilization Products,,False,0.5
+19,19,ART3,,no_match,,Advanced Sterilization Products,,False,0.0
+20,20,_,,no_match,,Advanced Sterilization Products,,False,0.0
+21,21,ECR,,no_match,,Advanced Sterilization Products,,False,0.0
+22,22,THE VEST (103),,no_match,,Advanced Sterilization Products,,False,0.0
+23,23,387P-2,,no_match,,Advanced Sterilization Products,,False,0.0
+24,24,Advantage,,no_match,,Advanced Sterilization Products,,False,0.0
+25,25,Force Air 700,,no_match,,Advanced Sterilization Products,,False,0.0
+26,26,103,,no_match,,Advanced Sterilization Products,,False,0.0
+27,27,ACCUSYNC,,no_match,,Advanced Sterilization Products,,False,0.0
+0,0,ALLEGRA X-30,Allegra X-30,exact,761584.0,Beckman Coulter,General Laboratory,True,
+1,1,Allegra X-30,Allegra X-30,exact,761584.0,Beckman Coulter,General Laboratory,True,
+2,2,Spinchron DLX,Spinchron DLX,exact,1016.0,Beckman Coulter,General Laboratory,True,
+3,3,AU5800,AU5800,exact,767114.0,Beckman Coulter,General Laboratory,True,
+4,4,AU680,AU680,exact,757928.0,Beckman Coulter,General Laboratory,True,
+5,5,ALLEGRA X-22,allegrax22,skip_special_chars,,Beckman Coulter,,False,
+6,6,DU-640,DU-640,exact,4272.0,Beckman Coulter,Mass Spectrometers and Chromatographs,True,
+7,7,MICROFUGE 16,Microfuge 16,exact,747100.0,Beckman Coulter,General Laboratory,True,
+8,8,AVANTI J-15R,Avanti J-15R,exact,794482.0,Beckman Coulter,General Laboratory,True,
+9,9,WALKAWAY 96 PLUS,walkaway96plus,skip_special_chars,,Beckman Coulter,,False,
+10,10,STATSPIN EXPRESS 4,StatSpin Express 4,exact,755100.0,Beckman Coulter,General Laboratory,True,
+11,11,TQ-PREP,TQ-Prep,exact,737598.0,Beckman Coulter,Hematology,True,
+12,12,EPICS XL-MCL,EPICS XL-MCL,exact,2693.0,Beckman Coulter,Hematology,True,
+13,13,ACT DIFF,actdiff,skip_special_chars,,Beckman Coulter,,False,
+14,14,StatSpin Express 4,StatSpin Express 4,exact,755100.0,Beckman Coulter,General Laboratory,True,
+15,15,Ac-T diff2,Ac-T diff2,exact,8041.0,Beckman Coulter,General Laboratory,True,
+16,16,Airfuge,Airfuge,exact,739219.0,Beckman Coulter,General Laboratory,True,
+17,17,UniCel DxH 600,UniCel DXH 600,exact,760309.0,Beckman Coulter,General Laboratory,True,
+18,18,Stat Spin Express 4,statspinexpress4,skip_special_chars,,Beckman Coulter,,False,
+19,19,Unicel DXI 800,UniCel DxI 800,exact,8062.0,Beckman Coulter,General Laboratory,True,
+20,20,Walkaway 96 Plus,walkaway96plus,skip_special_chars,,Beckman Coulter,,False,
+21,21,AutoScan 4,autoscan4,skip_special_chars,,Beckman Coulter,,False,
+22,22,Unicel DxH 800,UniCel DxH 800,exact,751049.0,Beckman Coulter,General Laboratory,True,
+23,23,Access 2,Access 2,exact,8039.0,Beckman Coulter,General Laboratory,True,
+24,24,DxC 700AU,dxc700au,skip_special_chars,,Beckman Coulter,,False,
+25,25,iChem Velocity,iChem Velocity,exact,791692.0,Beckman Coulter,General Laboratory,True,
+26,26,iRICELL 1500,iRicell 1500,exact,760308.0,Beckman Coulter,General Laboratory,True,
+27,27,AUTION MAX AX-4030,Aution Max AX-4030,exact,792637.0,Beckman Coulter,General Laboratory,True,
+28,28,SPINCHRON 15,Spinchron 15,exact,9586.0,Beckman Coulter,General Laboratory,True,
+29,29,UNICEL DXH 600,UniCel DXH 600,exact,760309.0,Beckman Coulter,General Laboratory,True,
+30,30,UNICEL DXH 800,UniCel DxH 800,exact,751049.0,Beckman Coulter,General Laboratory,True,
+31,31,CytoFLEX,Cytoflex,exact,786866.0,Beckman Coulter,Hematology,True,
+32,32,IQ200 Elite,iQ200 Elite,exact,742431.0,Beckman Coulter,General Laboratory,True,
+33,33,Immage 800,IMMAGE 800,exact,745523.0,Beckman Coulter,General Laboratory,True,
+34,34,JT,JT,exact,624.0,Beckman Coulter,General Laboratory,True,
+35,35,iQ200 Elite,iQ200 Elite,exact,742431.0,Beckman Coulter,General Laboratory,True,
+36,36,IMMAGE,IMMAGE,exact,8052.0,Beckman Coulter,General Laboratory,True,
+37,37,AIRFUGE,Airfuge,exact,739219.0,Beckman Coulter,General Laboratory,True,
+38,38,ACCESS 2,Access 2,exact,8039.0,Beckman Coulter,General Laboratory,True,
+39,39,LH 750,LH 750,exact,8055.0,Beckman Coulter,General Laboratory,True,
+40,40,LH 780,LH 780,exact,746123.0,Beckman Coulter,General Laboratory,True,
+41,41,ARRAY 360,Array 360,exact,8047.0,Beckman Coulter,General Laboratory,True,
+42,42,DU7,du7,skip_special_chars,,Beckman Coulter,,False,
+43,43,AU480,AU480,exact,747134.0,Beckman Coulter,General Laboratory,True,
+44,44,HMX,HmX,exact,8051.0,Beckman Coulter,General Laboratory,True,
+45,45,ACCESS,Access,exact,8038.0,Beckman Coulter,General Laboratory,True,
+46,46,SPINCHRON15R,spinchron15r,skip_special_chars,,Beckman Coulter,,False,
+47,47,Ac.T 5diff CP,act5diffcp,skip_special_chars,,Beckman Coulter,,False,
+48,48,Centrifuge #2,Centrifuge,llm,740283.0,Beckman Coulter,General Laboratory,False,0.8
+49,49,Stockyard,Stockyard 3000,llm,756887.0,Beckman Coulter,,False,0.7
+50,50,Spinchron 15 Series 15,Spinchron 15,llm,9586.0,Beckman Coulter,General Laboratory,False,0.9
+51,51,AU Family of Clinical Chemistry Systems AU480,AU480,llm,747134.0,Beckman Coulter,General Laboratory,False,0.9
+52,52,Centrifuge #1,Centrifuge,llm,740283.0,Beckman Coulter,General Laboratory,False,0.8
+53,53,AUTION MAX,Aution Max AX-4030,llm,792637.0,Beckman Coulter,General Laboratory,False,0.7
+54,54,Air Ultracentrifuge,Ultra Centrifuge,llm,733140.0,Beckman Coulter,General Laboratory,False,0.8
+55,55,Aliquoter,Aliquotter,llm,756888.0,Beckman Coulter,General Laboratory,False,0.9
+56,56,5K Stockyard,Stockyard 3000,llm,756887.0,Beckman Coulter,,False,0.7
+57,57,DxH 900,UniCel DxH 900,llm,796013.0,Beckman Coulter,General Laboratory,False,0.95
+58,58,DXH 900,UniCel DxH 900,llm,796013.0,Beckman Coulter,General Laboratory,False,0.95
+59,59,DXH900,UniCel DxH 900,llm,796013.0,Beckman Coulter,General Laboratory,False,0.95
+60,60,DXI800,UniCel DxI 800,llm,8062.0,Beckman Coulter,General Laboratory,False,0.95
+61,61,DXH 690T,UniCel DXH 690T,llm,793975.0,Beckman Coulter,General Laboratory,False,0.95
+62,62,Air Ultracentifuge,Ultra Centrifuge,llm,733140.0,Beckman Coulter,General Laboratory,False,0.8
+63,63,DxU 840m Iris,DxU 840m,llm,797596.0,Beckman Coulter,General Laboratory,False,0.9
+64,64,CHEMISTRY ANALYZER,Analyzer,llm,742568.0,Beckman Coulter,General Laboratory,False,0.6
+65,65,IQ200 Spirit,iQ200,llm,8325.0,Beckman Coulter,General Laboratory,False,0.7
+66,66,Outlet Power Express,Power Express,llm,766765.0,Beckman Coulter,General Laboratory,False,0.8
+67,67,X-22R,Allegra X22R,llm,974.0,Beckman Coulter,General Laboratory,False,0.9
+68,68,Stockyard III,Stockyard 3000,llm,756887.0,Beckman Coulter,,False,0.7
+69,69,AU680 Connect Unit,AU680,llm,757928.0,Beckman Coulter,General Laboratory,False,0.8
+70,70,TJ-6 (18.6 CM),TJ6,llm,1017.0,Beckman Coulter,General Laboratory,False,0.9
+71,71,LH750SS,LH 750 Slide Stainer,llm,746128.0,Beckman Coulter,Histology,False,0.8
+72,72,LH750SM,LH 750 SlideMaker,llm,746125.0,Beckman Coulter,,False,0.8
+73,73,DXL800,UniCel DxI 800,llm,8062.0,Beckman Coulter,General Laboratory,False,0.9
+74,74,DXH 900-3,UniCel DxH 900,llm,796013.0,Beckman Coulter,General Laboratory,False,0.9
+75,75,LH 750M,LH 750,llm,8055.0,Beckman Coulter,General Laboratory,False,0.9
+76,76,DXH 900-2,UniCel DxH 900,llm,796013.0,Beckman Coulter,General Laboratory,False,0.9
+77,77,ACCUSPIN,Accuspin FR,llm,967.0,Beckman Coulter,General Laboratory,False,0.8
+78,78,CX7,SYNCHRON CX7,llm,638.0,Beckman Coulter,General Laboratory,False,0.9
+79,79,STOCKYARD,Stockyard 3000,llm,756887.0,Beckman Coulter,,False,0.8
+80,80,DXC 800,UniCel DxC 800,llm,743221.0,Beckman Coulter,General Laboratory,False,0.95
+81,81,DXI 600,UniCel DXI 600,llm,765543.0,Beckman Coulter,General Laboratory,False,0.95
+82,82,DXI 800,UniCel DxI 800,llm,8062.0,Beckman Coulter,General Laboratory,False,0.95
+83,83,1000 TUBE STOCKYARD,Stockyard 3000,llm,756887.0,Beckman Coulter,,False,0.7
+84,84,DxC 600,UniCel DxC 600,llm,749797.0,Beckman Coulter,General Laboratory,False,0.95
+85,85,AU481-02,AU481-10E,llm,769841.0,Beckman Coulter,General Laboratory,False,0.8
+86,86,DxH 520,UniCel DXH 520,llm,795240.0,Beckman Coulter,General Laboratory,False,0.95
+87,87,DXC 700,UniCel DxC 700,llm,786701.0,Beckman Coulter,General Laboratory,False,0.95
+88,88,CX9PRO,SYNCHRON CX9 PRO,llm,641.0,Beckman Coulter,General Laboratory,False,0.9
+89,89,AU680 ISE,AU680,llm,757928.0,Beckman Coulter,General Laboratory,False,0.85
+90,90,Remisol 2000 Server,Remisol,llm,796932.0,Beckman Coulter,,False,0.8
+91,91,LX 20,SYNCHRON LX20,llm,642.0,Beckman Coulter,General Laboratory,False,0.9
+92,92,LX 20 PRO,SYNCHRON LX20 PRO,llm,643.0,Beckman Coulter,General Laboratory,False,0.9
+93,93,ACT,Ac-T diff,llm,620.0,Beckman Coulter,General Laboratory,False,0.7
+94,94,CX5PRO,SYNCHRON CX5 PRO,llm,8061.0,Beckman Coulter,General Laboratory,False,0.9
+95,95,Appraise Densitometer 4446,,no_match,,Beckman Coulter,,False,0.0
+96,96,ACL TOP Family 500 CTS,,no_match,,Beckman Coulter,,False,0.0
+97,97,Recapper,,no_match,,Beckman Coulter,,False,0.0
+98,98,Outlet #2,,no_match,,Beckman Coulter,,False,0.0
+99,99,655805,,no_match,,Beckman Coulter,,False,0.0
+100,100,Error Lane,,no_match,,Beckman Coulter,,False,0.0
+101,101,Dynamic Inlet,,no_match,,Beckman Coulter,,False,0.0
+102,102,Automate 2550,,no_match,,Beckman Coulter,,False,0.0
+103,103,Outlet #1,,no_match,,Beckman Coulter,,False,0.0
+104,104,Rack Builder Unit,,no_match,,Beckman Coulter,,False,0.0
+105,105,Decapper #1,,no_match,,Beckman Coulter,,False,0.0
+106,106,655807,,no_match,,Beckman Coulter,,False,0.0
+107,107,Decapper #2,,no_match,,Beckman Coulter,,False,0.0
+108,108,ACL TOP 350  CTS,,no_match,,Beckman Coulter,,False,0.0
+109,109,CELLAVISION,,no_match,,Beckman Coulter,,False,0.0
+110,110,SSMP,,no_match,,Beckman Coulter,,False,0.0
+111,111,ALLEGRA,,no_match,,Beckman Coulter,,False,0.0
+112,112,StatSpin Express 2,,no_match,,Beckman Coulter,,False,0.0
+113,113,StatSpin Cytofuge 2,,no_match,,Beckman Coulter,,False,0.0
+114,114,K Type,,no_match,,Beckman Coulter,,False,0.0
+115,115,_,,no_match,,Beckman Coulter,,False,0.0
+116,116,DxHS MS,,no_match,,Beckman Coulter,,False,0.0
+117,117,PE,,no_match,,Beckman Coulter,,False,0.0
+118,118,Lab Automated SYS,,no_match,,Beckman Coulter,,False,0.0
+119,119,De-Capping Unit,,no_match,,Beckman Coulter,,False,0.0
+120,120,Level Sense,,no_match,,Beckman Coulter,,False,0.0
+121,121,Labler,,no_match,,Beckman Coulter,,False,0.0
+122,122,Rack Builder,,no_match,,Beckman Coulter,,False,0.0
+123,123,Outlet,,no_match,,Beckman Coulter,,False,0.0
+124,124,Re-Capping Unit,,no_match,,Beckman Coulter,,False,0.0
+125,125,Cellavision,,no_match,,Beckman Coulter,,False,0.0
+126,126,MicroScan ,,no_match,,Beckman Coulter,,False,0.0
+127,127,Microscan,,no_match,,Beckman Coulter,,False,0.0
+128,128,MicroScan,,no_match,,Beckman Coulter,,False,0.0
+129,129,DxH 690T,,no_match,,Beckman Coulter,,False,0.0
+130,130,Wasp,,no_match,,Beckman Coulter,,False,0.0
+131,131,40 POS,,no_match,,Beckman Coulter,,False,0.0
+132,132,LH Automation,,no_match,,Beckman Coulter,,False,0.0
+133,133,6517,,no_match,,Beckman Coulter,,False,0.0
+134,134,4429,,no_match,,Beckman Coulter,,False,0.0
+135,135,MX,,no_match,,Beckman Coulter,,False,0.0
+136,136,PRINTER,,no_match,,Beckman Coulter,,False,0.0
+137,137,MHR,,no_match,,Beckman Coulter,,False,0.0
+138,138,DTH2-AS,,no_match,,Beckman Coulter,,False,0.0
+139,139,6519,,no_match,,Beckman Coulter,,False,0.0
+140,140,CD2,,no_match,,Beckman Coulter,,False,0.0
+141,141,DD III,,no_match,,Beckman Coulter,,False,0.0
+142,142,HGBR,,no_match,,Beckman Coulter,,False,0.0
+143,143,ZF,,no_match,,Beckman Coulter,,False,0.0
+144,144,ALQ,,no_match,,Beckman Coulter,,False,0.0
+145,145,N,,no_match,,Beckman Coulter,,False,0.0
+146,146,AU5822,,no_match,,Beckman Coulter,,False,0.0
+147,147,LH CONNECTOR,,no_match,,Beckman Coulter,,False,0.0
+148,148,9214,,no_match,,Beckman Coulter,,False,0.0
+149,149,B36362,,no_match,,Beckman Coulter,,False,0.0
+150,150,B36355,,no_match,,Beckman Coulter,,False,0.0
+151,151,CZ,,no_match,,Beckman Coulter,,False,0.0
+152,152,4210,,no_match,,Beckman Coulter,,False,0.0
+153,153,B36348,,no_match,,Beckman Coulter,,False,0.0
+154,154,9212,,no_match,,Beckman Coulter,,False,0.0
+155,155,M430,,no_match,,Beckman Coulter,,False,0.0
+156,156,340-400,,no_match,,Beckman Coulter,,False,0.0
+157,157,GPKR-356517,,no_match,,Beckman Coulter,,False,0.0
+158,158,PE DTI Conn,,no_match,,Beckman Coulter,,False,0.0
+159,159,OUTLET 2,,no_match,,Beckman Coulter,,False,0.0
+160,160,B36356,,no_match,,Beckman Coulter,,False,0.0
+161,161,OUTLET 1,,no_match,,Beckman Coulter,,False,0.0
+162,162,B70490,,no_match,,Beckman Coulter,,False,0.0
+163,163,B36354,,no_match,,Beckman Coulter,,False,0.0
+164,164,B36353,,no_match,,Beckman Coulter,,False,0.0
+165,165,CONNECTOR DXI,,no_match,,Beckman Coulter,,False,0.0
+166,166,LABL,,no_match,,Beckman Coulter,,False,0.0
+167,167,MATPTR III,,no_match,,Beckman Coulter,,False,0.0
+168,168,RD,,no_match,,Beckman Coulter,,False,0.0
+169,169,PP-8038,,no_match,,Beckman Coulter,,False,0.0
+170,170,B36361,,no_match,,Beckman Coulter,,False,0.0
+171,171,Z CONTROL,,no_match,,Beckman Coulter,,False,0.0
+172,172,B36365,,no_match,,Beckman Coulter,,False,0.0
+173,173,DM 9600 Cellavision,,no_match,,Beckman Coulter,,False,0.0
+174,174,CONNECTOR A,,no_match,,Beckman Coulter,,False,0.0
+175,175,NONE,,no_match,,Beckman Coulter,,False,0.0
+176,176,BPP,,no_match,,Beckman Coulter,,False,0.0
+177,177,B36351,,no_match,,Beckman Coulter,,False,0.0
+178,178,DACOS,,no_match,,Beckman Coulter,,False,0.0
+179,179,CONNECTOR B,,no_match,,Beckman Coulter,,False,0.0
+180,180,60,,no_match,,Beckman Coulter,,False,0.0
+181,181,B36352,,no_match,,Beckman Coulter,,False,0.0
+182,182,B36335,,no_match,,Beckman Coulter,,False,0.0
+183,183,SLD,,no_match,,Beckman Coulter,,False,0.0
+184,184,LH AUTOMATION LINE,,no_match,,Beckman Coulter,,False,0.0
+185,185,Cellavision DC-1,,no_match,,Beckman Coulter,,False,0.0
+186,186,ACL9000,,no_match,,Beckman Coulter,,False,0.0
+187,187,361412,,no_match,,Beckman Coulter,,False,0.0
+188,188,LH ProService,,no_match,,Beckman Coulter,,False,0.0
+189,189,Statspin Cytofuge 2,,no_match,,Beckman Coulter,,False,0.0
+0,0,AV500,AV500,exact,789356.0,AccuVein,Surgery,True,
+1,1,HF470,HF470,exact,765296.0,AccuVein,General Biomedical,True,
+2,2,Av500,AV500,exact,789356.0,AccuVein,Surgery,True,
+3,3,AV 500,av500,skip_special_chars,,AccuVein,,False,
+4,4,AV 400,av400,skip_special_chars,,AccuVein,,False,
+5,5,AV 300,av300,skip_special_chars,,AccuVein,,False,
+6,6,AV-500,av500,skip_special_chars,,AccuVein,,False,
+7,7,Vein Viewing System AV300,AV300,llm,762033.0,AccuVein,Surgery,False,0.95
+8,8,Vein Viewing System AV400,AV400,llm,760916.0,AccuVein,Surgery,False,0.95
+9,9,AV500 Vein Viewing System,AV500,llm,789356.0,AccuVein,Surgery,False,0.95
+10,10,VEINSCOPE,,no_match,,AccuVein,,False,0.0
+11,11,Accuvein,,no_match,,AccuVein,,False,0.0
+12,12,_,,no_match,,AccuVein,,False,0.0
+13,13,HF570,,no_match,,AccuVein,,False,0.0
+14,14,-,,no_match,,AccuVein,,False,0.0
+15,15,Accuvein LLC,,no_match,,AccuVein,,False,0.0
+0,0,1893 PHOTOTACH TACHOMETER,,no_match,,Ametek,,False,0.0
+1,1,_,,no_match,,Ametek,,False,0.0
+2,2,M1-30PSI,,no_match,,Ametek,,False,0.0
+3,3,DMG250,,no_match,,Ametek,,False,0.0
+4,4,Security II UPM,,no_match,,Ametek,,False,0.0
+5,5,CSD 200,,no_match,,Ametek,,False,0.0
+6,6,DFG-100,,no_match,,Ametek,,False,0.0
+7,7,MEDICAL FORCE GAUGE,,no_match,,Ametek,,False,0.0
+8,8,CSD 400,,no_match,,Ametek,,False,0.0
+9,9,DFE2-500,,no_match,,Ametek,,False,0.0
+10,10,1893,,no_match,,Ametek,,False,0.0
+0,0,American Electromedics The Pilot Audiome,,no_match,,American Vault Corporation,,False,0.0
+1,1,0295-200,,no_match,,American Vault Corporation,,False,0.0
+2,2,VEST,,no_match,,American Vault Corporation,,False,0.0
+3,3,70026,,no_match,,American Vault Corporation,,False,0.0
+4,4,RCT,,no_match,,American Vault Corporation,,False,0.0
+5,5,_,,no_match,,American Vault Corporation,,False,0.0
+6,6,Streamline,,no_match,,American Vault Corporation,,False,0.0
+7,7,0295-400,,no_match,,American Vault Corporation,,False,0.0
+8,8,ME-VAC-400,,no_match,,American Vault Corporation,,False,0.0
+9,9,CAST DUST VACUUM,,no_match,,American Vault Corporation,,False,0.0
+10,10,2100,,no_match,,American Vault Corporation,,False,0.0
+11,11,6010,,no_match,,American Vault Corporation,,False,0.0
+12,12,Adtemp 433,,no_match,,American Vault Corporation,,False,0.0
+13,13,WakeMed Unknown Model,,no_match,,American Vault Corporation,,False,0.0
+14,14,800,,no_match,,American Vault Corporation,,False,0.0
+15,15,ST4,,no_match,,American Vault Corporation,,False,0.0
+0,0,EA020,Voyant EA020,llm,801407.0,Applied Medical,Electrical,False,0.9
+1,1,Voyant,,no_match,,Applied Medical,,False,0.5
+2,2,VOYANT,,no_match,,Applied Medical,,False,0.5
+3,3,C7000,,no_match,,Applied Medical,,False,0.0
+0,0,Hyfrecator,Hyfrecator 733,llm,752037.0,Birtcher Medical Systems,Surgery,False,0.8
+1,1,Hyfrecator Plus,Hyfrecator 733,llm,752037.0,Birtcher Medical Systems,Surgery,False,0.7
+2,2,76100,,no_match,,Birtcher Medical Systems,,False,0.0
+0,0,SMOKE SHARK,smokeshark,skip_special_chars,,Bovie Aaron Medical,,False,
+1,1,AARON 940,Aaron 940,exact,755120.0,Bovie Aaron Medical,Surgery,True,
+2,2,Smoke Shark,smokeshark,skip_special_chars,,Bovie Aaron Medical,,False,
+3,3,Aaron Electrosurgical Generator 940,Aaron 940,llm,755120.0,Bovie Aaron Medical,Surgery,False,0.95
+4,4,AARON 900,Aaron A900,llm,10223.0,Bovie Aaron Medical,Surgery,False,0.9
+5,5,AARON 1250,Aaron A1250,llm,10220.0,Bovie Aaron Medical,Surgery,False,0.95
+6,6,A940,Aaron 940,llm,755120.0,Bovie Aaron Medical,Surgery,False,0.9
+7,7,AARON,,no_match,,Bovie Aaron Medical,,False,0.0
+8,8,Specialist Pro,,no_match,,Bovie Aaron Medical,,False,0.0
+9,9,Bantam Pro,,no_match,,Bovie Aaron Medical,,False,0.0
+10,10,Derm 101,,no_match,,Bovie Aaron Medical,,False,0.0
+11,11,ColopoScope,,no_match,,Bovie Aaron Medical,,False,0.0
+12,12,UV59,,no_match,,Bovie Aaron Medical,,False,0.0
+13,13,SE03-120,,no_match,,Bovie Aaron Medical,,False,0.0
+0,0,H200,H200,exact,753652.0,Bioness,General Biomedical,True,
+1,1,L300,L300,exact,753650.0,Bioness,General Biomedical,True,
+2,2,NESS H200,H200,llm,753652.0,Bioness,General Biomedical,False,0.95
+3,3,L300 GO SYSTEM,L300,llm,753650.0,Bioness,General Biomedical,False,0.9
+4,4,L300 Tx Lt,L300,llm,753650.0,Bioness,General Biomedical,False,0.85
+5,5,L300 Tx Rt,L300,llm,753650.0,Bioness,General Biomedical,False,0.85
+6,6,L300 GO System,L300,llm,753650.0,Bioness,General Biomedical,False,0.9
+7,7,L300 Rx Rt,L300,llm,753650.0,Bioness,General Biomedical,False,0.85
+8,8,L300 Rx Lt,L300,llm,753650.0,Bioness,General Biomedical,False,0.85
+9,9,D2-M,,no_match,,Bioness,,False,0.0
+10,10,VEC-1000,,no_match,,Bioness,,False,0.0
+11,11,BIT-2055,,no_match,,Bioness,,False,0.0
+0,0,BACK EXE,Exerciser Physical Therapy,llm,764881.0,Body-Solid,Patient Care and Exam,False,0.6
+1,1,LEG EXTENSION,,no_match,,Body-Solid,,False,0.0
+2,2,111 LEG CURL,,no_match,,Body-Solid,,False,0.0
+3,3,LAT,,no_match,,Body-Solid,,False,0.0
+4,4,G9U,,no_match,,Body-Solid,,False,0.0
+5,5,FB300B,,no_match,,Body-Solid,,False,0.0
+0,0,AS40A,AS40A,exact,737062.0,Baxter,Infusion Pumps,True,
+1,1,PRISMAFLEX,Prismaflex,exact,10499.0,Baxter,Dialysis and Renal Therapy,True,
+2,2,Prisma Flex,prismaflex,skip_special_chars,,Baxter,,False,
+3,3,Prisma flex,prismaflex,skip_special_chars,,Baxter,,False,
+4,4,PrismaFlex,Prismaflex,exact,10499.0,Baxter,Dialysis and Renal Therapy,True,
+5,5,PRISMAX,Prismax,exact,795581.0,Baxter,Surgery,True,
+6,6,I-Pump,ipump,skip_special_chars,,Baxter,,False,
+7,7,Colleague 3,Colleague 3,exact,10701.0,Baxter,Infusion Pumps,True,
+8,8,Colleague,Colleague,exact,5469.0,Baxter,Infusion Pumps,True,
+9,9,INFUSION PUMP,Infusion Pump,exact,764151.0,Baxter,Infusion Pumps,True,
+10,10,Sigma Spectrum,Sigma Spectrum,exact,764529.0,Baxter,Infusion Pumps,True,
+11,11,INFUSOR,infusor,skip_special_chars,,Baxter,,False,
+12,12,PrisMax,Prismax,exact,795581.0,Baxter,Surgery,True,
+13,13,I PUMP,ipump,skip_special_chars,,Baxter,,False,
+14,14,PCA II,PCA II,exact,737031.0,Baxter,Infusion Pumps,True,
+15,15,SIGMA Spectrum,Sigma Spectrum,exact,764529.0,Baxter,Infusion Pumps,True,
+16,16,Colleague CX,Colleague CX,exact,10702.0,Baxter,Infusion Pumps,True,
+17,17,Colleague 3CX,colleague3cx,skip_special_chars,,Baxter,,False,
+18,18,TherMax,Thermax,exact,795582.0,Baxter,Surgery,True,
+19,19,Home Choice,homechoice,skip_special_chars,,Baxter,,False,
+20,20,THERMAX,Thermax,exact,795582.0,Baxter,Surgery,True,
+21,21,Prismaflex,Prismaflex,exact,10499.0,Baxter,Dialysis and Renal Therapy,True,
+22,22,Fibrinotherm,Fibrinotherm,exact,760126.0,Baxter,General Laboratory,True,
+23,23,AS50,AS50,exact,737061.0,Baxter,Infusion Pumps,True,
+24,24,FIBRINOTHERM,Fibrinotherm,exact,760126.0,Baxter,General Laboratory,True,
+25,25,Duplospray MIS Tisseel,DuploSpray MIS,llm,799478.0,Baxter,,False,0.9
+26,26,SP TUBE ROCKER,S/P Rotator V,llm,750230.0,Baxter,General Laboratory,False,0.7
+27,27,Duplo Sprayer,DuploSpray MIS,llm,799478.0,Baxter,,False,0.7
+28,28,PD CYCLER,Quantum PD,llm,12791.0,Baxter,,False,0.6
+29,29,PRISMAFLO II,PrismaFlo,llm,794995.0,Baxter,Dialysis and Renal Therapy,False,0.8
+30,30,AS50 Infusion Pump,AS50,llm,737061.0,Baxter,Infusion Pumps,False,0.9
+31,31,Fiberotherm,Fibrinotherm,llm,760126.0,Baxter,General Laboratory,False,0.8
+32,32,AP II,PCA II,llm,737031.0,Baxter,Infusion Pumps,False,0.7
+33,33,COLLEAGE CX,Colleague CX,llm,10702.0,Baxter,Infusion Pumps,False,0.9
+34,34,Duplo Spray RS,DuploSpray MIS,llm,799478.0,Baxter,,False,0.7
+35,35,Home Choice Pro,HomeChoice,llm,12790.0,Baxter,,False,0.8
+36,36,DUPLOSPRAY MIS APPLI,DuploSpray MIS,llm,799478.0,Baxter,,False,0.9
+37,37,HOMECHOICE PRO APD,HomeChoice,llm,12790.0,Baxter,,False,0.8
+38,38,Mini-Infusor,Infusion Pump,llm,764151.0,Baxter,Infusion Pumps,False,0.6
+39,39,DuploSpray,DuploSpray MIS,llm,799478.0,Baxter,,False,0.8
+40,40,AS50A,AS50,llm,737061.0,Baxter,Infusion Pumps,False,0.7
+41,41,Fenwall Hematron II Dielectric Sealer 4R4335,,no_match,,Baxter,,False,0.0
+42,42,TEC 7 Sevoflurane,,no_match,,Baxter,,False,0.0
+43,43,70043,,no_match,,Baxter,,False,0.0
+44,44,99,,no_match,,Baxter,,False,0.0
+45,45,SCD IIB Sterile Tubing Welder 3NCC986,,no_match,,Baxter,,False,0.0
+46,46,BAXTER RD0612,,no_match,,Baxter,,False,0.0
+47,47,H938 099G REPEATER,,no_match,,Baxter,,False,0.0
+48,48,RK 2000,,no_match,,Baxter,,False,0.0
+49,49,AUTOMIX 3+3,,no_match,,Baxter,,False,0.0
+50,50,HEMATRON II,,no_match,,Baxter,,False,0.0
+51,51,HEMATRON,,no_match,,Baxter,,False,0.0
+52,52,EXACTAMIX 2400-M,,no_match,,Baxter,,False,0.0
+53,53,Astotherm,,no_match,,Baxter,,False,0.0
+54,54,Astotherm Plus,,no_match,,Baxter,,False,0.0
+55,55,Easy Spray,,no_match,,Baxter,,False,0.0
+56,56,OPTIA,,no_match,,Baxter,,False,0.0
+57,57,AMIA,,no_match,,Baxter,,False,0.0
+58,58,Flo-Gard,,no_match,,Baxter,,False,0.0
+59,59,EasySpray,,no_match,,Baxter,,False,0.0
+60,60,Amia,,no_match,,Baxter,,False,0.0
+61,61,TruCal,,no_match,,Baxter,,False,0.0
+62,62,V6500 VANGUARD,,no_match,,Baxter,,False,0.0
+63,63,S-8223-1,,no_match,,Baxter,,False,0.0
+64,64,Touchscan SR,,no_match,,Baxter,,False,0.0
+65,65,2L3107D,,no_match,,Baxter,,False,0.0
+66,66,Hematron Seal-Rite,,no_match,,Baxter,,False,0.0
+67,67,CRYO-FRIDGE,,no_match,,Baxter,,False,0.0
+68,68,D-Vapor,,no_match,,Baxter,,False,0.0
+69,69,TEC 7,,no_match,,Baxter,,False,0.0
+70,70,TEC 7 SEVO,,no_match,,Baxter,,False,0.0
+71,71,Tec 7 Sevo,,no_match,,Baxter,,False,0.0
+72,72,Repeater,,no_match,,Baxter,,False,0.0
+73,73,MICROSCAN-SR,,no_match,,Baxter,,False,0.0
+74,74,VORTEX,,no_match,,Baxter,,False,0.0
+75,75,Hematron II,,no_match,,Baxter,,False,0.0
+76,76,_,,no_match,,Baxter,,False,0.0
+77,77,Steri-Loop,,no_match,,Baxter,,False,0.0
+78,78,MicroScan,,no_match,,Baxter,,False,0.0
+79,79,Anesthesia Vaporizer,,no_match,,Baxter,,False,0.0
+80,80,Anesthsia Vaporizer,,no_match,,Baxter,,False,0.0
+81,81,35700,,no_match,,Baxter,,False,0.0
+82,82,AS20S,,no_match,,Baxter,,False,0.0
+83,83,2M8287,,no_match,,Baxter,,False,0.0
+84,84,PAC XTRA,,no_match,,Baxter,,False,0.0
+85,85,2M8286,,no_match,,Baxter,,False,0.0
+86,86,5485M,,no_match,,Baxter,,False,0.0
+87,87,TISSOMAT,,no_match,,Baxter,,False,0.0
+88,88,4551-4553,,no_match,,Baxter,,False,0.0
+89,89,S8223-1,,no_match,,Baxter,,False,0.0
+90,90,4653,,no_match,,Baxter,,False,0.0
+91,91,H-PD,,no_match,,Baxter,,False,0.0
+92,92,4655,,no_match,,Baxter,,False,0.0
+93,93,4585,,no_match,,Baxter,,False,0.0
+94,94,5C 4471,,no_match,,Baxter,,False,0.0
+95,95,4586,,no_match,,Baxter,,False,0.0
+96,96,VORTEX JR,,no_match,,Baxter,,False,0.0
+97,97,H-DHD,,no_match,,Baxter,,False,0.0
+98,98,1125-03,,no_match,,Baxter,,False,0.0
+99,99,N8620-5A3515S/P,,no_match,,Baxter,,False,0.0
+100,100,5C 4402,,no_match,,Baxter,,False,0.0
+101,101,4587,,no_match,,Baxter,,False,0.0
+102,102,DAC II,,no_match,,Baxter,,False,0.0
+103,103,D,,no_match,,Baxter,,False,0.0
+104,104,Unknown ?1,,no_match,,Baxter,,False,0.0
+105,105,COM-1,,no_match,,Baxter,,False,0.0
+106,106,SA-H243/A-1EEE,,no_match,,Baxter,,False,0.0
+107,107,AS20GH-2,,no_match,,Baxter,,False,0.0
+108,108,M7654-1,,no_match,,Baxter,,False,0.0
+109,109,GENIE,,no_match,,Baxter,,False,0.0
+110,110,ELITE,,no_match,,Baxter,,False,0.0
+111,111,MUTI-TIMER,,no_match,,Baxter,,False,0.0
+112,112,TALLY 3,,no_match,,Baxter,,False,0.0
+113,113,5417,,no_match,,Baxter,,False,0.0
+114,114,6000,,no_match,,Baxter,,False,0.0
+115,115,H1,,no_match,,Baxter,,False,0.0
+116,116,STRATUS II,,no_match,,Baxter,,False,0.0
+117,117,145800,,no_match,,Baxter,,False,0.0
+118,118,H-FW,,no_match,,Baxter,,False,0.0
+119,119,ELITE 3901,,no_match,,Baxter,,False,0.0
+0,0,PSW TURBO,PSW Turbo,exact,764954.0,Buffalo Dental Manufacturing,Safety & Security,True,
+1,1,X40 Micromotor,,no_match,,Buffalo Dental Manufacturing,,False,0.9
+0,0,MYTEMP,MyTemp,exact,759079.0,Benchmark Scientific,General Laboratory,True,
+1,1,MyTemp Mini Digital Incubator H2200-H,H2200-HC,llm,792869.0,Benchmark Scientific,General Laboratory,False,0.8
+2,2,BENCHROCKER 2D,BR2000 2D,llm,762493.0,Benchmark Scientific,General Laboratory,False,0.9
+3,3,MYFUGE,MyFuge C1012,llm,764568.0,Benchmark Scientific,General Laboratory,False,0.7
+4,4,My Temp Mini,MyTemp,llm,759079.0,Benchmark Scientific,General Laboratory,False,0.8
+5,5,TubeRocker,,no_match,,Benchmark Scientific,,False,0.0
+6,6,B2000-4 WATER BATH,,no_match,,Benchmark Scientific,,False,0.0
+7,7,C1008C FUGE MINI CENTRIFUGE,,no_match,,Benchmark Scientific,,False,0.0
+8,8,C1008P FUGE MINI CENTRIFUGE,,no_match,,Benchmark Scientific,,False,0.0
+9,9,VORNADO,,no_match,,Benchmark Scientific,,False,0.0
+10,10,BENCHMIXER,,no_match,,Benchmark Scientific,,False,0.0
+11,11,ORBI-BLOTTER,,no_match,,Benchmark Scientific,,False,0.0
+12,12,LC-8 Plus,,no_match,,Benchmark Scientific,,False,0.0
+13,13,M2100 Tube rocker,,no_match,,Benchmark Scientific,,False,0.0
+14,14,M2100,,no_match,,Benchmark Scientific,,False,0.0
+15,15,My Bath,,no_match,,Benchmark Scientific,,False,0.0
+16,16,Bench Mixer,,no_match,,Benchmark Scientific,,False,0.0
+17,17,BSH5001,,no_match,,Benchmark Scientific,,False,0.0
+0,0,M16715,M16715,exact,745027.0,Barnstead,General Laboratory,True,
+1,1,T415110,T415110,exact,752260.0,Barnstead,General Laboratory,True,
+2,2,MAXI-MIX I,maximixi,skip_special_chars,,Barnstead,,False,
+3,3,VARI-MIX,Vari-Mix,exact,752236.0,Barnstead,General Laboratory,True,
+4,4,Maxi Mix I,maximixi,skip_special_chars,,Barnstead,,False,
+5,5,Cimarec,cimarec,skip_special_chars,,Barnstead,,False,
+6,6,2314,2314,exact,754301.0,Barnstead,General Laboratory,True,
+7,7,120,120,exact,798350.0,Barnstead,,True,
+8,8,CIMAREC 3,Cimarec 3,exact,751505.0,Barnstead,General Laboratory,True,
+9,9,3516M,3516M,exact,799895.0,Barnstead,General Laboratory,True,
+10,10,MAXQ 2000 BENCHTOP ORBITAL SHAKER,Shaker/Agitator,llm,745026.0,Barnstead,General Laboratory,False,0.7
+11,11,D28125,DB28125,llm,787347.0,Barnstead,General Laboratory,False,0.9
+12,12,SPECI-MIX,Speci-max,llm,752265.0,Barnstead,General Laboratory,False,0.95
+13,13,Speci-Mix,Speci-max,llm,752265.0,Barnstead,General Laboratory,False,0.95
+14,14,MAXI-MIX II,,no_match,,Barnstead,,False,0.0
+15,15,DRI-BATH,,no_match,,Barnstead,,False,0.0
+16,16,MAXI-MIX PLUS,,no_match,,Barnstead,,False,0.0
+17,17,1645,,no_match,,Barnstead,,False,0.0
+18,18,BLOCK HEATER,,no_match,,Barnstead,,False,0.0
+19,19,37600,,no_match,,Barnstead,,False,0.0
+20,20,E-CLASS,,no_match,,Barnstead,,False,0.0
+21,21,_,,no_match,,Barnstead,,False,0.0
+22,22,C1392,,no_match,,Barnstead,,False,0.0
+23,23,Maxi Mix II,,no_match,,Barnstead,,False,0.0
+24,24,Maxi Mix Plus,,no_match,,Barnstead,,False,0.0
+25,25,Dri-Bath,,no_match,,Barnstead,,False,0.0
+26,26,Lab-Line,,no_match,,Barnstead,,False,0.0
+27,27,18052A,,no_match,,Barnstead,,False,0.0
+28,28,Labquake,,no_match,,Barnstead,,False,0.0
+29,29,490,,no_match,,Barnstead,,False,0.0
+30,30,150,,no_match,,Barnstead,,False,0.0
+31,31,??,,no_match,,Barnstead,,False,0.0
+32,32,203,,no_match,,Barnstead,,False,0.0
+33,33,DB12215E-60,,no_match,,Barnstead,,False,0.0
+34,34,M63215,,no_match,,Barnstead,,False,0.0
+35,35,N8620-5A,,no_match,,Barnstead,,False,0.0
+36,36,N8620-5,,no_match,,Barnstead,,False,0.0
+37,37,715,,no_match,,Barnstead,,False,0.0
+38,38,2093,,no_match,,Barnstead,,False,0.0
+39,39,IMP,,no_match,,Barnstead,,False,0.0
+40,40,18902A,,no_match,,Barnstead,,False,0.0
+41,41,2050,,no_match,,Barnstead,,False,0.0
+42,42,B7005-3,,no_match,,Barnstead,,False,0.0
+43,43,AQUA WAVE 9374,,no_match,,Barnstead,,False,0.0
+44,44,M37615,,no_match,,Barnstead,,False,0.0
+45,45,2090,,no_match,,Barnstead,,False,0.0
+46,46,HP2305B,,no_match,,Barnstead,,False,0.0
+47,47,B7000-5,,no_match,,Barnstead,,False,0.0
+48,48,26103,,no_match,,Barnstead,,False,0.0
+49,49,M48725,,no_match,,Barnstead,,False,0.0
+50,50,W2975-14,,no_match,,Barnstead,,False,0.0
+51,51,LB305545G,,no_match,,Barnstead,,False,0.0
+52,52,212,,no_match,,Barnstead,,False,0.0
+53,53,W2975-22,,no_match,,Barnstead,,False,0.0
+54,54,392134,,no_match,,Barnstead,,False,0.0
+55,55,299-755,,no_match,,Barnstead,,False,0.0
+56,56,26020,,no_match,,Barnstead,,False,0.0
+57,57,T400110,,no_match,,Barnstead,,False,0.0
+58,58,18002,,no_match,,Barnstead,,False,0.0
+59,59,495,,no_match,,Barnstead,,False,0.0
+0,0,NOVA,,no_match,,Argos Technologies,,False,1.0
+0,0,2180,2180,exact,737426.0,Alaris Medical Systems,Patient Care and Exam,True,
+1,1,8120 ALARIS PUMP,8120,llm,789538.0,Alaris Medical Systems,Infusion Pumps,False,0.9
+2,2,8015 ALARIS PC,PC 8015,llm,769649.0,Alaris Medical Systems,Infusion Pumps,False,0.95
+3,3,7130B,71308,llm,792974.0,Alaris Medical Systems,Infusion Pumps,False,0.8
+4,4,8100 ALARIS PUMP,8100,llm,768838.0,Alaris Medical Systems,Infusion Pumps,False,0.9
+5,5,8110 Alaris Syringe Module Infusion Pump,Syringe Module 8110,llm,10672.0,Alaris Medical Systems,Infusion Pumps,False,0.95
+6,6,IVAC TEMP PLUS II,Temp Plus II,llm,759369.0,Alaris Medical Systems,Patient Care and Exam,False,0.9
+7,7,2860,,no_match,,Alaris Medical Systems,,False,0.0
+8,8,2865B,,no_match,,Alaris Medical Systems,,False,0.0
+9,9,2090,,no_match,,Alaris Medical Systems,,False,0.0
+10,10,2185,,no_match,,Alaris Medical Systems,,False,0.0
+11,11,10010692 CALIBRATION KIT,,no_match,,Alaris Medical Systems,,False,0.0
+12,12,TURBO TEMP,,no_match,,Alaris Medical Systems,,False,0.0
+13,13,2090e,,no_match,,Alaris Medical Systems,,False,0.0
+14,14,Turbo Temp,,no_match,,Alaris Medical Systems,,False,0.0
+15,15,LVP,,no_match,,Alaris Medical Systems,,False,0.0
+16,16,TE 1811,,no_match,,Alaris Medical Systems,,False,0.0
+17,17,Medley Cal Kit,,no_match,,Alaris Medical Systems,,False,0.0
+18,18,PCU,,no_match,,Alaris Medical Systems,,False,0.0
+19,19,Syringe,,no_match,,Alaris Medical Systems,,False,0.0
+20,20,ETCO2,,no_match,,Alaris Medical Systems,,False,0.0
+21,21,PCA,,no_match,,Alaris Medical Systems,,False,0.0
+22,22,SYR,,no_match,,Alaris Medical Systems,,False,0.0
+23,23,TRI-SITE,,no_match,,Alaris Medical Systems,,False,0.0
+24,24,2000,,no_match,,Alaris Medical Systems,,False,0.0
+0,0,FMS-2000,fms2000,skip_special_chars,,Belmont Instrument,,False,
+1,1,RI-2,RI-2,exact,770543.0,Belmont Instrument,Contrast Media Injectors and Accessories,True,
+2,2,RI2,ri2,skip_special_chars,,Belmont Instrument,,False,
+3,3,RI-2 RAPID INFUSER,RI-2,llm,770543.0,Belmont Instrument,Contrast Media Injectors and Accessories,False,0.95
+4,4,Rapid Infusor RI-2,RI-2,llm,770543.0,Belmont Instrument,Contrast Media Injectors and Accessories,False,0.95
+5,5,Hyperthermia Pump,,no_match,,Belmont Instrument,,False,0.0
+6,6,CRITICOOL,,no_match,,Belmont Instrument,,False,0.0
+0,0,RXI Mini,RXi Mini,exact,798192.0,ACIST Medical Systems,Surgery,True,
+1,1,ACIST CVi,ACIST Cvi,exact,10850.0,ACIST Medical Systems,Contrast Media Injectors and Accessories,True,
+2,2,RXI SYSTEM FFR System Intravascular Pressure Monitor With Rail Mount,RXi,llm,794426.0,ACIST Medical Systems,Surgery,False,0.9
+3,3,CVi-STANDARD INJECTOR,ACIST Cvi,llm,10850.0,ACIST Medical Systems,Contrast Media Injectors and Accessories,False,0.85
+4,4,CVI,ACIST Cvi,llm,10850.0,ACIST Medical Systems,Contrast Media Injectors and Accessories,False,0.9
+5,5,CVi,ACIST Cvi,llm,10850.0,ACIST Medical Systems,Contrast Media Injectors and Accessories,False,0.95
+6,6,MR,EmpowerMR,llm,747523.0,ACIST Medical Systems,Contrast Media Injectors and Accessories,False,0.7
+7,7,High Definition IVIS,ACIST HDi,llm,764590.0,ACIST Medical Systems,Ultrasound,False,0.8
+8,8,ACIST/RXi,RXi,llm,794426.0,ACIST Medical Systems,Surgery,False,0.9
+9,9,HDi IVUS,ACIST HDi,llm,764590.0,ACIST Medical Systems,Ultrasound,False,0.85
+10,10,EMPOWER CT,,no_match,,ACIST Medical Systems,,False,0.0
+11,11,CTA,,no_match,,ACIST Medical Systems,,False,0.0
+12,12,EMPOWER CTA,,no_match,,ACIST Medical Systems,,False,0.0
+13,13,EmpowerCT,,no_match,,ACIST Medical Systems,,False,0.0
+14,14,Empower-CTA,,no_match,,ACIST Medical Systems,,False,0.0
+15,15,CL100,,no_match,,ACIST Medical Systems,,False,0.0
+0,0,RAYCELL,Raycell CE,llm,746265.0,"Best Theratronics, ltd.",Hematology,False,0.8
+1,1,Raycell MK1,Raycell CE,llm,746265.0,"Best Theratronics, ltd.",Hematology,False,0.7
+0,0,ACTE03,,no_match,,AirClean Systems,,False,0.0
+0,0,TRIAGE METER PLUS,triagemeterplus,skip_special_chars,,BIOSITE,,False,
+1,1,TRIAGE METER PRO,triagemeterpro,skip_special_chars,,BIOSITE,,False,
+2,2,InRatio-2,,no_match,,BIOSITE,,False,1.0
+0,0,aView,aView,exact,792571.0,Ambu,Hardware,True,
+1,1,aView 2 Advance,aView,llm,792571.0,Ambu,Hardware,False,0.9
+2,2,aView 2 aDVANCE,aView,llm,792571.0,Ambu,Hardware,False,0.9
+3,3,Janus-w08-R10,,no_match,,Ambu,,False,0.0
+4,4,065-405002000,,no_match,,Ambu,,False,0.0
+5,5,299-001-000,,no_match,,Ambu,,False,0.0
+0,0,24-3032,,no_match,,Applied Fiberoptics,,False,1.0
+0,0,51152/3,,no_match,,Brandt,,False,0.8
+0,0,CHROMOPHARE F628,chromopharef628,skip_special_chars,,Berchtold,,False,
+1,1,Chromophare F628,chromopharef628,skip_special_chars,,Berchtold,,False,
+2,2,Operon D850,operond850,skip_special_chars,,Berchtold,,False,
+3,3,Operon D860,operond860,skip_special_chars,,Berchtold,,False,
+4,4,Operon B810,operonb810,skip_special_chars,,Berchtold,,False,
+5,5,C-450,Chromophare C 450,llm,743684.0,Berchtold,Surgery,False,0.95
+6,6,F GENERATION BOOM,Tether/Boom,llm,753377.0,Berchtold,Surgery,False,0.7
+7,7,F628,Chromophare F 628,llm,798196.0,Berchtold,Surgery,False,0.95
+8,8,C300,Chromophare D 300,llm,11152.0,Berchtold,Surgery,False,0.9
+9,9,Operon D820,OPERON B 820,llm,756983.0,Berchtold,"Beds, Medical Furniture and Patient Transport",False,0.85
+10,10,D530 Plus,Chromophare D 530,llm,753914.0,Berchtold,Surgery,False,0.8
+11,11,Chromovision,ChromoVision 1C,llm,751222.0,Berchtold,Endoscopy,False,0.75
+12,12,Operon D,Operon D Series,llm,799363.0,Berchtold,"Beds, Medical Furniture and Patient Transport",False,0.8
+13,13,Chromophare F300,,no_match,,Berchtold,,False,0.0
+14,14,Chromophare,,no_match,,Berchtold,,False,0.0
+15,15,Chromophare E650,,no_match,,Berchtold,,False,0.0
+16,16,Teletom 3,,no_match,,Berchtold,,False,0.0
+17,17,Teletom,,no_match,,Berchtold,,False,0.0
+18,18,Chromophare F528,,no_match,,Berchtold,,False,0.0
+19,19,Operon D830,,no_match,,Berchtold,,False,0.0
+20,20,CHROMOPHARE C-572,,no_match,,Berchtold,,False,0.0
+21,21,CHROMAVISION HR24,,no_match,,Berchtold,,False,0.0
+22,22,Chromophare E550,,no_match,,Berchtold,,False,0.0
+23,23,Operon D770,,no_match,,Berchtold,,False,0.0
+24,24,Operon D760,,no_match,,Berchtold,,False,0.0
+25,25,TD-292-10,,no_match,,Berchtold,,False,0.0
+26,26,TD-363-02,,no_match,,Berchtold,,False,0.0
+27,27,TD-363-04,,no_match,,Berchtold,,False,0.0
+28,28,HR24,,no_match,,Berchtold,,False,0.0
+0,0,ONE-TEN,One-Ten,exact,751791.0,American Optical,General Laboratory,True,
+1,1,SPENCER,Spencer,exact,748424.0,American Optical,General Laboratory,True,
+2,2,One-Ten,One-Ten,exact,751791.0,American Optical,General Laboratory,True,
+3,3,Spencer,Spencer,exact,748424.0,American Optical,General Laboratory,True,
+4,4,MICROSCOPE,Microscope,exact,743652.0,American Optical,General Laboratory,True,
+5,5,AO One-Fifty Microscope 150,Microscope,llm,743652.0,American Optical,General Laboratory,False,0.7
+6,6,Ultramatic RX Master Phoroptor 11625,Ultramatic 11625B,llm,753562.0,American Optical,Optometry,False,0.8
+7,7,AO Series Binocular Microscope 10,Series 10,llm,3240.0,American Optical,General Laboratory,False,0.6
+8,8,Biostar Inverted Biological Microscope 1820,Biostar 1820,llm,758625.0,American Optical,General Laboratory,False,0.9
+9,9,MICRO-STAR,Microstar 110,llm,751793.0,American Optical,General Laboratory,False,0.6
+10,10,1051,Spencer 1051,llm,751792.0,American Optical,General Laboratory,False,0.9
+11,11,Microstar,Microstar 110,llm,751793.0,American Optical,General Laboratory,False,0.8
+12,12,1036A,Spencer 1036A,llm,751790.0,American Optical,General Laboratory,False,0.9
+13,13,150,Series 150,llm,3243.0,American Optical,General Laboratory,False,0.6
+14,14,10,Series 10,llm,3240.0,American Optical,General Laboratory,False,0.6
+15,15,10 DUAL,Series 10,llm,3240.0,American Optical,General Laboratory,False,0.5
+16,16,QuickRinse,,no_match,,American Optical,,False,0.0
+17,17,_,,no_match,,American Optical,,False,0.0
+18,18,FIELD,,no_match,,American Optical,,False,0.0
+19,19,Phoropter,,no_match,,American Optical,,False,0.0
+20,20,photopter,,no_match,,American Optical,,False,0.0
+21,21,1043A,,no_match,,American Optical,,False,0.0
+0,0,SERIES 20000 LEGACY,Series 20000 Legacy,exact,3644.0,Alcon Laboratories,Optometry,True,
+1,1,Constellation Vision System,,no_match,,Alcon Laboratories,,False,0.0
+2,2,Ophthalas EyeLite Laser 532,,no_match,,Alcon Laboratories,,False,0.0
+3,3,Centurion Vision System,,no_match,,Alcon Laboratories,,False,0.0
+4,4,CVS,,no_match,,Alcon Laboratories,,False,0.0
+5,5,CENTURION VISION SYS,,no_match,,Alcon Laboratories,,False,0.0
+6,6,Luxor,,no_match,,Alcon Laboratories,,False,0.0
+7,7,Centurion Vision,,no_match,,Alcon Laboratories,,False,0.0
+8,8,210-0000-511,,no_match,,Alcon Laboratories,,False,0.0
+9,9,LuxOr Revalia,,no_match,,Alcon Laboratories,,False,0.0
+10,10,LenSx,,no_match,,Alcon Laboratories,,False,0.0
+11,11,Ora ,,no_match,,Alcon Laboratories,,False,0.0
+12,12,STTM-AH,,no_match,,Alcon Laboratories,,False,0.0
+13,13,8065750469,,no_match,,Alcon Laboratories,,False,0.0
+0,0,Solero,Solero,exact,787733.0,AngioDynamics,Surgery,True,
+1,1,Venacure 1470,venacure1470,skip_special_chars,,AngioDynamics,,False,
+2,2,SOLERO MTA TISSUE ABLATION,Solero,llm,787733.0,AngioDynamics,Surgery,False,0.9
+3,3,VENACURE,VENACURE 1470,llm,792266.0,AngioDynamics,Laser,False,0.8
+4,4,DELTA 30,DELTA,llm,755141.0,AngioDynamics,Laser,False,0.85
+5,5,VenaCure 1470 Pro,VENACURE 1470,llm,792266.0,AngioDynamics,Laser,False,0.95
+6,6,Nanoknife system HVP-01,,no_match,,AngioDynamics,,False,0.0
+7,7,PRECISION 980,,no_match,,AngioDynamics,,False,0.0
+8,8,Acculis,,no_match,,AngioDynamics,,False,0.0
+9,9,Nano Knife,,no_match,,AngioDynamics,,False,0.0
+10,10,TDS-P,,no_match,,AngioDynamics,,False,0.0
+0,0,Vialmix,VialMix,exact,752295.0,Bristol-Myers ,General Laboratory,True,
+1,1,VIALMIX,VialMix,exact,752295.0,Bristol-Myers ,General Laboratory,True,
+0,0,MINI VIDAS,minividas,skip_special_chars,,bioMerieux ,,False,
+1,1,BacT Alert 3D,bactalert3d,skip_special_chars,,bioMerieux ,,False,
+2,2,Vidas,VIDAS,exact,8099.0,bioMerieux ,General Laboratory,True,
+3,3,VITEK 2 COMPACT 30,VITEK 2 Compact 30,exact,739255.0,bioMerieux ,General Laboratory,True,
+4,4,BacT Alert Virtuo,bactalertvirtuo,skip_special_chars,,bioMerieux ,,False,
+5,5,BACT/ALERT 3D,BacT/ALERT 3D,exact,8096.0,bioMerieux ,General Laboratory,True,
+6,6,BacT/Alert 3D,BacT/ALERT 3D,exact,8096.0,bioMerieux ,General Laboratory,True,
+7,7,Previ Isola,PREVI Isola,exact,757927.0,bioMerieux ,Microbiology,True,
+8,8,VIDAS 3,VIDAS 3,exact,768486.0,bioMerieux ,General Laboratory,True,
+9,9,Vitek MS,Vitek MS,exact,770418.0,bioMerieux ,General Laboratory,True,
+10,10,VITEK 2  SYSTEM,VITEK 2,llm,8100.0,bioMerieux ,General Laboratory,False,0.9
+11,11,VITEK 2 SMART CARRIE,VITEK 2,llm,8100.0,bioMerieux ,General Laboratory,False,0.7
+12,12,PREVI COLOR GRAM,PREVI Color,llm,765162.0,bioMerieux ,Histology,False,0.8
+13,13,VIDAS Analyzer,VIDAS,llm,8099.0,bioMerieux ,General Laboratory,False,0.9
+14,14,Virtuo A,BacT/ALERT Virtuo,llm,795051.0,bioMerieux ,General Laboratory,False,0.8
+15,15,Virtuo B,BacT/ALERT Virtuo,llm,795051.0,bioMerieux ,General Laboratory,False,0.8
+16,16,Bact/Aleart Virtuo,BacT/ALERT Virtuo,llm,795051.0,bioMerieux ,General Laboratory,False,0.95
+17,17,BTA 3D,BacT/ALERT 3D,llm,8096.0,bioMerieux ,General Laboratory,False,0.85
+18,18,2XL,VITEK 2 XL,llm,8102.0,bioMerieux ,General Laboratory,False,0.7
+19,19,DENSICHECK,,no_match,,bioMerieux ,,False,0.0
+20,20,Film Array Torch,,no_match,,bioMerieux ,,False,0.0
+21,21,FILLER/SEALER,,no_match,,bioMerieux ,,False,0.0
+22,22,DENSICHECK PLUS,,no_match,,bioMerieux ,,False,0.0
+23,23,SCSA,,no_match,,bioMerieux ,,False,0.0
+24,24,VITEK DENSICHK POD,,no_match,,bioMerieux ,,False,0.0
+25,25,513001-6,,no_match,,bioMerieux ,,False,0.0
+26,26,52-1210,,no_match,,bioMerieux ,,False,0.0
+27,27,41101-71,,no_match,,bioMerieux ,,False,0.0
+28,28,VITEK DENSICHEK,,no_match,,bioMerieux ,,False,0.0
+29,29,BioFire FilmArray 2.0,,no_match,,bioMerieux ,,False,0.0
+30,30,50-0701,,no_match,,bioMerieux ,,False,0.0
+31,31,BioFire Torch Module,,no_match,,bioMerieux ,,False,0.0
+32,32,CC5,,no_match,,bioMerieux ,,False,0.0
+33,33,BioFire Torch System Base,,no_match,,bioMerieux ,,False,0.0
+34,34,518000-11,,no_match,,bioMerieux ,,False,0.0
+35,35,41100-71,,no_match,,bioMerieux ,,False,0.0
+36,36,511002-1,,no_match,,bioMerieux ,,False,0.0
+37,37,517000-1,,no_match,,bioMerieux ,,False,0.0
+0,0,A-2000,A-2000,exact,3446.0,Aspect Medical Systems,Patient Monitoring Systems,True,
+1,1,BIS Vista,A-2000 BIS XP,llm,11969.0,Aspect Medical Systems,Patient Monitoring Systems,False,0.8
+2,2,BIS,A-2000 BIS XP,llm,11969.0,Aspect Medical Systems,Patient Monitoring Systems,False,0.7
+3,3,822,,no_match,,Aspect Medical Systems,,False,0.9
+4,4,Vista,,no_match,,Aspect Medical Systems,,False,0.9
+5,5,VIEW,,no_match,,Aspect Medical Systems,,False,0.9
+6,6,Aspect,,no_match,,Aspect Medical Systems,,False,0.9
+7,7,VISTA,,no_match,,Aspect Medical Systems,,False,0.9
+0,0,ADC E-SPHYG II,E-Sphyg,llm,746058.0,American Diagnostic Corporation (ADC),Patient Monitoring Systems,False,0.8
+1,1,E-SPHYG 3,E-Sphyg,llm,746058.0,American Diagnostic Corporation (ADC),Patient Monitoring Systems,False,0.7
+2,2,e-spyg 2,E-Sphyg,llm,746058.0,American Diagnostic Corporation (ADC),Patient Monitoring Systems,False,0.9
+3,3,Advantage,Advantage 6013,llm,746069.0,American Diagnostic Corporation (ADC),Patient Monitoring Systems,False,0.6
+4,4,Diagnostix,,no_match,,American Diagnostic Corporation (ADC),,False,0.5
+5,5,Diagnostix 750W,,no_match,,American Diagnostic Corporation (ADC),,False,0.5
+0,0,MDSC-8232,MDSC-8232,exact,796846.0,Barco,Patient Monitoring Systems,True,
+1,1,MDSC-2226,,no_match,,Barco,,False,0.0
+2,2,MDSC-2124 K9304115,,no_match,,Barco,,False,0.0
+3,3,Arthrex AR-3250-3211,,no_match,,Barco,,False,0.0
+4,4,MDSC-8331,,no_match,,Barco,,False,0.0
+0,0,AERONEB PRO,AeroNeb Pro,exact,765368.0,Aerogen,Respiratory,True,
+1,1,AERONEB PRO-X,AeroNeb Pro,llm,765368.0,Aerogen,Respiratory,False,0.8
+2,2,Aeroned Pro,AeroNeb Pro,llm,765368.0,Aerogen,Respiratory,False,0.9
+3,3,AEROGEN PRO,AeroNeb Pro,llm,765368.0,Aerogen,Respiratory,False,0.7
+4,4,Aerogen Pro-X,AeroNeb Pro,llm,765368.0,Aerogen,Respiratory,False,0.8
+5,5,AEROGEN SOLO,,no_match,,Aerogen,,False,0.0
+6,6,30-349 Rev A,,no_match,,Aerogen,,False,0.0
+7,7,Pro-X Controller AG-PX1050,,no_match,,Aerogen,,False,0.0
+8,8,Pro-X,,no_match,,Aerogen,,False,0.0
+9,9,Aerogen,,no_match,,Aerogen,,False,0.0
+10,10,Pro X,,no_match,,Aerogen,,False,0.0
+11,11,Aerogen USB Controller,,no_match,,Aerogen,,False,0.0
+0,0,2020,2020,exact,758589.0,Advanced Instruments,General Biomedical,True,
+1,1,OSMOPRO,OsmoPRO,exact,791589.0,Advanced Instruments,General Biomedical,True,
+2,2,Osmo 1,osmo1,skip_special_chars,,Advanced Instruments,,False,
+3,3,A20,A20,exact,759168.0,Advanced Instruments,General Biomedical,True,
+4,4,Osmo1,Osmo1,exact,796084.0,Advanced Instruments,General Biomedical,True,
+5,5,Osmo PRO,osmopro,skip_special_chars,,Advanced Instruments,,False,
+6,6,3300,3300,exact,738301.0,Advanced Instruments,General Biomedical,True,
+7,7,OSMO1,Osmo1,exact,796084.0,Advanced Instruments,General Biomedical,True,
+8,8,3320,3320,exact,745759.0,Advanced Instruments,General Biomedical,True,
+9,9,Multi-Sample Micro-Osmometer OsmoPRO,OsmoPRO,llm,791589.0,Advanced Instruments,General Biomedical,False,0.95
+10,10,Micro-Osmometer 3300,3300,llm,738301.0,Advanced Instruments,General Biomedical,False,0.95
+11,11,Micro-Osmometer 3320,3320,llm,745759.0,Advanced Instruments,General Biomedical,False,0.95
+12,12,A2O,A20,llm,759168.0,Advanced Instruments,General Biomedical,False,0.9
+13,13,Fiske,Fiske 210,llm,762238.0,Advanced Instruments,General Biomedical,False,0.85
+14,14,BR2,Bilirubin BR2,llm,759129.0,Advanced Instruments,General Laboratory,False,0.95
+15,15,AN2CTS,Anoxomat AN2CTS,llm,799047.0,Advanced Instruments,,False,0.95
+16,16,Anoxomat III,,no_match,,Advanced Instruments,,False,0.8
+17,17,_,,no_match,,Advanced Instruments,,False,0.5
+18,18,-,,no_match,,Advanced Instruments,,False,0.5
+19,19,Anoxomat II,,no_match,,Advanced Instruments,,False,0.8
+20,20,George - Model,,no_match,,Advanced Instruments,,False,0.6
+21,21,3MO,,no_match,,Advanced Instruments,,False,0.7
+0,0,STELLARIS,Stellaris,exact,746378.0,Bausch & Lomb,Optometry,True,
+1,1,STEREO ZOOM 7,stereozoom7,skip_special_chars,,Bausch & Lomb,,False,
+2,2,STEREO ZOOM 4,stereozoom4,skip_special_chars,,Bausch & Lomb,,False,
+3,3,PHARTRON GOLD,Phacotron Gold,llm,3648.0,Bausch & Lomb,Optometry,False,0.8
+4,4,4,,no_match,,Bausch & Lomb,,False,0.0
+5,5,BAUSCH,,no_match,,Bausch & Lomb,,False,0.0
+6,6,BALPLAN,,no_match,,Bausch & Lomb,,False,0.0
+7,7,31-35-30,,no_match,,Bausch & Lomb,,False,0.0
+8,8,NONE,,no_match,,Bausch & Lomb,,False,0.0
+0,0,Back-UPS 450AT,,no_match,,American Power Conversion Corporation (APC),,False,0.0
+1,1,SYMINIF,,no_match,,American Power Conversion Corporation (APC),,False,0.0
+0,0,HL-L3210CW,,no_match,,Brother,,False,0.0
+1,1,Brother LaserJet Printer,,no_match,,Brother,,False,0.0
+2,2,HL-21,,no_match,,Brother,,False,0.0
+0,0,PNEUTON MODEL A,pNeuton Model A,exact,793677.0,Airon Corp,Respiratory,True,
+1,1,A-E,pNeuton Model A-E,llm,793675.0,Airon Corp,Respiratory,False,0.8
+2,2,pNeuton,,no_match,,Airon Corp,,False,0.0
+0,0,iSED,iSED,exact,763705.0,ALCOR Scientific,General Laboratory,True,
+1,1,MiniiSED,miniiSED,exact,793209.0,ALCOR Scientific,General Laboratory,True,
+2,2,ISED,iSED,exact,763705.0,ALCOR Scientific,General Laboratory,True,
+3,3,miniiSED,miniiSED,exact,793209.0,ALCOR Scientific,General Laboratory,True,
+4,4,Sentinel,,no_match,,ALCOR Scientific,,False,0.0
+0,0,RFP-100A,rfp100a,skip_special_chars,,Baylis Medical,,False,
+1,1,Baylis RF Puncture Generator RFP-100-115,RFP -100A,llm,798663.0,Baylis Medical,General Biomedical,False,0.7
+2,2,RFP-100,RFP -100A,llm,798663.0,Baylis Medical,General Biomedical,False,0.9
+3,3,RFP-100-115,RFP -100A,llm,798663.0,Baylis Medical,General Biomedical,False,0.8
+4,4,RFP-100TB,,no_match,,Baylis Medical,,False,0.5
+0,0,0295-400,,no_match,,BSN Medical,,False,0.9
+1,1,0295-300 Portable Vac/Cast Cutter,,no_match,,BSN Medical,,False,0.8
+2,2,Delta,,no_match,,BSN Medical,,False,0.7
+3,3,Delta-Cast Vacuum,,no_match,,BSN Medical,,False,0.7
+4,4,4183-160,,no_match,,BSN Medical,,False,0.9
+0,0,CPWPLUS 75M,CPWplus 75,llm,794978.0,Adam Equipment,General Laboratory,False,0.9
+1,1,CPWplus 75M,CPWplus 75,llm,794978.0,Adam Equipment,General Laboratory,False,0.95
+2,2,CPW Plus 75M,CPWplus 75,llm,794978.0,Adam Equipment,General Laboratory,False,0.9
+3,3,CPWPLUS 35,,no_match,,Adam Equipment,,False,0.0
+4,4,Lab Scale,,no_match,,Adam Equipment,,False,0.0
+5,5,HCB602H,,no_match,,Adam Equipment,,False,0.0
+6,6,MDW 250L,,no_match,,Adam Equipment,,False,0.0
+7,7,Core,,no_match,,Adam Equipment,,False,0.0
+8,8,WBW,,no_match,,Adam Equipment,,False,0.0
+9,9,WOLF,,no_match,,Adam Equipment,,False,0.0
+0,0,MX808,MX808,exact,765136.0,Befour,General Laboratory,True,
+1,1,MX450D,MX450D,exact,797206.0,Befour,Patient Care and Exam,True,
+2,2,MX310,MX307,llm,761300.0,Befour,General Laboratory,False,0.7
+3,3,MX480D,MX480,llm,769817.0,Befour,Patient Care and Exam,False,0.9
+4,4,MX805,MX808,llm,765136.0,Befour,General Laboratory,False,0.6
+5,5,MX305,MX307,llm,761300.0,Befour,General Laboratory,False,0.8
+6,6,MX450,MX450D,llm,797206.0,Befour,Patient Care and Exam,False,0.85
+7,7,MX308,MX307,llm,761300.0,Befour,General Laboratory,False,0.75
+8,8,Portable Bariatric Scale PS-7700,,no_match,,Befour,,False,0.0
+9,9,SCAL49MC,,no_match,,Befour,,False,0.0
+10,10,FS0900,,no_match,,Befour,,False,0.0
+11,11,SCAL31MC,,no_match,,Befour,,False,0.0
+12,12,Befour,,no_match,,Befour,,False,0.0
+13,13,SCAL81DH,,no_match,,Befour,,False,0.0
+14,14,MX202,,no_match,,Befour,,False,0.0
+15,15,MX170,,no_match,,Befour,,False,0.0
+16,16,SCAL20MC,,no_match,,Befour,,False,0.0
+17,17,SCAL42MC,,no_match,,Befour,,False,0.0
+18,18,MX115,,no_match,,Befour,,False,0.0
+19,19,SCAL41MC,,no_match,,Befour,,False,0.0
+20,20,SCAL45MC,,no_match,,Befour,,False,0.0
+0,0,Precision Health Scale UC-321PL,,no_match,,A and A Scales LLC,,False,0.0
+0,0,Site Rite Vision,siteritevision,skip_special_chars,,Bard,,False,
+1,1,Prevue,Prevue,exact,796225.0,Bard,Surgery,True,
+2,2,Sherlock 3CG+,Sherlock 3CG+,exact,796466.0,Bard,Surgery,True,
+3,3,PREVUE,Prevue,exact,796225.0,Bard,Surgery,True,
+4,4,Site-Rite Halcyon,Site-Rite Halcyon,exact,790793.0,Bard,Ultrasound,True,
+5,5,Sherlock 3CG,sherlock3cg,skip_special_chars,,Bard,,False,
+6,6,Site-Rite 5 Ultrasound System Scanner 9760036,Site-Rite V,llm,4869.0,Bard,Ultrasound,False,0.9
+7,7,Site Rite 8,Site-Rite VIII,llm,769843.0,Bard,Ultrasound,False,0.95
+8,8,Site-Rite 6 Ultrasound System Scanner 9770066,Site-Rite VI,llm,739137.0,Bard,Ultrasound,False,0.9
+9,9,Site-Rite 6 Ultrasound System 9770060,Site-Rite VI,llm,739137.0,Bard,Ultrasound,False,0.9
+10,10,Site-Rite 5 Ultrasound System 9760029,Site-Rite V,llm,4869.0,Bard,Ultrasound,False,0.9
+11,11,Vacora Breast Biopsy System VF2019,Vacora,llm,743190.0,Bard,Mammography,False,0.95
+12,12,SITE RITE 6,Site-Rite VI,llm,739137.0,Bard,Ultrasound,False,0.95
+13,13,INFUSOR,Infusion Pump,llm,737060.0,Bard,Infusion Pumps,False,0.7
+14,14,SiteRite 9 Ultrasound System,Site-Rite 9,llm,801029.0,Bard,Ultrasound,False,0.95
+15,15,SITE RITE 3,Site-Rite III,llm,4868.0,Bard,Ultrasound,False,0.95
+16,16,SITE RITE 5,Site-Rite V,llm,4869.0,Bard,Ultrasound,False,0.95
+17,17,SITE RITE 8,Site-Rite VIII,llm,769843.0,Bard,Ultrasound,False,0.95
+18,18,Infus OR,Infusion Pump,llm,737060.0,Bard,Infusion Pumps,False,0.7
+19,19,Site Rite 6,Site-Rite VI,llm,739137.0,Bard,Ultrasound,False,0.95
+20,20,Site Rite 5,Site-Rite V,llm,4869.0,Bard,Ultrasound,False,0.95
+21,21,Sherlock 3CG Sendor,Sherlock 3CG+,llm,796466.0,Bard,Surgery,False,0.8
+22,22,Sherlock 3CG+ Sensor,Sherlock 3CG+,llm,796466.0,Bard,Surgery,False,0.95
+23,23,Site Rite Prevue,Prevue,llm,796225.0,Bard,Surgery,False,0.8
+24,24,Site Rite Vision II,Site-Rite Vision,llm,769844.0,Bard,Ultrasound,False,0.8
+25,25,Vision,Site-Rite Vision,llm,769844.0,Bard,Ultrasound,False,0.7
+26,26,VF2019,Vacora,llm,743190.0,Bard,Mammography,False,0.8
+27,27,9770602 LINEAR,,no_match,,Bard,,False,0.0
+28,28,9770001,,no_match,,Bard,,False,0.0
+29,29,H4322,,no_match,,Bard,,False,0.0
+30,30,80300 Rotarex,,no_match,,Bard,,False,0.0
+31,31,GAMMA FINDER III,,no_match,,Bard,,False,0.0
+32,32,FACSCANTO II,,no_match,,Bard,,False,0.0
+33,33,ULTRASOUND,,no_match,,Bard,,False,0.0
+34,34,CHARGE RITE,,no_match,,Bard,,False,0.0
+35,35,Criticore,,no_match,,Bard,,False,0.0
+36,36,_,,no_match,,Bard,,False,0.0
+37,37,Sherlock,,no_match,,Bard,,False,0.0
+38,38,CONVEX WOB,,no_match,,Bard,,False,0.0
+39,39,Arctic Sun,,no_match,,Bard,,False,0.0
+40,40,Linear 128 WB,,no_match,,Bard,,False,0.0
+41,41,SenorX,,no_match,,Bard,,False,0.0
+42,42,BARD MEDICAL,,no_match,,Bard,,False,0.0
+43,43,800111B02,,no_match,,Bard,,False,0.0
+44,44,950041600,,no_match,,Bard,,False,0.0
+45,45,9770066,,no_match,,Bard,,False,0.0
+46,46,MG1522,,no_match,,Bard,,False,0.0
+47,47,L7SVA,,no_match,,Bard,,False,0.0
+48,48,800064B02,,no_match,,Bard,,False,0.0
+49,49,800062B01,,no_match,,Bard,,False,0.0
+50,50,LabSystem Pro,,no_match,,Bard,,False,0.0
+0,0,MaxAir CAPR Cart,,no_match,,Biomed Instruments,,False,1.0
+0,0,BIO-TEK Absorbance Microplate Reader ELx800,ELX800,llm,794582.0,BioTek,Molecular,False,0.95
+1,1,Universal Biometer,,no_match,,BioTek,,False,0.0
+2,2,IDA-4,,no_match,,BioTek,,False,0.0
+3,3,IDA-2,,no_match,,BioTek,,False,0.0
+4,4,IDA-4 PLUS,,no_match,,BioTek,,False,0.0
+5,5,IDEX,,no_match,,BioTek,,False,0.0
+6,6,VT Plus,,no_match,,BioTek,,False,0.0
+7,7,UW-2,,no_match,,BioTek,,False,0.0
+8,8,PACEMAKER ANALYZER,,no_match,,BioTek,,False,0.0
+9,9,DPM-II,,no_match,,BioTek,,False,0.0
+10,10,UW-3,,no_match,,BioTek,,False,0.0
+11,11,180 ESA,,no_match,,BioTek,,False,0.0
+12,12,180,,no_match,,BioTek,,False,0.0
+13,13,Index,,no_match,,BioTek,,False,0.0
+0,0,Stimuplex HNS 12,stimuplexhns12,skip_special_chars,,B. Braun,,False,
+1,1,PERFUSOR SPACE,Perfusor Space,exact,741404.0,B. Braun,Infusion Pumps,True,
+2,2,Stimuplex HNS12,Stimuplex HNS12,exact,753635.0,B. Braun,General Biomedical,True,
+3,3,Stimuplex Dig RC,Stimuplex DIG RC,exact,752038.0,B. Braun,General Biomedical,True,
+4,4,STIMUPLEX-DIG RC,stimuplexdigrc,skip_special_chars,,B. Braun,,False,
+5,5,Outlook 100,Outlook 100,exact,10687.0,B. Braun,Infusion Pumps,True,
+6,6,Perfusor Space,Perfusor Space,exact,741404.0,B. Braun,Infusion Pumps,True,
+7,7,Dialog+,Dialog Plus,llm,10487.0,B. Braun,Dialysis and Renal Therapy,False,0.9
+8,8,Dialog,Dialog Plus,llm,10487.0,B. Braun,Dialysis and Renal Therapy,False,0.7
+9,9,Vista,Vista Basic,llm,5477.0,B. Braun,Infusion Pumps,False,0.6
+10,10,Vista Pump,Vista Basic,llm,5477.0,B. Braun,Infusion Pumps,False,0.7
+11,11,VISTA,Vista Basic,llm,5477.0,B. Braun,Infusion Pumps,False,0.6
+12,12,STIMUPLEX,,no_match,,B. Braun,,False,0.0
+13,13,Thermoscan,,no_match,,B. Braun,,False,0.0
+14,14,SYRINGE PUMP,,no_match,,B. Braun,,False,0.0
+15,15,Stimuplex,,no_match,,B. Braun,,False,0.0
+16,16,Pinnacle,,no_match,,B. Braun,,False,0.0
+17,17,Thermoscan 5,,no_match,,B. Braun,,False,0.0
+18,18,Thermoscan Pro 6000,,no_match,,B. Braun,,False,0.0
+19,19,PRO 4000,,no_match,,B. Braun,,False,0.0
+20,20,ThermoScan Pro 6000,,no_match,,B. Braun,,False,0.0
+21,21,4892098,,no_match,,B. Braun,,False,0.0
+22,22,333542,,no_match,,B. Braun,,False,0.0
+23,23,MP-3010,,no_match,,B. Braun,,False,0.0
+24,24,WakeMed Unknown Model,,no_match,,B. Braun,,False,0.0
+25,25,6022,,no_match,,B. Braun,,False,0.0
+0,0,Gel Doc 1000,Gel Doc 1000,exact,802459.0,"Bio-Rad Laboratories, Inc.",Molecular,True,
+1,1,T100,T100,exact,756986.0,"Bio-Rad Laboratories, Inc.",Molecular,True,
+2,2,Trans-Blot Turbo,Trans-Blot Turbo,exact,754940.0,"Bio-Rad Laboratories, Inc.",Molecular,True,
+3,3,VARIANT II          ,variantii,skip_special_chars,,"Bio-Rad Laboratories, Inc.",,False,
+4,4,BioPlex,Bioplex,exact,786767.0,"Bio-Rad Laboratories, Inc.",General Laboratory,True,
+5,5,Geenius Reader,Geenius Reader,exact,765038.0,"Bio-Rad Laboratories, Inc.",General Laboratory,True,
+6,6,Variant II Turbo,VARIANT II TURBO,exact,8112.0,"Bio-Rad Laboratories, Inc.",General Laboratory,True,
+7,7,PR2100,pr2100,skip_special_chars,,"Bio-Rad Laboratories, Inc.",,False,
+8,8,CHEF-DR Variable Angle System III,CHEF-DR III,llm,754092.0,"Bio-Rad Laboratories, Inc.",Molecular,False,0.9
+9,9,VARIANT II TURBO Hemoglobin Testing Syst,VARIANT II TURBO,llm,8112.0,"Bio-Rad Laboratories, Inc.",General Laboratory,False,0.95
+10,10,C1000 TOUCH THERMAL CYCLER,C1000 Touch,llm,755585.0,"Bio-Rad Laboratories, Inc.",Molecular,False,0.95
+11,11,PHD IX SYSTEM,PhD,llm,736831.0,"Bio-Rad Laboratories, Inc.",Molecular,False,0.7
+12,12,Auto Dilutor AD-7,,no_match,,"Bio-Rad Laboratories, Inc.",,False,0.0
+13,13,ANALYZER,,no_match,,"Bio-Rad Laboratories, Inc.",,False,0.0
+0,0,AM-334,AM-334,exact,799055.0,Armedica,"Beds, Medical Furniture and Patient Transport",True,
+1,1,Treatment Table AM-300,AM-300,llm,790421.0,Armedica,"Beds, Medical Furniture and Patient Transport",False,0.95
+2,2,Treatment Table AM-227,AM-227,llm,790422.0,Armedica,"Beds, Medical Furniture and Patient Transport",False,0.95
+3,3,Treatment Table AM-350,,no_match,,Armedica,,False,0.0
+4,4,AM650,,no_match,,Armedica,,False,0.0
+5,5,AM-BA400,,no_match,,Armedica,,False,0.0
+6,6,554244,,no_match,,Armedica,,False,0.0
+7,7,081528942,,no_match,,Armedica,,False,0.0
+8,8,AM SERIES,,no_match,,Armedica,,False,0.0
+9,9,AMBA240,,no_match,,Armedica,,False,0.0
+10,10,Permorma,,no_match,,Armedica,,False,0.0
+11,11,AM-SX3000,,no_match,,Armedica,,False,0.0
+12,12,AM640,,no_match,,Armedica,,False,0.0
+13,13,AM-BAX5000,,no_match,,Armedica,,False,0.0
+14,14,AM368PB,,no_match,,Armedica,,False,0.0
+15,15,AM-350,,no_match,,Armedica,,False,0.0
+0,0,90055,90055,exact,798772.0,Arizant Healthcare,,True,
+1,1,RANGER,Ranger,exact,14769.0,Arizant Healthcare,General Biomedical,True,
+2,2,Ranger,Ranger,exact,14769.0,Arizant Healthcare,General Biomedical,True,
+3,3,Bair Paws 875,Bair Paws 875,exact,758034.0,Arizant Healthcare,General Biomedical,True,
+4,4,Bair Hugger 775,Bair Hugger 775,exact,758033.0,Arizant Healthcare,General Biomedical,True,
+5,5,Arizant Bair Hugger 505,Bair Hugger 505,llm,737015.0,Arizant Healthcare,General Biomedical,False,0.95
+6,6,Ranger Blood/Fluid Warming System 245,Ranger 245,llm,743096.0,Arizant Healthcare,General Biomedical,False,0.9
+7,7,Arizant Bair Hugger 750,Bair Hugger 750,llm,764492.0,Arizant Healthcare,General Biomedical,False,0.95
+8,8,Arizant Bair Paws system 875,Bair Paws 875,llm,758034.0,Arizant Healthcare,General Biomedical,False,0.9
+9,9,22110,,no_match,,Arizant Healthcare,,False,0.0
+10,10,BAIR HUGGER,,no_match,,Arizant Healthcare,,False,0.0
+11,11,22100,,no_match,,Arizant Healthcare,,False,0.0
+12,12,Bair Hugger,,no_match,,Arizant Healthcare,,False,0.0
+13,13,Bair Paws,,no_match,,Arizant Healthcare,,False,0.0
+14,14,Bair Paws Temp test,,no_match,,Arizant Healthcare,,False,0.0
+0,0,7922-MS,7922ms,skip_special_chars,,Blickman,,False,
+1,1,7922-MG,7922mg,skip_special_chars,,Blickman,,False,
+2,2,7921 MG,7921mg,skip_special_chars,,Blickman,,False,
+3,3,7922TG,7922TG,exact,799008.0,Blickman,General Biomedical,True,
+4,4,7924TG,7924TG,exact,795183.0,Blickman,General Biomedical,True,
+5,5,7925MS,7925MS,exact,9451.0,Blickman,General Biomedical,True,
+6,6,7922-SSD,7922ssd,skip_special_chars,,Blickman,,False,
+7,7,7921 SSD,7921SS,llm,736505.0,Blickman,General Biomedical,False,0.9
+8,8,_,,no_match,,Blickman,,False,0.0
+9,9,7924,,no_match,,Blickman,,False,0.5
+10,10,7924SSD,,no_match,,Blickman,,False,0.5
+11,11,Liberty,,no_match,,Blickman,,False,0.0
+12,12,7924TS,,no_match,,Blickman,,False,0.5
+0,0,Breathe Easy,Breathe Easy,exact,13097.0,3M HealthCare,Respiratory,True,
+1,1,Bair Hugger,Bair Hugger 675,llm,801420.0,3M HealthCare,General Biomedical,False,0.6
+2,2,Steri-Vac,Steri-Vac 4XL,llm,4378.0,3M HealthCare,Sterilization,False,0.5
+3,3,Air-Mate,Air-Mate 2000,llm,13094.0,3M HealthCare,Respiratory,False,0.5
+4,4,Attest,Attest 116,llm,749064.0,3M HealthCare,General Laboratory,False,0.5
+5,5,3M Bair Hugger 775,,no_match,,3M HealthCare,,False,0.0
+6,6,Bair Paws,,no_match,,3M HealthCare,,False,0.0
+7,7,Attest Auto Reader,,no_match,,3M HealthCare,,False,0.0
+8,8,_,,no_match,,3M HealthCare,,False,0.0
+9,9,Ranger 245,,no_match,,3M HealthCare,,False,0.0
+10,10,800 Series,,no_match,,3M HealthCare,,False,0.0
+11,11,11-1602-7,,no_match,,3M HealthCare,,False,0.0
+12,12,Autoreader,,no_match,,3M HealthCare,,False,0.0
+13,13,Portable,,no_match,,3M HealthCare,,False,0.0
+14,14,Ranger,,no_match,,3M HealthCare,,False,0.0
+15,15,14500,,no_match,,3M HealthCare,,False,0.0
+16,16,Bair paws,,no_match,,3M HealthCare,,False,0.0
+17,17,875,,no_match,,3M HealthCare,,False,0.0
+18,18,TR-301N+,,no_match,,3M HealthCare,,False,0.0
+19,19,TR301N+,,no_match,,3M HealthCare,,False,0.0
+20,20,Ranger 247,,no_match,,3M HealthCare,,False,0.0
+21,21,Versaflo,,no_match,,3M HealthCare,,False,0.0
+22,22,Bair Hugger 775,,no_match,,3M HealthCare,,False,0.0
+23,23,Bair Paws 875,,no_match,,3M HealthCare,,False,0.0
+24,24,Bair Hugger 500 OR,,no_match,,3M HealthCare,,False,0.0
+25,25,Impulse Sealer,,no_match,,3M HealthCare,,False,0.0
+26,26,NEW,,no_match,,3M HealthCare,,False,0.0
+27,27,widmer,,no_match,,3M HealthCare,,False,0.0
+0,0,LIFE PULSE,Life Pulse,exact,5020.0,Bunnell,Respiratory,True,
+1,1,203A,203A,exact,763697.0,Bunnell,Respiratory,True,
+2,2,204 LIFE PULSE,Life Pulse,llm,5020.0,Bunnell,Respiratory,False,0.8
+3,3,Life Pulse High Frequency Ventilator 312,312,llm,763696.0,Bunnell,Respiratory,False,0.9
+4,4,Life Pulse High Frequency Ventilator 203,203A,llm,763697.0,Bunnell,Respiratory,False,0.85
+5,5,LifePulse 204,Life Pulse,llm,5020.0,Bunnell,Respiratory,False,0.8
+6,6,WhisperJet Patient Box,WhisperJet,llm,795525.0,Bunnell,,False,0.9
+7,7,Life Pulse High Frequency Ventilator 314,,no_match,,Bunnell,,False,0.7
+0,0,Mobile Dental System AMC-20,AMC-20,llm,769445.0,Aseptico,Dental,False,0.95
+1,1,CompriCart ADU-20B,,no_match,,Aseptico,,False,0.0
+2,2,ADU-20B,,no_match,,Aseptico,,False,0.0
+3,3,AEU-12C,,no_match,,Aseptico,,False,0.0

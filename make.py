@@ -1,6 +1,7 @@
 SEMARCHY_PATH = "C:/Users/FelipePlatzer/Documents/Work_2025/PartsSource/Development/Uptime data ingestion - old and tests/old and tests/semarchy_export_2025-06-06.csv"
 MEL_PATH = "C:/Users/FelipePlatzer/Documents/Work_2025/PartsSource/Development/Uptime data ingestion/assets/mapping_tables/mel.csv"
-SOURCE_PATH = "C:/Users/FelipePlatzer/Documents/Work_2025/PartsSource/Development/Uptime data ingestion/assets/outputs/silver_assets.csv"
+#SOURCE_PATH = "C:/Users/FelipePlatzer/Documents/Work_2025/PartsSource/Development/Uptime data ingestion/assets/outputs/silver_assets.csv"
+SOURCE_PATH = "C:/Users/FelipePlatzer/Documents/Work_2025/PartsSource/Development/Uptime data ingestion/stand_attempt_2025-06-18/silver_assets_SUMMA.csv"
 
 MAKE_MAPPING_FILEPATH = "C:/Users/FelipePlatzer/Documents/Work_2025/PartsSource/Development/Uptime data ingestion/stand_attempt_2025-06-18/make_mapping.csv"
 

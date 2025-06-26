@@ -10,7 +10,7 @@ from datetime import datetime
 import time
 
 BATCH_SIZE = 50
-
+API_KEY_FILEPATH = "C:/Users/FelipePlatzer/Documents/openai_api_key.txt"
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -20,7 +20,6 @@ class ModelMapping(BaseModel):
     model_name_source: str = Field(..., description="The raw model name from source data")
     model_name_target: str = Field(..., description="The standardized model name from target list")
     confidence: float = Field(..., ge=0.0, le=1.0, description="Confidence score for the mapping (0-1)")
-    reasoning: str = Field(..., description="Brief explanation of why this mapping was chosen")
 
 class ModelMappingBatch(BaseModel):
     """Pydantic model for batch of model mappings"""
@@ -67,7 +66,6 @@ Instructions:
 3. Consider variations in naming conventions, abbreviations, and formatting
 4. If no good match exists, use "NO_MATCH" as the standardized model
 5. Provide a confidence score (0.0 to 1.0) for your mapping
-6. Explain your reasoning briefly
 
 IMPORTANT: You must ONLY use model names from the standardized list above. If you cannot find a good match, use "NO_MATCH".
 
@@ -78,7 +76,6 @@ Output format (JSON):
             "model_name_source": "original model name",
             "model_name_target": "matched standardized model or NO_MATCH",
             "confidence": 0.95,
-            "reasoning": "Brief explanation"
         }}
     ]
 }}"""
@@ -160,7 +157,6 @@ Return your response as a valid JSON object following the specified format."""
                             logger.warning(f"Invalid standardized model '{model_name_target}' for raw model '{mapping_data.get('model_name_source')}'. Setting to NO_MATCH.")
                             mapping_data["model_name_target"] = "NO_MATCH"
                             mapping_data["confidence"] = 0.0
-                            mapping_data["reasoning"] = "Invalid standardized model - not in allowed list"
                         
                         # Create Pydantic model
                         mapping = ModelMapping(**mapping_data)
@@ -173,7 +169,6 @@ Return your response as a valid JSON object following the specified format."""
                             model_name_source=mapping_data.get("model_name_source", "unknown"),
                             model_name_target="NO_MATCH",
                             confidence=0.0,
-                            reasoning=f"Error in processing: {str(e)}",
                         )
                         batch_mappings.append(fallback_mapping)
                 
@@ -188,7 +183,6 @@ Return your response as a valid JSON object following the specified format."""
                         model_name_source=model_name_source,
                         model_name_target="NO_MATCH",
                         confidence=0.0,
-                        reasoning=f"Batch processing error: {str(e)}",
                     )
                     all_mappings.append(fallback_mapping)
                 total_processed += len(batch)
@@ -210,7 +204,6 @@ Return your response as a valid JSON object following the specified format."""
                 'model_name_source': mapping.model_name_source,
                 'model_name_target': mapping.model_name_target,
                 'confidence': mapping.confidence,
-                'reasoning': mapping.reasoning,
             })
         
         return data
@@ -249,13 +242,20 @@ def main(model_name_target_list: List[str], model_name_source_list: List[str]) -
     """
     
     # Initialize mapper
-    mapper = LLMModelMapper(api_key='sk-2PLrQ8sUdX77fM_rDH83nGuW4az2O94jpeLH_aRDN8T3BlbkFJNZZYtTNu3HVSaEIW04_3YFyOkumlmyP5feAbS0VSgA')
+    # read api key from text file
+    with open(API_KEY_FILEPATH, 'r') as file:
+        api_key = file.read().strip()
+    #api_key = os.getenv("OPENAI_API_KEY")
+    if not api_key:
+        raise ValueError("Please set OPENAI_API_KEY environment variable")
+
+    mapper = LLMModelMapper(api_key=api_key)
     
     # Set standardized models
     mapper.set_model_name_target_list(model_name_target_list)
     
     # Perform mapping
-    print("Starting model mapping...")
+    #print("Starting model mapping...")
     mapping_batch = mapper.map_models(model_name_source_list, batch_size=BATCH_SIZE)
     
     # Print summary

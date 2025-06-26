@@ -1,0 +1,666 @@
+,make_source,make_target,match_type,confirmed
+3,3M,3M,exact,True
+6,3M Healthcare,3M HealthCare,exact,True
+7,"3M Healthcare (formerly Arizant Healthcare, Inc.)",3M HealthCare,first_2_words,False
+10,"7D Surgical, Inc.",7D Surgical Inc.,skip_special_chars,False
+18,A and A Scales,A and A Scales LLC,first_4_words,False
+19,A and D Medical,A and A Scales LLC,first_2_words,False
+32,ABBOTT CRITICAL CARE SYSTEMS DIV ABBOTT LABORATOR,Abbott Medical Optics (AMO),first_1_words,False
+33,ABBOTT CRITICAL CARE SYSTEMS DIV ABBOTT LABORATORIES,Abbott Medical Optics (AMO),first_1_words,False
+34,ABBOTT LABORATORIES HOSPITAL PRODUCTS DIV ELECTRO,Abbott Medical Optics (AMO),first_1_words,False
+35,ABCO,"ABCO Laboratories, INC",first_1_words,False
+36,ABIOMED INC,ABIOMED,first_1_words,False
+37,ABIOMED Inc,ABIOMED,first_1_words,False
+40,ACCUMETRICS,Accumetrics,exact,True
+41,ACCURAY INC,Accuray,first_1_words,False
+45,ACIST,ACIST Medical Systems,first_1_words,False
+46,ACIST Medical Systems Inc A BRACCO Group Co,ACIST Medical Systems,first_3_words,False
+47,ACMI,ACMI,exact,True
+48,ACMI Corp,ACMI,first_1_words,False
+49,ACMI Corp.,ACMI,first_1_words,False
+50,ADAC Laboratories,ADAC,first_1_words,False
+51,ADC,ADC,exact,True
+53,ADEC,Adec,exact,True
+56,ADEZA BIOMEDICAL CORP,Adeza,first_1_words,False
+57,ADVANCED INSTRUMENTS INC,Advanced Instruments,first_2_words,False
+58,ADVANCED STERILIZATION PRODUCTS A JOHNSON & JOHNSON CO,Advanced Sterilization Products,first_3_words,False
+60,AEMC,AEMC Inctruments (Chauvin Arnoux),first_1_words,False
+61,AERIN MEDICAL,Aerin Medical,exact,True
+62,AERIN MEDICAL IN,Aerin Medical,first_2_words,False
+63,AEROGEN INC,Aerogen,first_1_words,False
+65,AEROS Instruments Corp.,Aeros,first_1_words,False
+67,AFP IMAGING,AFP Imaging ,exact,True
+68,AFP Imaging Corp.,AFP Imaging ,first_2_words,False
+69,AGFA Corp AGFA Medical,AGFA,first_1_words,False
+70,AGFA Healthcare,AGFA,first_1_words,False
+71,AGILENT TECHNOLOGIES INC,Agilent Technologies,first_2_words,False
+73,AIRBORNE LIFE SUPPORT SYSTEMS,Airborne Life Support Systems,exact,True
+77,ALARIS MEDICAL SYSTEMS INC SUB CARDINAL HEALTH IN,Alaris Medical Systems,first_3_words,False
+78,ALARIS MEDICAL SYSTEMS INC SUB CARDINAL HEALTH INC,Alaris Medical Systems,first_3_words,False
+80,ALCON SURGICAL INC,Alcon Laboratories,first_1_words,False
+81,ALLIED HEALTHCARE PRODUCTS INC,Allied Healthcare,first_2_words,False
+83,ALPHA PROTECH INC,Alpha Technologies,first_1_words,False
+87,"AMBU, INC.",Ambu,first_1_words,False
+91,AMERICAN ELECTROMEDICS CORP,American Vault Corporation,first_1_words,False
+92,AMERICAN MEDICAL SYSTEMS,American Medical Sales (AMS),first_2_words,False
+93,AMERICAN OPTICAL CORP,American Optical,first_2_words,False
+94,AMERICAN POWER CONVERSION,American Power Conversion Corporation (APC),first_3_words,False
+95,AMERICAN SCIENTIFIC PRODUCTS DIV AMERICAN HOSPITAL SUPPLY CORP,American Scientific,first_2_words,False
+98,AMETEK Inc,Ametek,first_1_words,False
+99,AMETEK Measurement & Calibration Technologies Div,Ametek,first_1_words,False
+102,AMS,AMS,exact,True
+103,AMSCO,Amsco,exact,True
+106,APEX Dynamics Inc.,Apex Dynamics,first_2_words,False
+107,APPLIED BIOSYSTEMS,Applied Biosystems,exact,True
+108,APPLIED SCIENCE INC.,Applied Test Systems,first_1_words,False
+110,ARIZANT INC,Arizant Healthcare,first_1_words,False
+111,ARJO HOSPITAL EQUIPMENT INC,Arjo,first_1_words,False
+112,ARJO Inc,Arjo,first_1_words,False
+113,ARKRAY Inc,ARKRAY,first_1_words,False
+114,ARMEDICA MFG CORP,Armedica,first_1_words,False
+115,ARMSTRONG MEDICAL INDUSTRIES INC,Armstrong Medical,first_2_words,False
+116,ARRAY MEDICAL,Array,first_1_words,False
+117,ARRAY MEDICAL INC,Array,first_1_words,False
+118,ARTEL,Artel,exact,True
+119,ARTHREX INC,Arthrex,first_1_words,False
+120,ARTHROCARE CORP,Arthrocare,first_1_words,False
+121,ASHCROFT,"Ashcroft, Inc",first_1_words,False
+122,ASPECT MEDICAL SYSTEMS INC,Aspect Medical Systems,first_3_words,False
+124,ASUS,ASUS,exact,True
+125,AT&T,AT&T,exact,True
+126,ATCOR MEDICAL PTY LTD,AtCor Medical,first_2_words,False
+130,ATMOS MedizinTechnik GmbH & Co KG,ATMOS,first_1_words,False
+139,AUSTCO,AUSTCO,exact,True
+144,AWARENESS TECHNOLOGY INC,Awareness Technology,first_2_words,False
+151,Abaxis,Abaxis,exact,True
+152,Abaxis Inc.,Abaxis,first_1_words,False
+153,Abbott / Abaxis,Abbott Medical Optics (AMO),first_1_words,False
+154,Abbott Laboratories,Abbott Medical Optics (AMO),first_1_words,False
+155,Abbott Laboratories Hospital Products Div,Abbott Medical Optics (AMO),first_1_words,False
+156,Abbott Laboratories Inc,Abbott Medical Optics (AMO),first_1_words,False
+157,Abbott Point of Care,Abbott Medical Optics (AMO),first_1_words,False
+159,Abiomed,ABIOMED,exact,True
+160,Abiomed Inc,ABIOMED,first_1_words,False
+164,Accelerate Diagnostics Inc,Accelerate Diagnostics,first_2_words,False
+165,Accelerated Care Plus,Accelerated Care Plus,exact,True
+166,"Acclarent, Inc",Acclarent,first_1_words,False
+170,Accu-Check,Accu-Time Systems,first_1_words,False
+171,Accu-Metrics,Accu-Time Systems,first_1_words,False
+172,Accu-Scope,Accu-Scope,exact,True
+173,Accu-Tech Industries,Accu-Time Systems,first_1_words,False
+175,AccuVein,AccuVein,exact,True
+176,AccuVein Inc,AccuVein,first_1_words,False
+177,AccuVein LLC,AccuVein,first_1_words,False
+178,"AccuVein, LLC",AccuVein,first_1_words,False
+179,Acculab,ACCULAB,exact,True
+180,Accumed,AccuMed,exact,True
+186,"Accutome, Inc.",Accutome,first_1_words,False
+187,Accuvein,AccuVein,exact,True
+188,Accuvein LLC,AccuVein,first_1_words,False
+193,Acer,Acer,exact,True
+197,Acist Medical Systems,ACIST Medical Systems,exact,True
+198,Acme Electric Corp,ACME Scale Co. ,first_1_words,False
+199,Acoustic Imaging,Acoustic Imaging,exact,True
+200,Acoustic Imaging Tech Cor,Acoustic Imaging,first_2_words,False
+201,Acoustic Systems,Acoustic Systems,exact,True
+202,Acroprint,Acroprint,exact,True
+214,Adac Labs,ADAC,first_1_words,False
+215,Adam Equipment,Adam Equipment,exact,True
+216,Adam Equipment Inc,Adam Equipment,first_2_words,False
+217,Adam Lab,Adam Equipment,first_1_words,False
+218,Adams Nutator,Adams Inc.,first_1_words,False
+219,Adams Scientific Inc,Adams Inc.,first_1_words,False
+225,Adler,Adler,exact,True
+226,Adroit Medical Systems,Adroit,first_1_words,False
+233,Advanced Containment Sys Inc,Advanced Sterilization Products,first_1_words,False
+234,Advanced Healthcare Technology Ltd,Advanced Sterilization Products,first_1_words,False
+235,Advanced Instruments,Advanced Instruments,exact,True
+236,Advanced Instruments Inc,Advanced Instruments,first_2_words,False
+237,"Advanced Instruments, Inc",Advanced Instruments,first_2_words,False
+238,Advanced Medical Research,Advanced Sterilization Products,first_1_words,False
+239,Advanced Medical Systems Inc,Advanced Sterilization Products,first_1_words,False
+240,Advanced Optisurgical Inc,Advanced Optisurgical,first_2_words,False
+241,Advanced Rehabilitation,Advanced Sterilization Products,first_1_words,False
+242,Advanced Respiratory,Advanced Sterilization Products,first_1_words,False
+243,Advanced Respiratory Inc.,Advanced Sterilization Products,first_1_words,False
+244,Advanced Sterilization Product,Advanced Sterilization Products,first_2_words,False
+245,Advanced Sterilization Products,Advanced Sterilization Products,exact,True
+246,Advanced Sterilization Products Div Ethicon Inc,Advanced Sterilization Products,first_3_words,False
+247,Advanced Ultra-Violet Systems,Advanced Sterilization Products,first_1_words,False
+249,Advantech,Advantech,exact,True
+250,Advantech Corp,Advantech,first_1_words,False
+253,Aerin Medical,Aerin Medical,exact,True
+255,Aerogen,Aerogen,exact,True
+256,Aerogen Inc,Aerogen,first_1_words,False
+257,Aerogen LTD.,Aerogen,first_1_words,False
+258,Aerogen Ltd.,Aerogen,first_1_words,False
+259,Aeros Instruments Inc,Aeros,first_1_words,False
+260,Aesculap,Aesculap,exact,True
+261,Aesculap AG A B Braun Group Co,Aesculap,first_1_words,False
+262,Aesculap Inc A B Braun Group Co,Aesculap,first_1_words,False
+264,Agfa HealthCare,AGFA,first_1_words,False
+265,Agilent Technologies,Agilent Technologies,exact,True
+266,Agilent Technologies Inc,Agilent Technologies,first_2_words,False
+267,Agilent/HP,Agilent Technologies,first_1_words,False
+270,Ainsworth,Ainsworth & Sons,first_1_words,False
+274,Air Science Corp,Air Science,first_2_words,False
+275,Air Techniques,Air Techniques,exact,True
+276,Air-Shields Hill-Rom,Air Shields,first_2_words,False
+277,Air-Shields Inc.,Air Shields,first_2_words,False
+278,Air-Shields Vickers,Air Shields,first_2_words,False
+279,AirClean Systems,AirClean Systems,exact,True
+280,Airborne Life Support Systems,Airborne Life Support Systems,exact,True
+281,Aircast,Aircast,exact,True
+284,Airon Corp,Airon Corp,exact,True
+285,Airon Corp.,Airon Corp,skip_special_chars,False
+286,Airon Corporation,Airon Corp,first_1_words,False
+288,Airsep corp,AirSep,first_1_words,False
+289,Airsys Medical Cooling,Airsys,first_1_words,False
+296,Alaris Medical Systems,Alaris Medical Systems,exact,True
+297,Alaris Medical Systems Inc,Alaris Medical Systems,first_3_words,False
+300,Alcon,Alcon,exact,True
+301,Alcon Laboratories,Alcon Laboratories,exact,True
+302,Alcon Laboratories Inc,Alcon Laboratories,first_2_words,False
+303,Alcon Surgical,Alcon Laboratories,first_1_words,False
+304,Alcor Scientific,ALCOR Scientific,exact,True
+305,Alcor Scientific Inc.,ALCOR Scientific,first_2_words,False
+306,Alere,Alere,exact,True
+307,Alere Medical Inc,Alere,first_1_words,False
+308,Alere North America Inc,Alere,first_1_words,False
+309,Alexander Battery Co. S.E,Alexander Technologies,first_1_words,False
+310,AliMed Inc,AliMed,first_1_words,False
+311,Alicat Scientific Inc,"Alicat Scientific, Inc",skip_special_chars,False
+313,Alimed,AliMed,exact,True
+315,AllPro Imaging Corp.,AllPro Imaging,first_2_words,False
+316,Allegiance Healthcare,Allegiance,first_1_words,False
+317,Allegiance Healthcare Cor,Allegiance,first_1_words,False
+318,Allegiance Healthcare Crp,Allegiance,first_1_words,False
+319,Allen Medical Instruments Corp,Allen Medical Systems,first_2_words,False
+320,Allen Medical Systems,Allen Medical Systems,exact,True
+321,Allergan Humphrey,Allergan,first_1_words,False
+322,Allied Diagnostic Img,Allied Telesyn,first_1_words,False
+323,Allied Healthcare Product,Allied Healthcare,first_2_words,False
+324,Allied Healthcare Products,Allied Healthcare,first_2_words,False
+325,Allied Healthcare Products Inc,Allied Healthcare,first_2_words,False
+326,Allied Telesyn,Allied Telesyn,exact,True
+328,Alma Lasers,Alma Laser,first_1_words,False
+329,Alma Lasers Ltd,Alma Laser,first_1_words,False
+330,Aloka,Aloka,exact,True
+331,Aloka (Hitachi Medical),Aloka,first_1_words,False
+332,Aloka Co Ltd (USA),Aloka,first_1_words,False
+333,Alpha Omega Co USA Inc,Alpha Omega Engineering Ltd.,first_2_words,False
+334,Alpha Technics,Alpha Technics,exact,True
+336,Alpine Biomed,Alpine Biomed,exact,True
+338,Altair Instruments,Altair,first_1_words,False
+342,Altimate Medical Inc,Altimate Medical,first_2_words,False
+345,AmRad Medical,Amrad,first_1_words,False
+346,Amana,Amana,exact,True
+347,Amano,Amano,exact,True
+348,Ambco Electronics,AMBCO,first_1_words,False
+349,Ambu,Ambu,exact,True
+350,Ambu Inc,Ambu,first_1_words,False
+360,American Bantex,American Bantex Derbie,first_2_words,False
+361,American Bioclinical,American Vault Corporation,first_1_words,False
+362,American Bioproducts Co.,American Vault Corporation,first_1_words,False
+363,American Biosystems,American Vault Corporation,first_1_words,False
+364,American Biotech Supply,American Biotech Supply,exact,True
+365,American Dade,American Dade,exact,True
+366,American Diagnostic Corp,American Diagnostic Corporation (ADC),first_2_words,False
+367,American Diagnostic Corp (ADC),American Diagnostic Corporation (ADC),first_2_words,False
+368,American Diagnostic Corp (Adc),American Diagnostic Corporation (ADC),first_2_words,False
+369,American Diagnostic Corp(ADC),American Diagnostic Corporation (ADC),first_2_words,False
+370,American Diagnostics Corp,American Vault Corporation,first_1_words,False
+371,American Echo,American Vault Corporation,first_1_words,False
+372,American Edwards Labs,American Vault Corporation,first_1_words,False
+373,American Electromedics Corp,American Vault Corporation,first_1_words,False
+374,American Hospital Supply,American Vault Corporation,first_1_words,False
+375,American Hydro-Surgical,American Vault Corporation,first_1_words,False
+376,American IV Products,American Vault Corporation,first_1_words,False
+377,American Imex,American Imex,exact,True
+378,American Medical Sales,American Medical Sales (AMS),first_3_words,False
+379,American Medical Systems,American Medical Sales (AMS),first_2_words,False
+380,American Optical,American Optical,exact,True
+381,American Optical Corp,American Optical,first_2_words,False
+382,American Orthopedic,American Vault Corporation,first_1_words,False
+383,American Orthopedics,American Orthopedics,exact,True
+384,American Pharmaseal,American Vault Corporation,first_1_words,False
+385,American Power Conversion,American Power Conversion Corporation (APC),first_3_words,False
+386,American Power Conversion (APC) by Schneider Electric,American Power Conversion Corporation (APC),first_3_words,False
+387,American Scale,American Vault Corporation,first_1_words,False
+388,American Scale Corp.,American Vault Corporation,first_1_words,False
+389,American Scientific,American Scientific,exact,True
+390,American Scientific Prod.,American Scientific,first_2_words,False
+391,"American Scientific, Llc",American Scientific,first_2_words,False
+392,American Standard,American Vault Corporation,first_1_words,False
+393,American TeleCare Inc,American Telecare,first_2_words,False
+394,American Weigh Scales Inc,American Vault Corporation,first_1_words,False
+395,Americomp,Americomp,exact,True
+399,Ametek,Ametek,exact,True
+400,Ametek U.S Gauge Division,Ametek,first_1_words,False
+401,Amico,Amico,exact,True
+402,Amico Diagnostic,Amico,first_1_words,False
+403,Amico Patient Care Corp,Amico,first_1_words,False
+404,Amprobe,Amprobe,exact,True
+405,Amsco International Inc,Amsco,first_1_words,False
+406,Amvex,Amvex Corporation,first_1_words,False
+409,Analytical Industries,Analytical Solutions & Providers (ASAP),first_1_words,False
+412,Anderson,Anderson Instruments,first_1_words,False
+415,Anesthesia Assoc,Anesthesia Associates,first_1_words,False
+416,Anesthesia Assoc Inc (AincA),Anesthesia Associates,first_1_words,False
+417,Angenieux,Angenieux,exact,True
+419,AngioDynamics,AngioDynamics,exact,True
+420,AngioDynamics Inc,AngioDynamics,first_1_words,False
+421,Angiodynamics,AngioDynamics,exact,True
+422,Anodyne Therapy,Anodyne Therapy,exact,True
+423,Anodyne Therapy LLC,Anodyne Therapy,first_2_words,False
+425,Anspach Effort Inc,Anspach,first_1_words,False
+426,"Anspach Effort, Inc.",Anspach,first_1_words,False
+432,Apex Medical,Apex Dynamics,first_1_words,False
+433,Apex Medical Corp,Apex Dynamics,first_1_words,False
+434,Apex Tool Group,Apex Dynamics,first_1_words,False
+435,Apple Computer,Apple,first_1_words,False
+436,Apple Inc,Apple,first_1_words,False
+437,Applied BioSystems,Applied Biosystems,exact,True
+438,Applied Biosystems,Applied Biosystems,exact,True
+439,Applied Fiberoptics,Applied Fiberoptics,exact,True
+440,Applied Medical,Applied Medical,exact,True
+441,Applied Medical Resources,Applied Medical,first_2_words,False
+442,Aqua Creek Products Llc,Aqua Solutions,first_1_words,False
+446,Aretech,Aretech,exact,True
+449,Argos Technologies,Argos Technologies,exact,True
+450,Argos Technologies Inc,Argos Technologies,first_2_words,False
+451,Arista,Arista,exact,True
+452,Arizant / 3M Health Care,Arizant Healthcare,first_1_words,False
+453,Arizant Healthcare,Arizant Healthcare,exact,True
+454,Arjo Inc,Arjo,first_1_words,False
+455,Arjo-Huntleigh,Arjo,first_1_words,False
+456,ArjoHuntleigh,ArjoHuntleigh,exact,True
+457,ArjoHuntleigh Inc. USA,ArjoHuntleigh,first_1_words,False
+458,Arkray,ARKRAY,exact,True
+459,Arkray Inc,ARKRAY,first_1_words,False
+461,Armedica,Armedica,exact,True
+462,Armedica Manufacturing Corp.,Armedica,first_1_words,False
+463,Armedica Manufacturing Corporation,Armedica,first_1_words,False
+464,Armedica Mfg Corp,Armedica,first_1_words,False
+465,Armstrong Medical,Armstrong Medical,exact,True
+466,Armstrong Medical Industr,Armstrong Medical,first_2_words,False
+467,Arobella Medical LLC,"Arobella Medical, LLC",skip_special_chars,False
+469,Arrow International,Arrow International,exact,True
+470,Artel,Artel,exact,True
+471,Arteriocyte,Arteriocyte,exact,True
+473,Arthrex,Arthrex,exact,True
+474,Arthrex Inc,Arthrex,first_1_words,False
+475,"Arthrex, Inc",Arthrex,first_1_words,False
+477,Arthrocare,Arthrocare,exact,True
+478,Arthrocare Corp.,Arthrocare,first_1_words,False
+482,Aseptico,Aseptico,exact,True
+483,Aseptico Inc,Aseptico,first_1_words,False
+484,Aseptico Inc.,Aseptico,first_1_words,False
+485,Ashcroft,"Ashcroft, Inc",first_1_words,False
+487,Aspect Imaging,Aspect Imaging,exact,True
+488,Aspect Medical / Medtronic,Aspect Medical Systems,first_2_words,False
+489,Aspect Medical Systems,Aspect Medical Systems,exact,True
+490,Aspect Medical Systems Inc.,Aspect Medical Systems,first_3_words,False
+491,Aspen Labs,Aspen Labs,exact,True
+492,Aspen Labs LLC,Aspen Labs,first_2_words,False
+493,Associated Research,Associated X-Ray Corp,first_1_words,False
+494,Atago,ATAGO,exact,True
+496,Athena,Athena Champion,first_1_words,False
+499,Atlas Medical,Atlas Surgical,first_1_words,False
+500,Atmos Medizin Technik,ATMOS,first_1_words,False
+501,Atom Medical,Atom Medical,exact,True
+502,Atomic Products,Atomic Force Microscopes (AFM),first_1_words,False
+508,Audio Buddy,"Audio-Technica U.S., Inc.",first_1_words,False
+509,Audio-Technica,"Audio-Technica U.S., Inc.",first_2_words,False
+510,Audiology Systems,Audiology Systems Inc,first_2_words,False
+511,Audioscan,Audioscan,exact,True
+512,Augustine Medical,Augustine Medical,exact,True
+513,Augustine Medical Inc.,Augustine Medical,first_2_words,False
+515,Aurora Imaging,Aurora Imaging Corporation,first_2_words,False
+516,Aurora Pro Scientific,Aurora Imaging Corporation,first_1_words,False
+522,Avanti,Avanti,exact,True
+523,Avantik Biogroup,Avantik Biogroup,exact,True
+526,Aviv Biomedical Inc.,Aviv Biomedical,first_2_words,False
+528,Avox System Inc.,AVOX Systems,first_1_words,False
+529,Avox Systems,AVOX Systems,exact,True
+530,Awareness Technology,Awareness Technology,exact,True
+531,Awareness Technology Inc,Awareness Technology,first_2_words,False
+532,Awareness Technology Inc.,Awareness Technology,first_2_words,False
+533,Axis-Shield USA,Axis Communications,first_1_words,False
+537,Azure biosystems,Azure Biosystems,exact,True
+541,B BRAUN MEDICAL EQUIPMENT INC DIV B BRAUN OF AMER,B. Braun,first_2_words,False
+542,B BRAUN MEDICAL EQUIPMENT INC DIV B BRAUN OF AMERICA CO,B. Braun,first_2_words,False
+543,B Braun Instruments,B. Braun,first_2_words,False
+544,B Braun Medical,B. Braun,first_2_words,False
+545,B Braun Medical Inc,B. Braun,first_2_words,False
+546,B Braun Medical Inc A B Braun Group Co,B. Braun,first_2_words,False
+550,B&L Engineering,B&L Engineering,exact,True
+553,B/R Instrument Corp.,B/R Instrument Corporation,first_3_words,False
+554,BAILEY MFG CO,Bailey Manufacturing,first_1_words,False
+556,BALDOR,Baldor,exact,True
+557,BALTIMORE THERAPEUTIC EQUIPMENT CO,Baltimore Therapeutic,first_2_words,False
+558,BARD ,Bard,exact,True
+559,BARD ACCESS SYSTEMS DIV C R BARD INC,Bard,first_1_words,False
+560,BARD BIOMEDICAL DIV C R BARD INC,Bard,first_1_words,False
+561,BARD UROLOGICAL DIV C R BARD INC,Bard,first_1_words,False
+562,BARNSTEAD/THERMOLYNE ABT DER MENZEL GMBH,Barnstead,first_1_words,False
+563,BARRX Medical,Barrx Medical,exact,True
+564,BAUMER,Baumer,exact,True
+565,BAUSCH & LOMB,Bausch & Lomb,exact,True
+566,BAXTER DIAGNOSTICS INC,Baxter,first_1_words,False
+567,BAXTER HEALTHCARE CORP CVG/VASCULAR SYSTEMS,Baxter,first_1_words,False
+568,BAXTER HEALTHCARE CORP IV SYSTEMS/IV THERAPY,Baxter,first_1_words,False
+569,BAXTER HEALTHCARE CORP PRODUCT SERVICE MANAGEMENT DIV,Baxter,first_1_words,False
+570,BAXTER HEALTHCARE CORP SYSTEMS DIV,Baxter,first_1_words,False
+571,BAYER DIAGNOSTICS GMBH,Bayer,first_1_words,False
+572,BAYLIS MEDICAL CO INC,Baylis Medical,first_2_words,False
+573,BC Biomedical,BC Biomedical,exact,True
+579,BCI International,BCI International,exact,True
+582,BECKMAN INSTRUMENTS INC,Beckman Coulter,first_1_words,False
+583,BECTON DICKINSON DIAGNOSTIC INSTRUMENT SYSTEMS DI,Becton Dickinson,first_2_words,False
+584,BECTON DICKINSON DIAGNOSTIC INSTRUMENT SYSTEMS DIV BECTON DICKINSON AN,Becton Dickinson,first_2_words,False
+585,BECTON DICKINSON MICROBIOLOGY SYSTEMS DIV BECTON DICKINSON A,Becton Dickinson,first_2_words,False
+587,"BELIMED, INC.",BeliMed,first_1_words,False
+589,BERCHTOLD,Berchtold,exact,True
+590,BERCHTOLD CORP,Berchtold,first_1_words,False
+591,BERKELEY MEDEVICES INC,Berkeley Medevices,first_2_words,False
+592,BERRCOM,Berrcom,exact,True
+594,BFW,BFW,exact,True
+600,BHM Medical  Inc,BHM Medical,first_2_words,False
+602,BINDER INC,Binder,first_1_words,False
+603,BIO RAD LABORATORIES VENDOR,"Bio-Rad Laboratories, Inc.",first_3_words,False
+604,BIO-LOGIC SYSTEMS,Bio-Logic Systems,exact,True
+605,BIO-RAD DIAGNOSTICA,"Bio-Rad Laboratories, Inc.",first_2_words,False
+606,BIO-TEK,Bio-Tek,exact,True
+607,BIO-TEK INSTRUMENTS INC,Bio-Tek,first_2_words,False
+608,BIODEX MEDICAL SYSTEMS INC,Biodex,first_1_words,False
+609,"BIOFIRE DIAGNOSTICS, LLC",BioFire,first_1_words,False
+610,BIOMEDICAL SCIENCE,"BioMedical Solutions, Inc. (BSI)",first_1_words,False
+611,BIOSENSE WEBSTER INC A JOHNSON & JOHNSON CO,Biosense Webster,first_2_words,False
+612,BIOTEK INC,BioTek,first_1_words,False
+613,BIOTRONIK INC,Biotronik,first_1_words,False
+614,BIOTRONIK Inc,Biotronik,first_1_words,False
+615,BIRD PRODUCTS 3M MEDICAL PRODUCTS DIV,Bird,first_1_words,False
+616,BIRTCHER MEDICAL SYSTEMS INC,Birtcher Medical Systems,first_3_words,False
+617,BK Medical Systems Inc,BK Medical,first_2_words,False
+618,BK Precision,BK Precision,exact,True
+622,BLACK & DECKER,Black & Decker,exact,True
+625,BLUE M,Blue M Electric,first_2_words,False
+626,BLUE POINT,Blue Sun Scientific,first_1_words,False
+628,BMG Labtech Inc,BMG Labtech,first_2_words,False
+629,BODYGUARD FITNESS,BodyGuard,first_1_words,False
+630,BOEHRINGER MANNHEIM,Boehringer Mannheim,exact,True
+631,BOEHRINGER MANNHEIM GMBH,Boehringer Mannheim,first_2_words,False
+632,BOEKEL INDUSTRIES INC,Boekel Scientific,first_1_words,False
+633,BOEKEL SCIENTIFIC,Boekel Scientific,exact,True
+635,BOSTON SCIENTIFIC - ENDOSURGERY GROUP,Boston Scientific,first_2_words,False
+636,BOSTON SCIENTIFIC CORP,Boston Scientific,first_2_words,False
+637,BOSTON SCIENTIFIC SCIMED,Boston Scientific,first_2_words,False
+638,BOVIE MEDICAL CORP,Bovie Aaron Medical,first_1_words,False
+640,BR Surgical,BR Surgical,exact,True
+641,BR Surgical LLC,BR Surgical,first_2_words,False
+642,BRACCO DIAGNOSTICS,Bracco,first_1_words,False
+643,BRACCO Diagnostics Inc (US),Bracco,first_1_words,False
+645,BRAINLAB,BrainLAB,exact,True
+646,BRANSON ULTRASONICS CORP,Branson Ultrasonic Corporation,first_1_words,False
+649,BREWER,Brewer Company,first_1_words,False
+650,BRINKMANN INSTRUMENTS INC,Brinkmann,first_1_words,False
+651,BRISTOL-MYERS SQUIBB,Bristol-Myers ,first_2_words,False
+653,BROOKS ELECTRONICS,Brooks Rand Instruments,first_1_words,False
+654,BROWN & MORRISON,Brown,first_1_words,False
+655,BSN Medical,BSN Medical,exact,True
+656,BSN Medical Inc,BSN Medical,first_2_words,False
+657,"BSN Medical, Inc.",BSN Medical,first_2_words,False
+659,BTE Technologies Inc,BTE Technologies,first_2_words,False
+660,BTE Technologies LLC,BTE Technologies,first_2_words,False
+662,BUFFALO DENTAL MFG CO INC,Buffalo Dental Manufacturing,first_2_words,False
+663,BUFFALO FILTER DIV MEDTEK DEVICES INC,Buffalo Filter,first_2_words,False
+664,BUNNELL INC,Bunnell,first_1_words,False
+665,BURDICK (Cardiac Science),Burdick,first_1_words,False
+666,BURDICK INC A QUINTON CO,Burdick,first_1_words,False
+667,BURTON CO,Burton,first_1_words,False
+668,BURTON MEDICAL,Burton,first_1_words,False
+669,BURTON MEDICAL PRODUCTS CORP SUB LUXO ASA,Burton,first_1_words,False
+670,BYERS/PORTLAND WILLIAMETE,Byers Industries,first_1_words,False
+671,BYRON MEDICAL,Byron Medical,exact,True
+675,Bailey Manufacturing Co.,Bailey Manufacturing,first_2_words,False
+681,Baltimore Therapeutic Equipmen,Baltimore Therapeutic,first_2_words,False
+683,Barco,Barco,exact,True
+684,Barco Inc,Barco,first_1_words,False
+685,Barco Inc Display Systems,Barco,first_1_words,False
+686,Bard Access Systems,Bard,first_1_words,False
+687,Bard Access Systems (C.R. Bard),Bard,first_1_words,False
+688,Bard Biopsy Systems,Bard,first_1_words,False
+689,Bard EP-Medical,Bard,first_1_words,False
+690,Bard Medical,Bard,first_1_words,False
+691,Bard Medical Div C R Bard Inc,Bard,first_1_words,False
+692,Bard Peripheral Vascular,Bard,first_1_words,False
+693,Bard Peripheral Vascular Div C R Bard Inc,Bard,first_1_words,False
+696,Barnstead,Barnstead,exact,True
+697,Barnstead Corp,Barnstead,first_1_words,False
+698,Barnstead International,Barnstead,first_1_words,False
+699,Barnstead International Corp Div Thermo Fisher Scientific Inc,Barnstead,first_1_words,False
+700,Barnstead Thermolyne Corp.,Barnstead,first_1_words,False
+701,Barnstead/ Thermolyne Cor,Barnstead,first_1_words,False
+702,Barrx Medical,Barrx Medical,exact,True
+703,Barrx Medical Inc.,Barrx Medical,first_2_words,False
+706,Baumer,Baumer,exact,True
+707,Bausch & Lomb,Bausch & Lomb,exact,True
+708,Bausch & Lomb Inc,Bausch & Lomb,first_3_words,False
+709,Bausch & Lomb Inc Optical Systems Div,Bausch & Lomb,first_3_words,False
+710,Bausch & Lomb Surgical,Bausch & Lomb,first_3_words,False
+711,Bausch + Lomb,Bausch & Lomb,first_1_words,False
+712,Baxa,Baxa,exact,True
+713,Baxa Corp.,Baxa,first_1_words,False
+714,Baxa Corporation,Baxa,first_1_words,False
+715,Baxter,Baxter,exact,True
+716,Baxter Diagnostics Inc Scientific Products Biomedical,Baxter,first_1_words,False
+717,Baxter Healthcare,Baxter,first_1_words,False
+718,Baxter Healthcare (Sigma),Baxter,first_1_words,False
+719,Baxter Healthcare Corp Dade Div,Baxter,first_1_words,False
+720,Baxter Healthcare Corp IV Systems/Electronic Infusion Systems,Baxter,first_1_words,False
+721,Baxter Healthcare Corp Medication Delivery,Baxter,first_1_words,False
+722,Baxter International Inc,Baxter,first_1_words,False
+723,Baxter International Inc.,Baxter,first_1_words,False
+724,Baxter Product Service,Baxter,first_1_words,False
+725,Baxter-Clinitec Corp,Baxter,first_1_words,False
+726,Baxter/ Scientific Prod.,Baxter,first_1_words,False
+727,Bayer,Bayer,exact,True
+728,Bayer Corp,Bayer,first_1_words,False
+729,Bayer Corp Div Bayer AG,Bayer,first_1_words,False
+730,Bayer Corporation,Bayer,first_1_words,False
+731,Bayer Healthcare,Bayer,first_1_words,False
+732,Bayer Healthcare LLC,Bayer,first_1_words,False
+733,Baylis Medical,Baylis Medical,exact,True
+734,Baylis Medical Co,Baylis Medical,first_2_words,False
+735,Baylis Medical Co Inc,Baylis Medical,first_2_words,False
+736,Baylis Medical Company,Baylis Medical,first_2_words,False
+740,Bear Medical,Bear,first_1_words,False
+741,Bear Medical Systems Inc.,Bear,first_1_words,False
+744,Beckman Coulter,Beckman Coulter,exact,True
+745,Beckman Coulter Inc,Beckman Coulter,first_2_words,False
+746,Beckman Industrial,Beckman Coulter,first_1_words,False
+747,Beckman Instruments Inc,Beckman Coulter,first_1_words,False
+748,Becton Dickinson,Becton Dickinson,exact,True
+749,Becton Dickinson (BD),Becton Dickinson,first_2_words,False
+750,"Becton, Dickinson and Company",Becton Dickinson,first_2_words,False
+752,Bee Robotics,Bee Robotics,exact,True
+753,Befour,Befour,exact,True
+754,Befour Inc,Befour,first_1_words,False
+755,"Befour, Inc.",Befour,first_1_words,False
+756,Beijing Choice Electronic Tech,Beijing Choice,first_2_words,False
+757,Beijing Choice Electronic Technology Co Ltd,Beijing Choice,first_2_words,False
+758,Belimed,BeliMed,exact,True
+759,Belimed Inc,BeliMed,first_1_words,False
+760,"Belimed, Inc.",BeliMed,first_1_words,False
+761,Belkin International,Belkin,first_1_words,False
+762,Bellco Glass Inc,Bellco,first_1_words,False
+763,Bellco Glass Inc.,Bellco,first_1_words,False
+766,Belmont Equipment,Belmont Equipment,exact,True
+767,Belmont Instrument Corp,Belmont Instrument,first_2_words,False
+768,Belmont Instrument Corp.,Belmont Instrument,first_2_words,False
+769,Belmont Instrument LLC,Belmont Instrument,first_2_words,False
+770,Belmont Medical,Belmont Instrument,first_1_words,False
+771,Belmont Medical Technologies,Belmont Instrument,first_1_words,False
+772,Beltone Electronics Corp,Beltone,first_1_words,False
+773,BenQ,BenQ,exact,True
+774,Benchmark Scientific,Benchmark Scientific,exact,True
+775,Benchmark Scientific Inc,Benchmark Scientific,first_2_words,False
+777,Bender,Bender,exact,True
+778,Bennett X-Ray,Bennett X-Ray,exact,True
+779,Bennett X-Ray Corp.,Bennett X-Ray,first_3_words,False
+780,Benq,BenQ,exact,True
+783,Berchtold,Berchtold,exact,True
+784,Berchtold Corp.,Berchtold,first_1_words,False
+785,Berkeley Bio-Engineering,Berkeley Nucleonics Corporation,first_1_words,False
+786,Berkeley Medevices Inc,Berkeley Medevices,first_2_words,False
+787,Berkeley Medevices Inc.,Berkeley Medevices,first_2_words,False
+791,Berrcom Medical Device Co,Berrcom,first_1_words,False
+792,Best Power,Best Power,exact,True
+793,Best Power Technology,Best Power,first_2_words,False
+794,Best Theratronics,"Best Theratronics, ltd.",first_2_words,False
+795,Best Theratronics Ltd.,"Best Theratronics, ltd.",skip_special_chars,False
+796,Beta Medical Products,Beta Star,first_1_words,False
+799,Beurer,Beurer,exact,True
+800,Beverage Air,Beverage Air,exact,True
+803,Bicron,Bicron,exact,True
+804,Bien Air,Bien-Air,skip_special_chars,False
+805,Bien-Air Surgery SA,Bien-Air,first_2_words,False
+806,Bien-Air USA Inc,Bien-Air,first_2_words,False
+808,Bio Compression Systems,Bio Compression,first_2_words,False
+809,Bio Compression Systems Inc,Bio Compression,first_2_words,False
+810,Bio Data,Bio/Data,skip_special_chars,False
+811,Bio Logic Systems Corp,Bio-Logic Systems,first_3_words,False
+813,Bio-Logic Systems Corp,Bio-Logic Systems,first_3_words,False
+814,Bio-Med Devices,Bio-Med Devices,exact,True
+815,Bio-Med Devices Inc,Bio-Med Devices,first_3_words,False
+819,Bio-Rad,"Bio-Rad Laboratories, Inc.",first_2_words,False
+820,Bio-Rad Laboratories,"Bio-Rad Laboratories, Inc.",first_3_words,False
+821,Bio-Rad Laboratories Inc,"Bio-Rad Laboratories, Inc.",skip_special_chars,False
+822,"Bio-Tek Instruments, Inc.",Bio-Tek,first_2_words,False
+823,Bio-logic A Natus Medical Inc Co,Bio-Logic Systems,first_2_words,False
+824,Bio/Data Corp,Bio/Data,first_2_words,False
+825,Bio/Data Corp.,Bio/Data,first_2_words,False
+826,BioCare Medical,Biocare Medical,exact,True
+827,BioExpress,Bioexpress,exact,True
+828,BioFire Diagnostics,BioFire,first_1_words,False
+829,BioFire Diagnostics Inc Div bioMerieux SA,BioFire,first_1_words,False
+830,BioFire Diagnostics LLC,BioFire,first_1_words,False
+831,BioJect  Inc,"Bioject, Inc.",skip_special_chars,False
+832,BioMedical Life Systems Inc (BMLS),Biomedical Life Systems,first_3_words,False
+833,"BioMedical Life Systems, Inc.",Biomedical Life Systems,first_3_words,False
+834,BioMedix,Biomedix,exact,True
+835,BioMicroLab,BioMicroLab,exact,True
+836,"BioSite, Inc.",BIOSITE,first_1_words,False
+837,BioSpec Products Inc,BioSpec,first_1_words,False
+838,BioTek Instruments,BioTek,first_1_words,False
+839,BioTek Instruments Inc,BioTek,first_1_words,False
+840,BioTek Instruments- (Agilent),BioTek,first_1_words,False
+842,Biochem International Inc,Biochem Immunosystems,first_1_words,False
+843,Biodex Medical Systems,Biodex,first_1_words,False
+844,Biodex Medical Systems Inc,Biodex,first_1_words,False
+846,Biofire Diagnostics,BioFire,first_1_words,False
+848,Biolase,Biolase Technology,first_1_words,False
+849,Biolitec,Biolitec,exact,True
+851,Biomed Devices Inc.,Biomed Instruments,first_1_words,False
+852,Biomed Simulation Inc,Biomed Instruments,first_1_words,False
+853,Biomedical Enterprises,"BioMedical Solutions, Inc. (BSI)",first_1_words,False
+854,Biomedical Life Systems,Biomedical Life Systems,exact,True
+855,Biomedical Research Instruments Inc (BRI),"BioMedical Solutions, Inc. (BSI)",first_1_words,False
+857,Biomerieux,bioMerieux ,exact,True
+858,Biomerieux Inc.,bioMerieux ,first_1_words,False
+863,Bioness,Bioness,exact,True
+864,Bioness Inc,Bioness,first_1_words,False
+865,"Bioness, Inc.",Bioness,first_1_words,False
+866,"Bionet America, Inc",Bionet,first_1_words,False
+869,Bioptics,Bioptics,exact,True
+871,Biosense Webster,Biosense Webster,exact,True
+872,Biosense Webster Inc,Biosense Webster,first_2_words,False
+873,Biosense Webster Inc A Johnson & Johnson Co,Biosense Webster,first_2_words,False
+875,Biosite Diagnostics,BIOSITE,first_1_words,False
+876,Biosite Inc,BIOSITE,first_1_words,False
+877,Biosite Inc Div Alere Inc,BIOSITE,first_1_words,False
+882,Biotage LLC,Biotage,first_1_words,False
+883,Biotek / Fluke Biomedical,BioTek,first_1_words,False
+885,Biotronik,Biotronik,exact,True
+887,Bird Products Corp,Bird,first_1_words,False
+888,Bird Products Corp Cardinal Health Critical Care Div,Bird,first_1_words,False
+889,Bird Products Corp.,Bird,first_1_words,False
+890,Birtcher,Birtcher Medical Systems,first_1_words,False
+891,Birtcher Medical Systems Inc,Birtcher Medical Systems,first_3_words,False
+893,Bk Medical,BK Medical,exact,True
+894,Bk Precision,BK Precision,exact,True
+895,Black & Black Surgical,Black & Decker,first_2_words,False
+896,Black & Black Surgical Inc,Black & Decker,first_2_words,False
+897,Black & Decker,Black & Decker,exact,True
+898,Black Box,Black Box,exact,True
+899,Black Box Corp,Black Box,first_2_words,False
+900,Blickman,Blickman,exact,True
+901,"Blickman Health Ind., Inc",Blickman,first_1_words,False
+902,Blickman Inc,Blickman,first_1_words,False
+903,Block Scientific,Block Scientific,exact,True
+904,Blue M Electric,Blue M Electric,exact,True
+905,Blue M Electric A General Signal Co,Blue M Electric,first_3_words,False
+908,Body Care,Body-Solid,first_1_words,False
+909,Body Solid,Body-Solid,skip_special_chars,False
+910,Body-Solid,Body-Solid,exact,True
+911,Body-Solid Inc,Body-Solid,first_2_words,False
+912,Boehringer Inc,Boehringer Mannheim,first_1_words,False
+913,Boehringer Laboratories Inc,Boehringer Laboratories,first_2_words,False
+914,"Boehringer Labs., LLC",Boehringer Mannheim,first_1_words,False
+915,Boehringer Mannheim,Boehringer Mannheim,exact,True
+916,Boekel,Boekel Scientific,first_1_words,False
+917,Boekel Scientific,Boekel Scientific,exact,True
+918,Boekel Scientific Inc,Boekel Scientific,first_2_words,False
+922,Bosch,Bosch,exact,True
+923,Boston Medical,Boston Scientific,first_1_words,False
+924,Boston Scientific,Boston Scientific,exact,True
+925,Boston Scientific Corp,Boston Scientific,first_2_words,False
+928,Bovie Medical,Bovie Aaron Medical,first_1_words,False
+929,Bovie Medical Corp.,Bovie Aaron Medical,first_1_words,False
+933,Bracco Diagnostics Inc,Bracco,first_1_words,False
+934,Bracco Spa,Bracco,first_1_words,False
+938,BrainLab,BrainLAB,exact,True
+939,Brainlab Inc,BrainLAB,first_1_words,False
+941,Brandt Industries,Brandt,first_1_words,False
+942,Brandt Industries Inc,Brandt,first_1_words,False
+943,Branson Ultrasonics Corp,Branson Ultrasonic Corporation,first_1_words,False
+944,Branson Ultrasonics Corp (US) Sub Emerson Electri,Branson Ultrasonic Corporation,first_1_words,False
+945,Bransonic,Bransonic,exact,True
+946,Braun,Braun,exact,True
+947,Brecknell,Brecknell,exact,True
+948,Brecknell USA,Brecknell,first_1_words,False
+950,Brewer Company,Brewer Company,exact,True
+951,Briggs Healthcare (Mabis),Briggs & Stratton,first_1_words,False
+952,Bristol,Bristol-Myers ,first_1_words,False
+953,Bristol Myers and Squib,Bristol-Myers ,first_2_words,False
+954,Bristol-Myers Squibb Co Medical Imaging Div,Bristol-Myers ,first_2_words,False
+956,Brooks Instruments,Brooks Rand Instruments,first_1_words,False
+958,Brother,Brother,exact,True
+959,Brother International Cor,Brother,first_1_words,False
+960,Brother International Corp,Brother,first_1_words,False
+961,Bruker Daltonics,Bruker Daltonics,exact,True
+962,Bruker Scientific LLC,Bruker Daltonics,first_1_words,False
+963,Brymill Cryogenic Systems,Brymill,first_1_words,False
+964,Buffalo Dental,Buffalo Dental Manufacturing,first_2_words,False
+965,Buffalo Dental Manufacturing,Buffalo Dental Manufacturing,exact,True
+966,Buffalo Dental Mfg Co Inc,Buffalo Dental Manufacturing,first_2_words,False
+967,Buffalo Filter,Buffalo Filter,exact,True
+968,Buffalo Filter LLC a CONMED Corp Co,Buffalo Filter,first_2_words,False
+969,Bullard,Bullard,exact,True
+970,Bunn,Bunn,exact,True
+971,Bunnell,Bunnell,exact,True
+972,"Bunnell, Inc.",Bunnell,first_1_words,False
+973,Burdick,Burdick,exact,True
+974,Burdick Inc A Quinton Co,Burdick,first_1_words,False
+976,Burton Designs,Burton,first_1_words,False
+977,Burton Medical Products Corp,Burton,first_1_words,False
+978,Burton Medical Products Corp.,Burton,first_1_words,False
+982,Byrne Medical Inc,Byrne Medical,first_2_words,False
+983,Byron Medical,Byron Medical,exact,True
+984,Byron Medical Inc,Byron Medical,first_2_words,False
+985,C & A SCIENTIFIC,C & A Scientific,exact,True
+986,C & A Scientific Co Inc,C & A Scientific,first_4_words,False
+994,CADWELL LABORATORIES,Cadwell,first_1_words,False
+995,CAMBRIDGE INSTRUMENTS,Cambridge Instruments,exact,True
+999,CANNON,Cannon Instrument Company,first_1_words,False
