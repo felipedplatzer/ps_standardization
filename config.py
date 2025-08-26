@@ -5,7 +5,7 @@ from datetime import datetime
 import shutil
 
 MODALITY_MAPPER_TEMPERATURE = 0
-OPENAI_KEY_FILEPATH = "./openai_api_key.txt"
+OPENAI_KEY_FILEPATH = "./../openai_api_key.txt"
 
 GE_MAKES = { #note: all keys have to be lowercase, values are the correct name
     'ge': 'GE Healthcare',
