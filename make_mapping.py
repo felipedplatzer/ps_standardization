@@ -2,7 +2,7 @@ import config
 import match_functions
 import pandas as pd
 import os
-
+from llm_make_mapper import llm_make_mapper
 
 def update_mapping_file(df):
     # if mapping file exists, append new matches
@@ -15,6 +15,7 @@ def update_mapping_file(df):
 
 def get_source_data(source_path):
     df = pd.read_csv(source_path)
+    df['make_source'] = df['make_source'].fillna('')
     df = list(df['make_source'].astype(str).unique())
     return sorted(df)
 
@@ -28,8 +29,9 @@ def get_mel_mapping_dict_list(mel_path):
         return []
 
 def map_to_mel(source_names):
-    std_names = pd.read_csv(config.MEL_PATH)['New Manufacturer'].unique().astype(str)
-    std_names = sorted(list(set(std_names)))
+    s = pd.read_csv(config.MEL_FILEPATH)['New Manufacturer'].fillna('').astype(str)
+    std_names = list(s.unique())
+    std_names = sorted(std_names)
     dl = match_functions.get_all_matches(std_names, source_names)
     return dl
 
@@ -51,38 +53,32 @@ def map_to_mapping_file(source_names):
     df_3 = df_3.drop(columns=['make_mapping_file'])
     return df_3
 
-
+def remove_preexisting_matches(source_names, make_mapping_filepath):
+    if os.path.exists(make_mapping_filepath):
+        make_mapping_df = pd.read_csv(make_mapping_filepath)
+        # REMOVE umapped from set of existing makesonsideratoin
+        if config.OVERRIDE_BLANKS:
+            make_mapping_df = make_mapping_df[make_mapping_df['make_target'].notna()]
+        preexisting_make_source_names = list(make_mapping_df['make_source'].unique())
+        new_source_names = [d for d in source_names if d not in preexisting_make_source_names]
+    else:
+        new_source_names = source_names
+    return new_source_names
 
 if __name__ == "__main__":
     # Get source data
-    source_names = get_source_data(config.SOURCE_PATH)
+    source_names = get_source_data(config.SOURCE_FILEPATH)
+    #source_names = source_names[0:200]
     #source_names = source_names[0:1000]
-    mapping_dl = get_mel_mapping_dict_list(config.MAKE_MAPPING_FILEPATH)
-    preexisting_matches = [d for d in source_names if d in [x['make_source'] for x in mapping_dl]]
-    new_source_names = [d for d in source_names if d not in preexisting_matches]
+    new_source_names = remove_preexisting_matches(source_names, config.MAKE_MAPPING_FILEPATH)
+    n_preexisting_matches = len(source_names) - len(new_source_names)
     print('Total makes in source file: {}'.format(str(len(source_names))))
-    print('Preexisting matches: {}'.format(str(len(preexisting_matches))))
+    print('Preexisting matches: {}'.format(str(n_preexisting_matches)))
     print('New makes: {}'.format(str(len(new_source_names))))
     # Map to MEL
     print('Mapping to MEL')
-    new_dl = map_to_mel(new_source_names)
-    full_dl = mapping_dl + new_dl
-    df = pd.DataFrame(full_dl)
-    df = df.drop_duplicates(subset=['make_source'])
-    update_mapping_file(df)
-    """
-    df_from_mel = df[df['match_type'].str.lower() != 'no_match']
-    print('Found {} matches from MEL'.format(str(len(df_from_mel))))
-    
-    # Map pending records to mapping file
-    if os.path.exists(config.MAKE_MAPPING_FILEPATH):
-        print('Mapping to mapping file')
-        source_names_pending = sorted(list(df[df['match_type'].str.lower() == 'no_match']['make_source'].unique()))
-        df_from_mapping_file = map_to_mapping_file(source_names_pending)
-        df = pd.concat([df_from_mel, df_from_mapping_file])
-        x = len(df_from_mapping_file[df_from_mapping_file['match_type'].str.lower() != 'no_match'])
-        print('Found {} matches from mapping file'.format(str(x)))
-    else:
-        df = df_from_mel
-    # Update mapping file
-    update_mapping_file(df) """
+    dl = map_to_mel(new_source_names)
+    if len(dl) > 0:
+        df = pd.DataFrame(dl)
+        df = df.drop_duplicates(subset=['make_source'])
+        config.save_new_file(df, config.MAKE_MAPPING_FILEPATH, append_to_old=True, timeout=config.CONCURRENT_WRITE_TIMEOUT_LONG)
