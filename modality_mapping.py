@@ -32,7 +32,7 @@ def modality_mapping(source_df, target_modality_list):
             unmatched_processed_df[['make_target', 'model_name_source', 'modality_target', 'modality_match_type', 'modality_confidence']], 
             on=['make_target', 'model_name_source'], 
             how='left'
-        )
+        ).fillna('')
         # Update modality_target and modality_confidence for unmatched rows
         unmatched_df_merged['modality_target'] = unmatched_df_merged['modality_target'].fillna('')
         unmatched_df_merged['modality_confidence'] = unmatched_df_merged['modality_confidence'].fillna(0)

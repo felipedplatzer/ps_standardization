@@ -9,13 +9,6 @@ STANDARDIZED_NAME_FILEPATH = "C:\\Users\\FelipePlatzer\\Documents\\Manifold self
 STANDARDIZED_NAME_COLUMN = 'Manufacturer'
 STARTING_N = 5
 MIN_N = 2 #if the first min_n words match, the match is confirmed. if not, it goes to an LLM
- 
-def get_input_lists():
-    original_names_source = pd.read_csv(ORIGINAL_NAME_FILEPATH, encoding='utf-8')[ORIGINAL_NAME_COLUMN].fillna('')
-    original_names = list(original_names_source.unique())
-    standardized_names_source = pd.read_csv(STANDARDIZED_NAME_FILEPATH, encoding='utf-8')[STANDARDIZED_NAME_COLUMN].fillna('')
-    standardized_names = list(standardized_names_source.unique())
-    return sorted(original_names), sorted(standardized_names)
 
 
 def get_chunk(str, n):
@@ -103,3 +96,14 @@ def get_all_matches(standardized_names, original_names):
     unmatched_names_second_pass_dl = [x for x in unmmatched_names_dl if x['make_source'] not in matched_names_second_pass_dl]
     all_results = matched_names_dl + matched_names_second_pass_dl + unmatched_names_second_pass_dl
     return all_results
+
+
+
+"""
+def get_input_lists():
+    original_names_source = config.read_clean_csv(ORIGINAL_NAME_FILEPATH)[ORIGINAL_NAME_COLUMN].fillna('')
+    original_names = list(original_names_source.unique())
+    standardized_names_source = config.read_clean_csv(STANDARDIZED_NAME_FILEPATH)[STANDARDIZED_NAME_COLUMN].fillna('')
+    standardized_names = list(standardized_names_source.unique())
+    return sorted(original_names), sorted(standardized_names)
+"""

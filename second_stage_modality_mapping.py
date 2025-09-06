@@ -96,11 +96,6 @@ def run_llm(source_items, target_items, api_key=None):
 
 
 
-def add_back_removed_columns(input_df, modality_dict_list):
-    input_df = input_df.drop_columns(['modality_target']) #avoid duplicate column . ps_modality from df is blank (since df contains only unmatched modalities
-    modality_df = pd.DataFrame(modality_dict_list)
-    output_df = pd.merge(input_df, modality_df, on='modality_source', how='left')
-    return output_df
 
 def second_stage_modality_mapping(input_df, target_modality_list):
     #Get modalities (source)
@@ -116,3 +111,12 @@ target_modality_list = list(target_df['New Lvl 2 Category'].unique().astype(str)
 df = pd.read_csv("./karl_storz_test_2025-08-22/source.csv")
 df = second_stage_modality_mapping(df, target_modality_list)
 df.to_csv("./test_2025-08-22.csv", index=False)"""
+
+
+
+"""
+def add_back_removed_columns(input_df, modality_dict_list):
+    input_df = input_df.drop_columns(['modality_target']) #avoid duplicate column . ps_modality from df is blank (since df contains only unmatched modalities
+    modality_df = pd.DataFrame(modality_dict_list)
+    output_df = pd.merge(input_df, modality_df, on='modality_source', how='left').fillna('')
+    return output_df"""
