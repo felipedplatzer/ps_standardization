@@ -23,8 +23,7 @@ def get_chunk(str, n):
 def get_match(original_name, standardized_names):
     # Try exact match first
     for y in standardized_names:
-        # Apply make override if needed
-        original_name = config.make_override(str(original_name).strip())
+
         if str(original_name).strip().lower() == str(y).strip().lower():
             #print(f'Exact, {original_name}, {y}')
             return str(y), 'exact'

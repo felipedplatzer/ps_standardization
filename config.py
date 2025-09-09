@@ -67,7 +67,7 @@ def save_new_file(df, filepath, append_to_old = False, timeout = CONCURRENT_WRIT
     
 
 def get_source_rump():
-    x = input('Enter the name of the source file. Leave blank for aggregate_customers.py: ')
+    x = input('Enter the name of the source file (inside files/source_data): ')
     if x[-4:] == '.csv':
         return x[:-4]
     else:
@@ -103,7 +103,10 @@ def tile_by_first_letter(l):  # returns list of dicts with key = letter and valu
             d[x] = sub_l
     return d
 
-print(f'\n\nOverride blanks set to {str(OVERRIDE_BLANKS)}.\nif override is set to True, the script will try to find matches for blanks in previous runs.\n')
+if OVERRIDE_BLANKS:
+    print(f'\n\nOverride blanks set to True.\nThe script will try to find matches for blanks in previous runs.\n')
+else:
+    print(f'\n\nOverride blanks set to False.\nThe script will leave previous blanks unchanged\n')
 
 
 def get_filepaths(source_rump):
@@ -123,47 +126,3 @@ def get_filepaths(source_rump):
         'model_mapping': model_mapping_filepath,
         'batch_folder': batch_folder
     }
-
-
-
-
-"""
-GE_MAKES = { #note: all keys have to be lowercase, values are the correct name
-    'ge': 'GE Healthcare',
-    'ge medical systems': 'GE Healthcare',
-    'ge health care': 'GE Healthcare',
-    'ge analytical instruments': 'GE Healthcare',
-    'ge healthcare': 'GE Healthcare',
-    'ge hc': 'GE Healthcare',
-    'gehc': 'GE Healthcare',
-    'ge healthcare usa': 'GE Healthcare',
-    'ge medical systems': 'GE Healthcare',
-    'ge medical critikon; inc.': 'GE Healthcare',
-    'ge healthcare technologies': 'GE Healthcare',
-    'ge healthcare usa (imaging)': 'GE Healthcare',
-    'ge oec medical systems': 'GE Healthcare'
-}
-
-
-def read_clean_csv(filepath):
-    cleaned_rows = []
-    with open(filepath, newline="", encoding="utf-8-sig") as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            cleaned = {k:v for k, v in row.items()}
-            cleaned_rows.append(cleaned)
-    df = pd.DataFrame(cleaned_rows, dtype=str)
-    df = df.fillna('').astype(str)
-    return df
-
-def make_override(make_raw):
-    make_raw = make_raw.lower().strip()
-    if make_raw in GE_MAKES:
-        return GE_MAKES[make_raw]
-    elif 'siemens' in make_raw:
-        return 'Siemens'
-    elif 'philips' in make_raw:
-        return 'Philips'
-    else:
-        return make_raw
-"""

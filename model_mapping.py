@@ -154,7 +154,7 @@ def create_serialized_asset_view(df, is_glassbeam, filepath_dict):
     if not is_glassbeam:
         cols.append('asset_sys_id')
     if is_glassbeam:
-        cols.extend(['full', 'partial', 'codev'])
+        cols.append('product_mgmt_stage')
     # Read source data
     source_df = pd.read_csv(filepath_dict['source'], dtype=str, na_filter=False)
     source_df = source_df.fillna('').astype(str)
@@ -213,20 +213,31 @@ def remove_preexisting_matches(source_df, model_mapping_filepath):
     source_df = source_df[source_df['model_name_source'].str.strip() != '']
     return source_df
 
-def print_summary(serialized_df):
+def print_summary(serialized_df, is_glassbeam):
     source_df = pd.read_csv(filepath_dict['source'], dtype=str, na_filter=False)
+    # Source DF
     n_source = len(source_df)
     print(f'N assets (source): {str(n_source)}')
-    n_source_deduped = len(source_df.drop_duplicates(subset=['asset_sys_id']))
+    if is_glassbeam == False:
+        n_source_deduped = len(source_df.drop_duplicates(subset=['asset_sys_id']))
+    else:
+        n_source_deduped = len(source_df.drop_duplicates(subset=['make_source','model_name_source']))
     print(f'N assets (source, deduped): {str(n_source_deduped)}')
+    # Serialized asset view - total asset count
     n_serialized = len(serialized_df)
     print(f'N assets (serialized): {str(n_serialized)}')
-    n_serialized_deduped = len(serialized_df.drop_duplicates(subset=['asset_sys_id']))
+    if is_glassbeam == False:
+        n_serialized_deduped = len(serialized_df.drop_duplicates(subset=['asset_sys_id']))
+    else:
+        n_serialized_deduped = len(serialized_df.drop_duplicates(subset=['make_source','model_name_source']))
     print(f'N assets (serialized, deduped): {str(n_serialized_deduped)}')
+    # Serialized asset view - assets w/ MEL ID
     n_w_mel_id = len(serialized_df[serialized_df['mel_id'].str.strip() != ''])
     print(f'N assets w/ MEL ID (serialized, deduped): {str(n_w_mel_id)}')
+    # Serialized asset view - assets w/o MEL ID but with modality
     n_wo_mel_id_with_modality = len(serialized_df[(serialized_df['mel_id'].str.strip() == '') & (serialized_df['modality_target'].str.strip() != '')])
     print(f'N assets w/o MEL ID but with modality (serialized, deduped): {str(n_wo_mel_id_with_modality)}')
+    # Serialized asset view - assets w/o MEL ID or modality
     n_with_nothing = len(serialized_df[(serialized_df['mel_id'].str.strip() == '') & (serialized_df['modality_target'].str.strip() == '')])
     print(f'N assets w/o MEL ID or modality (serialized, deduped): {str(n_with_nothing)}')
 
@@ -291,5 +302,5 @@ if __name__ == "__main__":
         tiebreak_cols = ['mel_id','modality_target']
     df = df[[x for x in df.columns if 'priority' not in x and 'Unnamed:' not in x]]
     df = config.save_new_file(df, filepath_dict['serialized_asset_view'], append_to_old=False, unique_cols=unique_cols, tiebreak_cols=tiebreak_cols) # don't append. rebuild from scratch based on model_mapping. (model mapping does contain older runs)
-    print_summary(df)
+    print_summary(df, is_glassbeam)
     
