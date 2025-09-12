@@ -17,9 +17,11 @@ CONCURRENT_WRITE_TIMEOUT_LONG = 60 #Retry 1 min to write to file - it's possible
 CONCURRENT_WRITE_TIMEOUT_SHORT = 5 #Retry 5 seconds to write to file - it's possible that file is locked by another process (e.,g., if make or model mapping are running in parallel for different cusotmers)
 
 
-def get_aggregate_customers_filepath():
-    aggregate_customers_filepath = f'./files/aggregate_customers_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.csv'
-    return aggregate_customers_filepath
+def get_customer_summary_filepath():
+    return f'./files/customer_summary_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.csv'
+
+def get_customer_joined_filepath():
+    return f'./files/serialized_asset_view_all_customers_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.csv'
 
 def remove_duplicates(df, unique_cols, tiebreak_cols):
     priority_cols = []
@@ -28,6 +30,7 @@ def remove_duplicates(df, unique_cols, tiebreak_cols):
         priority_cols.append("priority_" + str(i))
     df = df.sort_values(by=priority_cols, ascending=[False for x in priority_cols])
     df = df.drop_duplicates(subset=unique_cols)
+    df = df.drop(columns=priority_cols)
     return df
 
 def try_to_write_file(df, filepath, append_to_old, unique_cols, tiebreak_cols):

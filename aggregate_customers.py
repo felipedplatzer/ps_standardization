@@ -74,6 +74,7 @@ if __name__ == "__main__":
     # get inputs from customers
     glassbeam_file, non_glassbeam_files = get_serialized_filepaths()
     non_glassbeam_df = read_and_join_customers(non_glassbeam_files)
+    non_glassbeam_df.to_csv(config.get_customer_joined_filepath(), index=False)
     glassbeam_df = get_glassbeam_data(glassbeam_file)
     # Get modality and mel id (for later)
     modality_mel_id = get_modality_mel_id(non_glassbeam_df, glassbeam_df)
@@ -96,7 +97,7 @@ if __name__ == "__main__":
     df['verified_model_name'] = df['mel_id'].apply(lambda x: 0 if x.strip() == '' else 1)
     # Postprocess
     df = final_sort(df, customer_list)
-    df.to_csv(config.get_aggregate_customers_filepath(), index=False)
+    df.to_csv(config.get_customer_summary_filepath(), index=False)
 
 
 

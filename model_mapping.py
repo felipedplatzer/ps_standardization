@@ -6,6 +6,7 @@ import re
 import llm_model_mapper
 from modality_mapping import modality_mapping
 from second_stage_modality_mapping import second_stage_modality_mapping
+from datetime import datetime
 
 
 def get_source_data(source_path):
@@ -20,6 +21,11 @@ def get_target_data(filepath_dict):
     df = df[['New ModelId', 'New Model', 'New Manufacturer', 'New Lvl 2 Category']]
     #df['New ModelId'] = pd.to_numeric(df['New ModelId'], errors='coerce').astype('Int64')
     df = df.rename(columns={'New ModelId': 'mel_id', 'New Manufacturer': 'make_target', 'New Model': 'model_name_target', 'New Lvl 2 Category': 'modality_target'  }) # 'New Lvl 2 Category': 'modality_target' ###
+    # Remove empty makes / models
+    df = df[(df['make_target'].str.strip() != '') & (df['model_name_target'].str.strip() != '')]
+    df = config.remove_duplicates(df, ['make_target', 'model_name_target'], ['mel_id', 'modality_target'])
+    return df
+    """
     # Get crosswalk data
     if os.path.exists(filepath_dict['model_mapping']):
         df_2 = pd.read_csv(filepath_dict['model_mapping'], dtype=str, na_filter=False)
@@ -36,7 +42,7 @@ def get_target_data(filepath_dict):
     make_mapping_df = make_mapping_df.fillna('').astype(str)
     df = pd.merge(df, make_mapping_df, on='make_target', how='left').fillna('')
     df = df.drop_duplicates()
-    return df
+    return df """
 
 def get_target_modality_list(mel_path):
     target_df = pd.read_csv(mel_path, dtype=str, na_filter=False)
@@ -106,7 +112,7 @@ def map_one_make(this_make_source_df, this_make_target_df, make_target):
             pass # leave unchanged     
     # Join deterministic and LLM matches and no matches
     dl = deterministic_matched_dl + deterministic_unmatched_dl
-    # ADD MODALITY (RAW) FROM THE LLM
+    # ADD MODALITY (RAW) by backjoining with source data
     for d in dl:
         for x in this_make_original_dl:
             if x['model_name_source'] == d['model_name_source']:
@@ -195,7 +201,7 @@ def override_makes(df, make_override_filepath):
     # Override makes (e.g., Alaris / Carefusion)
     override_df = pd.read_csv(make_override_filepath, dtype=str, na_filter=False)
     df = pd.merge(df, override_df, on='make_target', how='left').fillna('')
-    df['make_target'] = df['mel_make_coalesced'].fillna(df['make_target'])
+    df['make_target'] = df['mel_make_coalesced'].mask(df["mel_make_coalesced"] == "", df["make_target"])
     return df
 
 
@@ -277,6 +283,7 @@ if __name__ == "__main__":
             make_df = make_df.apply(lambda row: add_modality_from_second_stage(row, second_stage_modality_mapping_dl), axis=1)
             make_df = make_df[[x for x in make_df.columns if 'priority' not in x and 'Unnamed:' not in x and x not in ['make_source','match_type']]]
 
+            make_df['added_on'] = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
             # Add to list
             if not os.path.exists(filepath_dict['batch_folder']):
                 os.makedirs(filepath_dict['batch_folder'])
