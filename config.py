@@ -9,6 +9,7 @@ MODALITY_MAPPER_TEMPERATURE = 0
 OPENAI_KEY_FILEPATH = "./../openai_api_key.txt"
 TEMPERATURE = 0.0
 FILE_FOLDER = 'files'
+MAX_WORKERS = 10 # NUMBER OF threads parallel-processing a set of customers
 
 LETTERS_LIST = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'other']
 OVERRIDE_BLANKS = False # Try to find matches for blanks in previous runs
@@ -33,11 +34,15 @@ def remove_duplicates(df, unique_cols, tiebreak_cols):
     df = df.drop(columns=priority_cols)
     return df
 
-def try_to_write_file(df, filepath, append_to_old, unique_cols, tiebreak_cols):
+def try_to_write_file(df, filepath, append_to_old, unique_cols, tiebreak_cols, print_stats = False):
 # if filepath exists
     if os.path.exists(filepath):
         if append_to_old:
             df_old = pd.read_csv(filepath, dtype=str, na_filter=False)
+            df_old = df_old.apply(lambda x: x.str.strip())
+            if print_stats:
+                print(f'N rows in old file: {str(len(df_old))}')
+                print(f'N new rows: {str(len(df))}')
             df = pd.concat([df_old, df])
         # if backups subfolder doesn't exist, create it
         subfolder = os.path.dirname(filepath)
@@ -54,14 +59,16 @@ def try_to_write_file(df, filepath, append_to_old, unique_cols, tiebreak_cols):
     df = df.drop_duplicates()
     df = remove_duplicates(df, unique_cols, tiebreak_cols)
     # save df to filepath
+    if print_stats:
+        print(f'N rows in new file: {str(len(df))}')
     df.to_csv(filepath, index=False, na_rep='')
     return df
 
-def save_new_file(df, filepath, append_to_old = False, timeout = CONCURRENT_WRITE_TIMEOUT_SHORT, unique_cols = None, tiebreak_cols = None):
+def save_new_file(df, filepath, append_to_old = False, timeout = CONCURRENT_WRITE_TIMEOUT_SHORT, unique_cols = None, tiebreak_cols = None, print_stats = False):
     time_start = time.time()
     while True:
         try:
-            df = try_to_write_file(df, filepath, append_to_old, unique_cols, tiebreak_cols)
+            df = try_to_write_file(df, filepath, append_to_old, unique_cols, tiebreak_cols, print_stats)
             return df
         except:
             if time.time() - time_start > timeout:
