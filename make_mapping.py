@@ -5,14 +5,14 @@ import os
 from llm_make_mapper import llm_make_mapper
 
 def get_source_data(source_filepath):
-    df = pd.read_csv(source_filepath, dtype=str, na_filter=False)
+    df = pd.read_excel(source_filepath, dtype=str, na_filter=False)
     df['make_source'] = df['make_source'].fillna('')
     df = list(df['make_source'].astype(str).unique())
     return sorted(df)
 
 
 def map_to_mel(source_names, mel_path):
-    s = pd.read_csv(mel_path, dtype=str, na_filter=False)['New Manufacturer'].fillna('').astype(str)
+    s = pd.read_excel(mel_path, dtype=str, na_filter=False)['New Manufacturer'].fillna('').astype(str)
     std_names = list(s.unique())
     std_names = sorted(std_names)
     dl = match_functions.get_all_matches(std_names, source_names)
@@ -21,7 +21,7 @@ def map_to_mel(source_names, mel_path):
 
 def map_to_mapping_file(source_names):
     # Get list of standardized names
-    map_df = pd.read_csv(filepath_dict['make_mapping'], dtype=str, na_filter=False)
+    map_df = pd.read_excel(filepath_dict['make_mapping'], dtype=str, na_filter=False)
     map_df = map_df[map_df['confirmed'] == True] # remove not confirmed matches
     map_df = map_df[['make_source', 'make_target']] # take only relevant columns
     std_names = list(map_df['make_source'].astype(str)) + list(map_df['make_target'].astype(str)) # get make_source and make columns as one list
@@ -38,7 +38,7 @@ def map_to_mapping_file(source_names):
 
 def remove_preexisting_matches(source_names, make_mapping_filepath):
     if os.path.exists(make_mapping_filepath):
-        make_mapping_df = pd.read_csv(make_mapping_filepath, dtype=str, na_filter=False)
+        make_mapping_df = pd.read_excel(make_mapping_filepath, dtype=str, na_filter=False)
         # REMOVE umapped from set of existing makesonsideratoin
         if config.OVERRIDE_BLANKS:
             make_mapping_df = make_mapping_df[make_mapping_df['make_target'].notna()]

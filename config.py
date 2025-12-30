@@ -19,10 +19,10 @@ CONCURRENT_WRITE_TIMEOUT_SHORT = 5 #Retry 5 seconds to write to file - it's poss
 
 
 def get_customer_summary_filepath():
-    return f'./files/customer_summary_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.csv'
+    return f'./files/customer_summary_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.xlsx'
 
 def get_customer_joined_filepath():
-    return f'./files/serialized_asset_view_all_customers_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.csv'
+    return f'./files/serialized_asset_view_all_customers_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.xlsx'
 
 def remove_duplicates(df, unique_cols, tiebreak_cols):
     priority_cols = []
@@ -38,7 +38,7 @@ def try_to_write_file(df, filepath, append_to_old, unique_cols, tiebreak_cols, p
 # if filepath exists
     if os.path.exists(filepath):
         if append_to_old:
-            df_old = pd.read_csv(filepath, dtype=str, na_filter=False)
+            df_old = pd.read_excel(filepath, dtype=str, na_filter=False)
             df_old = df_old.apply(lambda x: x.str.strip())
             if print_stats:
                 print(f'N rows in old file: {str(len(df_old))}')
@@ -51,7 +51,7 @@ def try_to_write_file(df, filepath, append_to_old, unique_cols, tiebreak_cols, p
             os.makedirs(f'./{subfolder}/backups')
         # move filepath to backups folder, add timestamp to filename
         timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-        filename_full = filename.replace('.csv', '_' + timestamp + '.csv')
+        filename_full = filename.replace('.xlsx', '_' + timestamp + '.xlsx')
         shutil.move(filepath, f'./{subfolder}/backups/{filename_full}')
     # Remove duplicates
     cols_to_drop = [x for x in df.columns if 'Unnamed:' in x]
@@ -61,7 +61,7 @@ def try_to_write_file(df, filepath, append_to_old, unique_cols, tiebreak_cols, p
     # save df to filepath
     if print_stats:
         print(f'N rows in new file: {str(len(df))}')
-    df.to_csv(filepath, index=False, na_rep='')
+    df.to_excel(filepath, index=False, na_rep='')
     return df
 
 def save_new_file(df, filepath, append_to_old = False, timeout = CONCURRENT_WRITE_TIMEOUT_SHORT, unique_cols = None, tiebreak_cols = None, print_stats = False):
@@ -78,20 +78,20 @@ def save_new_file(df, filepath, append_to_old = False, timeout = CONCURRENT_WRIT
 
 def get_source_rump():
     x = input('Enter the name of the source file (inside files/source_data): ')
-    if x[-4:] == '.csv':
-        return x[:-4]
+    if x[-5:] == '.xlsx':
+        return x[:-5]
     else:
         return x
 
 
-def get_current_filepath(subfolder, source_rump): 
-    files = [f for f in os.listdir(subfolder) if os.path.isfile(subfolder + '/' + f) and f == source_rump +'.csv']
+def get_current_filepath(subfolder, source_rump, extension = '.xlsx'): 
+    files = [f for f in os.listdir(subfolder) if os.path.isfile(subfolder + '/' + f) and f == source_rump + extension]
     if len(files) > 1: 
         print(f'Error. More than 1 file found in {subfolder} for {source_rump}')
         return None
     elif len(files) == 0:
         print(f'Warning. No files found in {subfolder} for {source_rump}')
-        return subfolder + '/' + source_rump + '.csv'
+        return subfolder + '/' + source_rump + extension
     else:
         return subfolder + '/' + files[0]
 
@@ -122,9 +122,9 @@ else:
 def get_filepaths(source_rump):
     source_filepath  = get_current_filepath('./files/source_data', source_rump)
     serialized_asset_view_filepath = get_current_filepath('./files/serialized_asset_views', source_rump)
-    mel_filepath = get_current_filepath(f'./files', 'mel')
+    mel_filepath = get_current_filepath(f'./files', 'mel', '.xlsx')
     make_mapping_filepath = get_current_filepath(f'./files', 'make_mapping')
-    make_override_filepath = get_current_filepath(f'./files', 'make_mapping_manual_override')
+    make_override_filepath = get_current_filepath(f'./files', 'make_mapping_manual_override', '.xlsx')
     model_mapping_filepath = get_current_filepath(f'./files', 'model_mapping')
     batch_folder = f'./files/batch_files/{source_rump}'
     return {

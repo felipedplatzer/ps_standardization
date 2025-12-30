@@ -11,14 +11,14 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 
 
 def get_source_data(source_path):
-    df = pd.read_csv(source_path, dtype=str, na_filter=False)
+    df = pd.read_excel(source_path, dtype=str, na_filter=False)
     df = df.fillna('').astype(str)
     df = df.apply(lambda x: x.str.strip())
     return df
 
 def get_target_data(filepath_dict):
     # Get MEL data
-    df = pd.read_csv(filepath_dict['mel'], dtype=str, na_filter=False)
+    df = pd.read_excel(filepath_dict['mel'], dtype=str, na_filter=False)
     df = df.fillna('').astype(str)
     df = df.apply(lambda x: x.str.strip())
     df = df[['New ModelId', 'New Model', 'New Manufacturer', 'New Lvl 2 Category']]
@@ -31,7 +31,7 @@ def get_target_data(filepath_dict):
 
 
 def get_target_modality_list(mel_path):
-    target_df = pd.read_csv(mel_path, dtype=str, na_filter=False)
+    target_df = pd.read_excel(mel_path, dtype=str, na_filter=False)
     target_df = target_df.fillna('').astype(str)
     target_df = target_df.apply(lambda x: x.str.strip())
     target_modality_list = list(target_df['New Lvl 2 Category'].unique().astype(str))
@@ -39,7 +39,7 @@ def get_target_modality_list(mel_path):
 
 def standardize_make(source_df, make_mapping_filepath):
     # Get standardized manufacturer name
-    std_df = pd.read_csv(make_mapping_filepath, dtype=str, na_filter=False)
+    std_df = pd.read_excel(make_mapping_filepath, dtype=str, na_filter=False)
     std_df = std_df.fillna('').astype(str)
     std_df = std_df.apply(lambda x: x.str.strip())
     df = pd.merge(source_df, std_df, on='make_source', how='inner').fillna('') # Remove unmapped manufacturers
@@ -140,7 +140,7 @@ def join_batch_files(batch_files):
     # Join all batch files
     df_list = []
     for file in batch_files:
-        df = pd.read_csv(file, dtype=str, na_filter=False)
+        df = pd.read_excel(file, dtype=str, na_filter=False)
         df = df.fillna('').astype(str)
         df = df.apply(lambda x: x.str.strip())
         df_list.append(df)
@@ -154,7 +154,7 @@ def create_serialized_asset_view(df, is_glassbeam, filepath_dict):
     if is_glassbeam:
         cols.append('product_mgmt_stage')
     # Read source data
-    source_df = pd.read_csv(filepath_dict['source'], dtype=str, na_filter=False)
+    source_df = pd.read_excel(filepath_dict['source'], dtype=str, na_filter=False)
     source_df = source_df.fillna('').astype(str)
     source_df = source_df.apply(lambda x: x.str.strip())
     # model number and company name are not required
@@ -165,7 +165,7 @@ def create_serialized_asset_view(df, is_glassbeam, filepath_dict):
     source_df = source_df[cols].fillna('').astype(str)
     #source_df = source_df.drop_duplicates(subset=['asset_sys_id'])
     # Standardize make
-    make_mapping_df = pd.read_csv(filepath_dict['make_mapping'], dtype=str, na_filter=False)
+    make_mapping_df = pd.read_excel(filepath_dict['make_mapping'], dtype=str, na_filter=False)
     make_mapping_df = make_mapping_df.fillna('').astype(str)
     make_mapping_df = make_mapping_df.apply(lambda x: x.str.strip())
     make_mapping_df = make_mapping_df.rename(columns={'match_type': 'make_match_type', 'confidence': 'make_confidence'})
@@ -193,7 +193,7 @@ def add_modality_from_second_stage(row, modality_dl):
 
 def override_makes(df, make_override_filepath):
     # Override makes (e.g., Alaris / Carefusion)
-    override_df = pd.read_csv(make_override_filepath, dtype=str, na_filter=False)
+    override_df = pd.read_excel(make_override_filepath, dtype=str, na_filter=False)
     override_df = override_df.apply(lambda x: x.str.strip())
     df = pd.merge(df, override_df, on='make_target', how='left').fillna('')
     df['make_target'] = df['mel_make_coalesced'].mask(df["mel_make_coalesced"] == "", df["make_target"])
@@ -202,7 +202,7 @@ def override_makes(df, make_override_filepath):
 
 def remove_preexisting_matches(source_df, model_mapping_filepath):
     if os.path.exists(model_mapping_filepath):
-        model_mapping_df = pd.read_csv(model_mapping_filepath, dtype=str, na_filter=False)
+        model_mapping_df = pd.read_excel(model_mapping_filepath, dtype=str, na_filter=False)
         model_mapping_df = model_mapping_df.apply(lambda x: x.str.strip())
         model_mapping_df = model_mapping_df.fillna('').astype(str)
         model_mapping_df = model_mapping_df[['make_target', 'model_name_source', 'mel_id']] #other columns mess up the merging
@@ -234,12 +234,12 @@ def process_make(make_target, source_df, target_df, filepath_dict, i, target_mod
         # Add to list
         if not os.path.exists(filepath_dict['batch_folder']):
             os.makedirs(filepath_dict['batch_folder'])
-        batch_filepath = filepath_dict['batch_folder'] + f'/{str(i)}.csv'
-        make_df.to_csv(batch_filepath)
+        batch_filepath = filepath_dict['batch_folder'] + f'/{str(i)}.xlsx'
+        make_df.to_excel(batch_filepath, index=False)
 
 
 def print_summary(serialized_df, is_glassbeam):
-    source_df = pd.read_csv(filepath_dict['source'], dtype=str, na_filter=False)
+    source_df = pd.read_excel(filepath_dict['source'], dtype=str, na_filter=False)
     source_df = source_df.apply(lambda x: x.str.strip())
     # Source DF
     n_source = len(source_df)
@@ -310,7 +310,7 @@ if __name__ == "__main__":
             
 
 
-    batch_files = [os.path.join(filepath_dict['batch_folder'], file) for file in os.listdir(filepath_dict['batch_folder']) if file.endswith('.csv')]
+    batch_files = [os.path.join(filepath_dict['batch_folder'], file) for file in os.listdir(filepath_dict['batch_folder']) if file.endswith('.xlsx')]
     if len(batch_files) > 0:
         df = join_batch_files(batch_files)
         print(f'\nMake/model summary')
@@ -318,7 +318,7 @@ if __name__ == "__main__":
         for file in batch_files:
             os.remove(file)
     else:
-        df = pd.read_csv(filepath_dict['model_mapping'], dtype=str, na_filter=False)
+        df = pd.read_excel(filepath_dict['model_mapping'], dtype=str, na_filter=False)
         df = df.apply(lambda x: x.str.strip())
     # Create output and save to csv (serialized asset view or GB mapping file)
     df = create_serialized_asset_view(df, is_glassbeam, filepath_dict)
@@ -337,7 +337,7 @@ if __name__ == "__main__":
     """
     # Get crosswalk data
     if os.path.exists(filepath_dict['model_mapping']):
-        df_2 = pd.read_csv(filepath_dict['model_mapping'], dtype=str, na_filter=False)
+        df_2 = pd.read_excel(filepath_dict['model_mapping'], dtype=str, na_filter=False)
         df_2 = df_2.fillna('').astype(str)
         #df_2['mel_id'] = pd.to_numeric(df_2['mel_id'], errors='coerce').astype('Int64')
         df_2 = df_2[['mel_id','make_target', 'model_name_source']]
@@ -347,7 +347,7 @@ if __name__ == "__main__":
     df = df[df['make_target'].notna() & df['model_name_target'].notna()]
     df = df[(df['make_target'].str.strip() != '') & (df['model_name_target'].str.strip() != '')]
     # override make (for GEHC -> General Electric and similar cases)
-    make_mapping_df = pd.read_csv(filepath_dict['make_mapping'], dtype=str, na_filter=False)
+    make_mapping_df = pd.read_excel(filepath_dict['make_mapping'], dtype=str, na_filter=False)
     make_mapping_df = make_mapping_df.fillna('').astype(str)
     make_mapping_df = make_mapping_df.apply(lambda x: x.str.strip())
     df = pd.merge(df, make_mapping_df, on='make_target', how='left').fillna('')

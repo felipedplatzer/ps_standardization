@@ -5,7 +5,7 @@ import config
 
 def get_serialized_filepaths():
     x = os.listdir('./files/serialized_asset_views')
-    x = [f for f in x if f.endswith('.csv')]
+    x = [f for f in x if f.endswith('.xlsx')]
     print("The following files were found:\n")
     for i,f in enumerate(x):
         print(f"{i+1}. {f}")
@@ -26,7 +26,7 @@ def read_and_join_customers(non_glassbeam_files):
     df_list = []
     for f in non_glassbeam_files:
         try:
-            df = pd.read_csv(f"./files/serialized_asset_views/{f}", dtype=str, na_filter=False)
+            df = pd.read_excel(f"./files/serialized_asset_views/{f}", dtype=str, na_filter=False)
         except:
             print(f"Error reading {f}")
         df_list.append(df)
@@ -35,7 +35,7 @@ def read_and_join_customers(non_glassbeam_files):
 
 def get_glassbeam_data(glassbeam_filepath):
     try:
-        df = pd.read_csv(f"./files/serialized_asset_views/{glassbeam_filepath}", dtype=str, na_filter=False)    
+        df = pd.read_excel(f"./files/serialized_asset_views/{glassbeam_filepath}", dtype=str, na_filter=False)    
     except:
         print(f"Error reading {glassbeam_filepath}")
         exit()
@@ -74,7 +74,7 @@ if __name__ == "__main__":
     # get inputs from customers
     glassbeam_file, non_glassbeam_files = get_serialized_filepaths()
     non_glassbeam_df = read_and_join_customers(non_glassbeam_files)
-    non_glassbeam_df.to_csv(config.get_customer_joined_filepath(), index=False)
+    non_glassbeam_df.to_excel(config.get_customer_joined_filepath(), index=False)
     glassbeam_df = get_glassbeam_data(glassbeam_file)
     # Get modality and mel id (for later)
     modality_mel_id = get_modality_mel_id(non_glassbeam_df, glassbeam_df)
@@ -97,7 +97,7 @@ if __name__ == "__main__":
     df['verified_model_name'] = df['mel_id'].apply(lambda x: 0 if x.strip() == '' else 1)
     # Postprocess
     df = final_sort(df, customer_list)
-    df.to_csv(config.get_customer_summary_filepath(), index=False)
+    df.to_excel(config.get_customer_summary_filepath(), index=False)
 
 
 
