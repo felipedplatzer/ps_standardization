@@ -89,7 +89,11 @@ Output format (JSON):
 Return your response as a valid JSON object following the specified format."""
 
     def call_openai_api(self, messages: List[Dict[str, str]]) -> Dict[str, Any]:
-        """Make API call to OpenAI with retry logic"""
+        """Make API call to OpenAI with retry logic.
+        
+        Raises critical API errors (auth, credits, rate limits) immediately.
+        Retries on transient errors.
+        """
         for attempt in range(self.max_retries):
             try:
                 response = self.client.chat.completions.create(
@@ -105,11 +109,37 @@ Return your response as a valid JSON object following the specified format."""
                 if attempt == self.max_retries - 1:
                     raise
                 time.sleep(2)
+            except openai.AuthenticationError as e:
+                logger.error(f"Authentication error: {e}")
+                raise RuntimeError(f"OpenAI Authentication Error: {e}. Please check your API key.")
+            except openai.PermissionDeniedError as e:
+                logger.error(f"Permission denied: {e}")
+                raise RuntimeError(f"OpenAI Permission Denied: {e}. Please check your API key permissions.")
+            except openai.RateLimitError as e:
+                logger.error(f"Rate limit or quota exceeded: {e}")
+                raise RuntimeError(f"OpenAI Rate Limit/Quota Error: {e}. You may be out of credits or hitting rate limits.")
+            except openai.InsufficientQuotaError as e:
+                logger.error(f"Insufficient quota: {e}")
+                raise RuntimeError(f"OpenAI Insufficient Quota: {e}. You are out of credits.")
+            except openai.APIConnectionError as e:
+                logger.warning(f"API connection error on attempt {attempt + 1}: {e}")
+                if attempt == self.max_retries - 1:
+                    raise RuntimeError(f"OpenAI API Connection Error after {self.max_retries} attempts: {e}")
+                time.sleep(2)
+            except openai.APIStatusError as e:
+                # Check for specific status codes that indicate critical errors
+                if e.status_code in [401, 403, 429]:
+                    logger.error(f"Critical API error (status {e.status_code}): {e}")
+                    raise RuntimeError(f"OpenAI API Error (status {e.status_code}): {e}")
+                logger.warning(f"API status error on attempt {attempt + 1}: {e}")
+                if attempt == self.max_retries - 1:
+                    raise
+                time.sleep(2)
             except Exception as e:
                 logger.warning(f"API call error on attempt {attempt + 1}: {e}")
                 if attempt == self.max_retries - 1:
                     raise
-                time.sleep(2)  #
+                time.sleep(2)
                 
     def map_models(self, model_name_source_list: List[str], batch_size: int = BATCH_SIZE) -> ModelMappingBatch:
         """

@@ -22,8 +22,7 @@ wheels/
 
 # Sensitive files
 openai_api_key.txt
-*.xlsx
-*.csv
+
 
 # IDE
 .vscode/

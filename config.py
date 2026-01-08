@@ -4,18 +4,56 @@ import shutil
 import pandas as pd
 import time
 import csv
+import re
 
 MODALITY_MAPPER_TEMPERATURE = 0
-OPENAI_KEY_FILEPATH = "./../openai_api_key.txt"
+OPENAI_KEY_FILEPATH = "./../../openai_api_key.txt"
 TEMPERATURE = 0.0
 FILE_FOLDER = 'files'
 MAX_WORKERS = 10 # NUMBER OF threads parallel-processing a set of customers
 
 LETTERS_LIST = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'other']
-OVERRIDE_BLANKS = False # Try to find matches for blanks in previous runs
+REMAP_UNMATCHED = False # Try to re-map models where model_match_type = 'no_match'
 
 CONCURRENT_WRITE_TIMEOUT_LONG = 60 #Retry 1 min to write to file - it's possible that file is locked by another process (e.,g., if make or model mapping are running in parallel for different cusotmers)
 CONCURRENT_WRITE_TIMEOUT_SHORT = 5 #Retry 5 seconds to write to file - it's possible that file is locked by another process (e.,g., if make or model mapping are running in parallel for different cusotmers)
+
+# MEL Column Mappings - Map output field names to MEL file column names
+# Update these values to match your MEL file's actual column names
+MEL_COLUMNS = {
+    'mel_id': 'MODEL_ID',                    # MEL ID column in MEL file
+    'make_target': 'MANUFACTURER_NAME',      # Manufacturer column in MEL file  
+    'model_name_target': 'MODEL_NAME',       # Model name column in MEL file
+    'l1_modality_target': 'L1_TAXONOMY',     # L1 modality (most general, e.g., continent)
+    'l2_modality_target': 'L2_TAXONOMY',     # L2 modality (mid-level, e.g., country)
+    'l3_modality_target': 'L3_TAXONOMY',      # L3 modality (most specific, e.g., city)
+    'manufacturer_aliases': 'MANUFACTURER_ALIASES'
+}
+
+# Source file column mappings for modality fields
+# Update these values to match your source file's actual column names
+SOURCE_COLUMNS = {
+    'l1_modality_source': 'l1_modality_source',  # L1 modality column in source file
+    'l2_modality_source': 'l2_modality_source',  # L2 modality column in source file
+    'l3_modality_source': 'l3_modality_source'   # L3 modality column in source file
+}
+
+
+def normalize_name(name):
+    """
+    Normalize a name by:
+    1. Converting to uppercase
+    2. Removing special characters (keeping only alphanumeric and spaces)
+    3. Trimming whitespace
+    """
+    if pd.isna(name) or name is None:
+        return ''
+    name = str(name).upper()
+    # Remove special characters, keep only alphanumeric and spaces
+    name = re.sub(r'[^A-Z0-9\s]', '', name)
+    # Collapse multiple spaces into one and trim
+    name = re.sub(r'\s+', ' ', name).strip()
+    return name
 
 
 def get_customer_summary_filepath():
@@ -77,11 +115,66 @@ def save_new_file(df, filepath, append_to_old = False, timeout = CONCURRENT_WRIT
     
 
 def get_source_rump():
-    x = input('Enter the name of the source file (inside files/source_data): ')
-    if x[-5:] == '.xlsx':
-        return x[:-5]
-    else:
-        return x
+    """
+    Get source file name(s) from user input.
+    
+    Returns:
+        list: List of source file names (without extension)
+    
+    Supported inputs:
+        - Single filename: "customer.xlsx" or "customer"
+        - Multiple filenames separated by commas: "customer1.xlsx, customer2.xlsx"
+        - Blank (empty string or just pressing Enter): Process all .xlsx files in source_data folder
+    """
+    x = input('Enter source file name(s) (comma-separated for multiple, blank for all files in source_data): ')
+    x = x.strip()
+    
+    # If blank, get all files in source_data folder
+    if x == '':
+        source_folder = './files/source_data'
+        if os.path.exists(source_folder):
+            all_files = [f[:-5] for f in os.listdir(source_folder) 
+                        if f.endswith('.xlsx') and os.path.isfile(os.path.join(source_folder, f))]
+            if len(all_files) == 0:
+                print('No .xlsx files found in source_data folder')
+                return []
+            print(f'Found {len(all_files)} files: {", ".join(all_files)}')
+            return sorted(all_files)
+        else:
+            print(f'Source folder {source_folder} does not exist')
+            return []
+    
+    # Split by comma and process each filename
+    filenames = [f.strip() for f in x.split(',')]
+    result = []
+    source_folder = './files/source_data'
+    
+    for filename in filenames:
+        if filename.endswith('.xlsx'):
+            file_rump = filename[:-5]
+        else:
+            file_rump = filename
+        
+        # Check if file exists
+        file_path = os.path.join(source_folder, file_rump + '.xlsx')
+        if os.path.exists(file_path):
+            result.append(file_rump)
+        else:
+            print(f'Warning: File not found: {file_path}')
+    
+    if len(result) == 0:
+        print('ERROR: No matching files found in source_data folder. Stopping.')
+        return []
+    
+    if len(result) < len(filenames):
+        print(f'Found {len(result)} of {len(filenames)} specified files')
+    
+    return result
+
+
+def get_source_rumps():
+    """Alias for get_source_rump that returns list of source file names."""
+    return get_source_rump()
 
 
 def get_current_filepath(subfolder, source_rump, extension = '.xlsx'): 
@@ -113,10 +206,10 @@ def tile_by_first_letter(l):  # returns list of dicts with key = letter and valu
             d[x] = sub_l
     return d
 
-if OVERRIDE_BLANKS:
-    print(f'\n\nOverride blanks set to True.\nThe script will try to find matches for blanks in previous runs.\n')
+if REMAP_UNMATCHED:
+    print(f'\n\nRemap unmatched set to True.\nThe script will try to re-map models where model_match_type = "no_match".\n')
 else:
-    print(f'\n\nOverride blanks set to False.\nThe script will leave previous blanks unchanged\n')
+    print(f'\n\nRemap unmatched set to False.\nThe script will skip previously unmatched models.\n')
 
 
 def get_filepaths(source_rump):

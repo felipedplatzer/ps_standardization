@@ -4,8 +4,21 @@ from openai import OpenAI
 import config
 
 def get_unique_source_modalities(df):
+    """Get unique source modalities from dataframe."""
     df['modality_source'] = df['modality_source'].fillna('')
     source_modality_list = list(df['modality_source'].unique())
+    source_modality_list = [modality for modality in source_modality_list if modality.strip() != '']
+    return source_modality_list
+
+
+def get_unique_source_modalities_normalized(df):
+    """Get unique normalized source modalities from dataframe."""
+    if 'modality_source_normalized' in df.columns:
+        df['modality_source_normalized'] = df['modality_source_normalized'].fillna('')
+        source_modality_list = list(df['modality_source_normalized'].unique())
+    else:
+        df['modality_source'] = df['modality_source'].fillna('')
+        source_modality_list = [config.normalize_name(m) for m in df['modality_source'].unique()]
     source_modality_list = [modality for modality in source_modality_list if modality.strip() != '']
     return source_modality_list
 

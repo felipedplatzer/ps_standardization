@@ -11,30 +11,48 @@ STARTING_N = 5
 MIN_N = 2 #if the first min_n words match, the match is confirmed. if not, it goes to an LLM
 
 
-def get_chunk(str, n):
-    x = str.strip().replace('.',' ').replace('-',' ').replace('/',' ').replace(',',' ')
+def get_chunk(input_str, n):
+    """
+    Get the first n words of a string, normalized for comparison.
+    Now handles uppercase input (from normalized names).
+    """
+    x = str(input_str).strip().replace('.',' ').replace('-',' ').replace('/',' ').replace(',',' ')
     x = re.sub(r'\s{2,}', ' ', x)
     x = x.split(' ')[0:n]
-    x= ' '.join(x).lower().strip()
+    x = ' '.join(x).upper().strip()  # Use uppercase for consistent comparison
     return x
 
 
 
 def get_match(original_name, standardized_names):
+    """
+    Find a match for original_name in standardized_names.
+    Performs case-insensitive comparison using uppercase normalization.
+    
+    Args:
+        original_name: The name to find a match for (can be normalized or raw)
+        standardized_names: List of standardized names to match against
+    
+    Returns:
+        tuple: (matched_name, match_type) or ('', 'no_match') if no match found
+    """
+    # Convert to uppercase for case-insensitive comparison
+    original_upper = str(original_name).strip().upper()
+    
     # Try exact match first
     for y in standardized_names:
-
-        if str(original_name).strip().lower() == str(y).strip().lower():
-            #print(f'Exact, {original_name}, {y}')
+        y_upper = str(y).strip().upper()
+        if original_upper == y_upper:
             return str(y), 'exact'
         else:
-            y_proc = y.lower().strip().replace('.',' ').replace('-',' ').replace('/',' ').replace(',',' ')
-            y_proc = re.sub(r'\s{2,}', ' ', y_proc).strip()
-            o_proc = original_name.lower().strip().replace('.',' ').replace('-',' ').replace('/',' ').replace(',',' ')
-            o_proc = re.sub(r'\s{2,}', ' ', o_proc).strip()
+            # Try matching after removing special characters
+            y_proc = re.sub(r'[^A-Z0-9\s]', '', y_upper)
+            y_proc = re.sub(r'\s+', ' ', y_proc).strip()
+            o_proc = re.sub(r'[^A-Z0-9\s]', '', original_upper)
+            o_proc = re.sub(r'\s+', ' ', o_proc).strip()
             if y_proc == o_proc:
-                #print(f'Skip special chars, {original_name}, {y}')
                 return str(y), 'skip_special_chars'
+    
     # Try matching first n words
     n = STARTING_N
     while n >= MIN_N:
@@ -44,14 +62,12 @@ def get_match(original_name, standardized_names):
             if original_chunk == std_chunk and len(original_chunk) >= 4: #eliminate very short words like 'A, or AB'
                 #Check if there's another match - if not, it's an unambiguous match. Only check against the next element cause list is sorted
                 if i_std == len(standardized_names) - 1:
-                    #print(f'first_{str(n)}_words, {original_name}, {std_name}')
                     return std_name, f'first_{str(n)}_words'
                 else:
                     next_option = get_chunk(standardized_names[i_std + 1], n)
                     if original_chunk == next_option:
                         pass
                     else:
-                        #print(f'first_{str(n)}_words, {original_name}, {std_name}')
                         return std_name, f'first_{str(n)}_words'
         # Take shorter n-grams
         n = n - 1 
