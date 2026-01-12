@@ -1,0 +1,13 @@
+# Asset Standardization Mapping - Dependencies
+
+# Data manipulation
+pandas>=2.0.0
+
+# OpenAI API for LLM-based mapping
+openai>=1.0.0
+
+# Data validation for LLM responses
+pydantic>=2.0.0
+
+# Excel file support for pandas
+openpyxl>=3.1.0
