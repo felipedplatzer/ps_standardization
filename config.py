@@ -7,7 +7,7 @@ import csv
 import re
 
 MODALITY_MAPPER_TEMPERATURE = 0
-OPENAI_KEY_FILEPATH = "./../../openai_api_key.txt"
+OPENAI_KEY_FILEPATH = "./openai_api_key.txt"
 TEMPERATURE = 0.0
 FILE_FOLDER = 'files'
 MAX_WORKERS = 10 # NUMBER OF threads parallel-processing a set of customers
