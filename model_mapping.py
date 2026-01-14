@@ -633,7 +633,7 @@ def reorder_output_columns(df, is_glassbeam):
     ]
     
     target_cols = [
-        'mel_id',
+        'mdm_model_id',
         'verified_model_name',
         'make_target',
         'manufacturer_aliases',
@@ -853,17 +853,17 @@ def print_summary(serialized_df, is_glassbeam, filepath_dict):
         n_serialized_deduped = len(serialized_df.drop_duplicates(subset=['make_source', 'model_name_source']))
     print(f'N assets (serialized, deduped): {str(n_serialized_deduped)}')
     
-    if 'mel_id' in serialized_df.columns:
-        n_w_mel_id = len(serialized_df[serialized_df['mel_id'].str.strip() != ''])
-        print(f'N assets w/ MEL ID: {str(n_w_mel_id)}')
+    if 'mdm_model_id' in serialized_df.columns:
+        n_w_mdm_id = len(serialized_df[serialized_df['mdm_model_id'].str.strip() != ''])
+        print(f'N assets w/ MDM Model ID: {str(n_w_mdm_id)}')
         
         # Check L3 modality for unmatched
         if 'l3_modality_target' in serialized_df.columns:
-            n_wo_mel_with_l3 = len(serialized_df[(serialized_df['mel_id'].str.strip() == '') & (serialized_df['l3_modality_target'].str.strip() != '')])
-            print(f'N assets w/o MEL ID but with L3 modality: {str(n_wo_mel_with_l3)}')
+            n_wo_mdm_with_l3 = len(serialized_df[(serialized_df['mdm_model_id'].str.strip() == '') & (serialized_df['l3_modality_target'].str.strip() != '')])
+            print(f'N assets w/o MDM Model ID but with L3 modality: {str(n_wo_mdm_with_l3)}')
             
-            n_with_nothing = len(serialized_df[(serialized_df['mel_id'].str.strip() == '') & (serialized_df['l3_modality_target'].str.strip() == '')])
-            print(f'N assets w/o MEL ID or L3 modality: {str(n_with_nothing)}')
+            n_with_nothing = len(serialized_df[(serialized_df['mdm_model_id'].str.strip() == '') & (serialized_df['l3_modality_target'].str.strip() == '')])
+            print(f'N assets w/o MDM Model ID or L3 modality: {str(n_with_nothing)}')
 
 
 def process_one_source_file(source_rump, is_glassbeam, target_df, taxonomy):
@@ -969,12 +969,16 @@ def process_one_source_file(source_rump, is_glassbeam, target_df, taxonomy):
     
     if is_glassbeam:
         unique_cols = ['make_source', 'model_name_source']
-        tiebreak_cols = ['mel_id', 'l3_modality_target']
+        tiebreak_cols = ['mdm_model_id', 'l3_modality_target']
     else:
         unique_cols = ['company_name', 'asset_sys_id']
-        tiebreak_cols = ['mel_id', 'l3_modality_target']
+        tiebreak_cols = ['mdm_model_id', 'l3_modality_target']
     
     df = df[[col for col in df.columns if 'priority' not in col and 'Unnamed:' not in col and 'existing_record' not in col]]
+    
+    # Rename mel_id to mdm_model_id for output
+    if 'mel_id' in df.columns:
+        df = df.rename(columns={'mel_id': 'mdm_model_id'})
     
     # Clean serialized dataframe (remove unwanted cols, uppercase/trim identifiers)
     df = clean_serialized_df(df, is_glassbeam)

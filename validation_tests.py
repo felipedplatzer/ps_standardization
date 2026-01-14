@@ -271,27 +271,27 @@ def run_validation_tests(serialized_df, is_glassbeam, filepath_dict, target_df):
     # ========================================================================
     print('\n[TEST 8] verified_model_name consistency:')
     
-    if 'verified_model_name' in serialized_df.columns and 'mel_id' in serialized_df.columns and 'model_match_type' in serialized_df.columns:
+    if 'verified_model_name' in serialized_df.columns and 'mdm_model_id' in serialized_df.columns and 'model_match_type' in serialized_df.columns:
         # Convert verified_model_name to string for comparison
         serialized_df_test = serialized_df.copy()
         serialized_df_test['verified_model_name'] = serialized_df_test['verified_model_name'].astype(str).str.strip()
-        serialized_df_test['mel_id'] = serialized_df_test['mel_id'].astype(str).str.strip()
+        serialized_df_test['mdm_model_id'] = serialized_df_test['mdm_model_id'].astype(str).str.strip()
         serialized_df_test['model_match_type'] = serialized_df_test['model_match_type'].astype(str).str.strip().str.lower()
         
-        # Check: verified_model_name = 0 should have mel_id blank and model_match_type = 'no_match'
+        # Check: verified_model_name = 0 should have mdm_model_id blank and model_match_type = 'no_match'
         unverified_mask = serialized_df_test['verified_model_name'] == '0'
-        unverified_with_mel = serialized_df_test[unverified_mask & (serialized_df_test['mel_id'] != '')]
+        unverified_with_mdm = serialized_df_test[unverified_mask & (serialized_df_test['mdm_model_id'] != '')]
         unverified_not_no_match = serialized_df_test[unverified_mask & (serialized_df_test['model_match_type'] != 'no_match')]
         
-        # Check: verified_model_name = 1 should have mel_id non-blank and model_match_type != 'no_match'
+        # Check: verified_model_name = 1 should have mdm_model_id non-blank and model_match_type != 'no_match'
         verified_mask = serialized_df_test['verified_model_name'] == '1'
-        verified_no_mel = serialized_df_test[verified_mask & (serialized_df_test['mel_id'] == '')]
+        verified_no_mdm = serialized_df_test[verified_mask & (serialized_df_test['mdm_model_id'] == '')]
         verified_is_no_match = serialized_df_test[verified_mask & (serialized_df_test['model_match_type'] == 'no_match')]
         
         test8_passed = True
         
-        if len(unverified_with_mel) > 0:
-            print(f'  ✗ FAILED: {len(unverified_with_mel)} rows with verified_model_name=0 have non-blank mel_id')
+        if len(unverified_with_mdm) > 0:
+            print(f'  ✗ FAILED: {len(unverified_with_mdm)} rows with verified_model_name=0 have non-blank mdm_model_id')
             test8_passed = False
             all_passed = False
         
@@ -300,9 +300,9 @@ def run_validation_tests(serialized_df, is_glassbeam, filepath_dict, target_df):
             test8_passed = False
             all_passed = False
         
-        if len(verified_no_mel) > 0:
-            print(f'  ⚠ WARNING: {len(verified_no_mel)} rows with verified_model_name=1 have blank mel_id (LLM matches may not have MEL ID)')
-            # Note: This is a warning, not a failure, because LLM matches might not have mel_id
+        if len(verified_no_mdm) > 0:
+            print(f'  ⚠ WARNING: {len(verified_no_mdm)} rows with verified_model_name=1 have blank mdm_model_id (LLM matches may not have MDM Model ID)')
+            # Note: This is a warning, not a failure, because LLM matches might not have mdm_model_id
         
         if len(verified_is_no_match) > 0:
             print(f'  ✗ FAILED: {len(verified_is_no_match)} rows with verified_model_name=1 have model_match_type = "no_match"')
@@ -310,9 +310,9 @@ def run_validation_tests(serialized_df, is_glassbeam, filepath_dict, target_df):
             all_passed = False
         
         if test8_passed:
-            print('  ✓ PASSED: verified_model_name is consistent with mel_id and model_match_type')
+            print('  ✓ PASSED: verified_model_name is consistent with mdm_model_id and model_match_type')
     else:
-        print('  ⚠ SKIPPED: Required columns missing (verified_model_name, mel_id, or model_match_type)')
+        print('  ⚠ SKIPPED: Required columns missing (verified_model_name, mdm_model_id, or model_match_type)')
     
     # ========================================================================
     # SUMMARY
