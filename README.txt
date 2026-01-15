@@ -6,7 +6,7 @@ API KEY (only needed for new users)
 3. Copy the key and paste it into openai_api_key.txt (without quotes around it)
 
 MEL UPDATES
-4. Get the latest MEL from Karen Holloway. Ensure it includes the fields "New ModelId", "New Model", "New Manufacturer", "New Lvl 2 Category"
+4. Get the latest MEL from Karen Holloway. Ensure it includes the fields "MODEL_ID", "MODEL_NAME", "MANUFACTURER_NAME", "MANUFACTURER_ALIASES", "L1_MODALITY", "L2_MODALITY", "L3_MODALITY"
 5. Rename MEL fields if needed (e.g., "New_Lvl_2_Category_Name" -> "New Lvl 2 Category")
 6. Save MEL as mel.xlsx inside the files folder
 
