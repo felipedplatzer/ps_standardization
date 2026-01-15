@@ -16,17 +16,18 @@ SOURCE DATA PREPROCESSING
 9. Make sure the tab only contains the required dataset (e.g., no blank rows above it, no blank columns to the left of it) 
 10. Make sure the data is unfiltered
 11. Check that source data has all the required columns: asset id, make, model name, modality, customer name. For asset id, pick a column like "tag number" or "asset code" - the key is that this column should have as few duplicates as possible
-12. In source data, Add "company_name" column and fill it with the name of the company (the company is the hospital / health system from where we get the CMMS data, e.g., UVA, INTERMOUNTAIN, etc). Put this name in all caps
-13. In source data, rename model column to "model_name_source"
-14. In source data, rename manufacturer column to "make_source"
-15. In source data, rename modality column to "modality_source"
-16. In source data, rename model number column to "model_number" (without the _source suffix). If model number not found, no need to add it. This is not a required column
-17. In source data, rename serial number or asset id to "asset_sys_id"
-18. Save source data in files/source_data as an xlsx file. Give it an appropriate name (e.g., name of customer + date)
+12. If an asset id column (or serial number, or something like this) is not provided, create a "fake" asset id  unique to each row. Recommend FAKEASSET_YY_MM_DD_HH_MM_001, _002, etc (Y = year, M = month, D = day, H = hour, M = minute)
+13. In source data, Add "company_name" column and fill it with the name of the company (the company is the hospital / health system from where we get the CMMS data, e.g., UVA, INTERMOUNTAIN, etc). Put this name in all caps
+14. In source data, rename model column to "model_name_source"
+15. In source data, rename manufacturer column to "make_source"
+16. In source data, rename modality column to "modality_source"
+17. In source data, rename model number column to "model_number" (without the _source suffix). If model number not found, no need to add it. This is not a required column
+18. In source data, rename serial number or asset id to "asset_sys_id"
+19. Save source data in files/source_data as an xlsx file. Give it an appropriate name (e.g., name of customer + date)
 
 RUN FILES
-19. Run run_all.py
-20. When prompted, enter the name of the source data file (from step 16)
+20. Run run_all.py
+21. When prompted, enter the name of the source data file (from step 16)
 
 Treat glassbeam files as customer files, with the following differences:
 - don't add asset_sys_id
